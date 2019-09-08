@@ -1,0 +1,48 @@
+--- 
+title: "Hizkuntzaren Didaktika (Lehen Hezkuntza)"
+author: 
+  name: "Irakaslea: Juan Abasolo"
+  affiliation: UPV/EHU
+  # email: juan.abasolo@ehu.eus
+date: "2019/2020"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+# bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Gida hau UPV/EHUko web [orritik bertatik](https://www.ehu.eus/eu/lehen-hezkuntzako-gradua-bizkaia/kreditu-eta-irakasgaiak?p_redirect=consultaAsignatura&p_cod_proceso=egr&p_anyo_acad=20180&p_ciclo=X&p_curso=3&p_cod_asignatura=25868) hartutakoa da, beraz, irakurri eta aztertuta baduzu, hurrengo pausura iragan."
+# url: 'https\://alison-bookdown.netlify.com/' 
+# cover-image: images/books.jpg # relative to index
+# github-repo: JuanAbasolo/bookdown-demo
+
+---
+
+# Ikasgaia Hizkuntzaren eta Literaturaren Didaktika - 25868 {-}
+
+Ikasleak badakienez, ikasgaiak zati nagusi bi ditu: lehenengoa Hizkuntzaren Didaktika, lehenengo lauhilekoaren hasieratik praktikaldira artekoa da, eta zati horri dagozkio hemengo baliabideok. Bigarren zatia Literaturaren Didaktika da eta beste irakasle baten ardurapekoa izango da. [Hemen](https://www.ehu.eus/eu/lehen-hezkuntzako-gradua-bizkaia/kreditu-eta-irakasgaiak?p_redirect=consultaAsignatura&p_cod_proceso=egr&p_anyo_acad=20180&p_ciclo=X&p_curso=3&p_cod_asignatura=25868) ikasgaiko gida ofiziala UPV/EHUko web orrian.
+
+Ikasgaiak bi atal izango ditu HIZKUNTZAREN eta LITERATURAREN didaktika, ikasgaia urte osokoa da eta bi atalak gainditu behar dira ikasgaia gainditzeko.
+
+Hizkuntzaren didaktika atalari dagokionez, azterketa, lan praktikoak eta modulu-lana gainditu behar dira.
+
+Azterketak %50 balio du eta lan praktikoak eta modulu-lanak beste %50.
+
+**Orduen banaketa**
+
+| Irakaskuntza mota                        | M    | GA   |
+| ---------------------------------------- | ---- | ---- |
+| Ikasgelako eskola-orduak                 | 5    | 40   |
+| Ikaslearen ikasgelaz kanpoko jardueren orduak | 7.5  | 60   |
+
+**Ikasgaiaren ikuskera orokorra**
+
+| Alderdi teorikoa                                             | Alderdi praktikoa                                            |      |                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ------------------------ |
+| Testuingurua eta hizkuntzaren didaktikarako kontzepturik garrantzitsuenak | Testuinguruaren azalpena<br/>Artikulua irakurri eta kontzeptuak ulertu<br/>Taldeko esperientziaren aurkezpena | 1.5  | 1<br />2                 |
+| Hizkuntza curriculumean<br/>Ahozko trebetasuna lehen hezkuntzan<br/>Idatzizko trebetasuna lehen hezkuntzan<br/>Proposamen didaktikoak sortzeko metodoak, teknikak eta ikuspegiak<br/>Ikaskuntza kooperatiboa eta hizkuntzen ikaskuntza/irakaskuntza | Egungo araudia aztertu , konpartitu eta sekuentzia didaktikoa sortu heziberri marko pedagogikoaren arabera | 2    | 3<br />4<br />DAL<br />6 |
+| Hizkuntzaren ikaskuntzan-irakaskuntzan estrategiak:<br/>Komunikazio-estrategiak<br/>Motibazio-estrategiak<br/>Ikas-estrategiak | Estrategiak: motak, definizioak eta ezaugarriak<br/>Taldeko ikas-estrategiak neurtu eta emaitzak atera kalkulu orria erabilita<br/>Ikas-estrategiak lantzeko tutoriala sortu | 2    | 7<br />8                 |
+| Hizkuntzaren inguruko gogoeta eta metalinguistika<br/>Erroreak eta lapsusak | Kontzeptuen azalpena<br/>Proiektua: irakurketa eta lapsusak [Praat](http://www.praat.org) erabiliz | 2    | 9<br />10                |
+
+Ikasgaiaren aurkezpeneko diapositibak [hemen](https://gitpitch.com/JuanAbasolo/HD/)
+

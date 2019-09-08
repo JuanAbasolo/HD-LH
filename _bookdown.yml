@@ -1,0 +1,12 @@
+book_filename: "bookdown-demo"
+language:
+  label:
+    fig: 'Irudia '
+    tab: 'Taula '
+    eq: 'Ekuazioa '
+    thm: 'Teorema '
+    lem: 'Lema '
+  ui:
+    chapter_name: ""
+output_dir: apunteak
+delete_merged_file: true

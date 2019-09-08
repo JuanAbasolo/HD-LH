@@ -1,0 +1,211 @@
+---
+title: "Testuingurua"
+date: 'Hizkuntzaren Didaktika'
+language: eu
+output: 
+  revealjs::revealjs_presentation:
+    slide_level: 2
+    theme: sky
+    center: true
+    transition: fade
+---
+
+# Hizkuntza desberdinek egoera desberdinak
+
+##
+
+<small> XX. Mendea arte: Eskolan gehien irakatsi diren hizkuntzak, hizkuntza handiak izan dira (Idiazabal, 2003; Martí eta beste, 2005).
+
+XIX. Mendeko estatu mugen sorrerak hizkuntza gutxituen presentzia eskolan erabat baztertu zuen, 
+eskolak hizkuntza nagusia eta bakarra irakatsI behar zuen. Nazio (kultura, hizkuntza, etnia)-estatu (ofiziala, administratiboa) 
+kontzeptuak bateratu ziren.
+
+Hizkuntzak nazioak eta estatuak baino askoz ere ugariagoak dira, eta ez datoz bat lurraldeetako mugekin, gainera, 
+hizkuntza asko estatu bat baino gehiagoko lurretan hitz egiten dira (euskara adibide argia da). </small>
+
+##
+
+<small>
+
+> El concepto de lengua no es preciso, ni las fronteras lingüísticas coinciden con las geográficas. 
+En España se reconocen cuatro lenguas, pero hay otras más, desde el leonés, el bable o la fabla aragonesa, 
+hasta las lenguas de los emigrantes o el caló. Así y todo, España es uno de los países lingüísticamente más homogéneos, 
+pues tiene una lengua oficial y común, el español, que hablan y entienden la mayoría de sus ciudadanos.”</small>
+
+ _**Santiago Trancón**_  [https://www.lanuevacronica.com/lengua-nacion-estado](https://www.lanuevacronica.com/lengua-nacion-estado)
+
+##
+
+Idiazabal I. (2003) "Eskolaren kalitatea eta euskara" _BAT Soziolinguistika Aldizkaria_ 49,  2003, 195-199. ISSN: 1130-8435
+
+Martí, F., Ortega, P., Idiazabal, I., Barreña, A., Juaristi, P., Junyent, C., … Amorrortu, E. (2005). _Hizkuntzen mundua. Munduko hizkuntzei buruzko txostena_. Bilbo: UPV/EHU.
+
+# Hizkuntzak zergatik galtzen dira?
+
+##
+
+> Hizkuntza inperialistak hedatzeak homogeneotasun linguistikoa ekarri du eta ez aniztasuna, 
+izan ere hiztunek euren hizkuntza natiboak baztertu dituzte edota ez dituzte zaindu behar bezala, 
+sarritan pentsatu baitute hizkuntza horiek garapen eta aurrerapen sozialaren nahiz pertsonalaren kontra doazela. 
+Era honetan, bost kontinenteetako hizkuntza internazionalek beste zenbait baztertu eta desagertarazi dituzte.
+>
+>--Moreno-Cabrera, J. C. (2008)
+
+##
+
+|                     | Amerikak | Afrika | Europa | Asia | Ozeania |
+| ------------------- | -------- | ------ | ------ | ---- | ------- |
+| Instituzionala      | 37       | 194    | 73     | 203  | 71      |
+| Garatzeko bidean    | 234      | 542    | 81     | 362  | 379     |
+| Indartsua           | 145      | 1026   | 31     | 856  | 421     |
+| Arazoduna           | 309      | 245    | 50     | 693  | 234     |
+| Desagertzeko zorian | 339      | 131    | 51     | 187  | 208     |
+
+Table: *Iturria*: [ethnologue](https://www.ethnologue.com/)
+
+# Hizkuntzen egoera eta hizkuntzen didaktikak
+
+##
+
+* Hizkuntzaren transmisioa edo ondorengoetaratzea
+* Hiztun kopuru absolutua
+* Hiztun-portzentajea
+* Hizkuntzaren erabilera-eremu berrien sorrera
+* Alfabetatzerako eta hezkuntzarako materialak egotea (gramatikak, hiztegiak, idatzizko literatura, hedabideak…)
+* Gobernu eta erakundeen babesa
+* Hiztunen jarrera
+* Hizkuntza dokumentatua egotea
+
+##
+
+Lewis, M. P. (2005). Towards a categorization of endangerment of the world’s languages. _SIL International_.
+
+##
+
+### Hizkuntza gutxituak
+
+Irakatsi beharraz gain, indarberritu ere egin behar dira
+
+
+## Eta legeek ere horixe diote!
+
+##
+
+> <small> “INSTRUMENTO de ratificación de la Carta Europea de las Lenguas Regionales o Minoritarias, 
+hecha en Estrasburgo el 5 de noviembre de 1992.
+>
+> Los Estados miembros del Consejo de Europa, signatarios de la presente Carta, 
+Considerando que la finalidad del Consejo de Europa es conseguir una unión más estrecha entre sus miembros, 
+en  articular para salvaguardar y promover los ideales y principios que son su patrimonio común;  
+Considerando que la protección de las lenguas regionales o minoritarias históricas de Europa, de las que algunas 
+corren el riesgo de desaparecer con el tiempo, contribuye al mantenimiento y al desarrollo de las tradiciones y la riqueza culturales de Europa.” </small>
+>
+>--*Carta Europea de las Lenguas Minoritarias o Regionales*
+
+##
+
+><small>La Declaración es un texto necesario, tal como manifiestan sus Preliminares, para «corregir los desequilibrios lingüísticos de manera que aseguren el respeto y el pleno despliegue de todas las lenguas y que establezcan los principios de una paz lingüística planetaria justa y equitativa, como factor principal de la convivencia social».
+>
+> La propia voluntad de universalismo de la Declaración comporta la corrección de los desequilibrios para que se asegure el respeto y el pleno desarrollo de todas las lenguas.</small>
+>
+>--*Declaración Universal de Derechos Lingüísticos*
+
+## Europako Erreferentzia Marko Bateratuak:
+
+Gaitasunak, jarduera komunikatiboak, mailak, deskribatu eta zehazten ditu helburuak, edukiak eta ebaluazio-irizpideen oinarri gisa.  
+Europako Kontseiluak hartutako erabakiak dira.
+
+## Ikastetxeko _Hizkuntza Proiektuaren_ bidez:
+
+Ikastetxeak duen identitatea kontuan izanik, hizkuntzaren aldetiko erabakiak hartzen dira bai alor pedagogikoan bai instituzionalean.
+
+
+# Adibideak
+
+##
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/iFEjAhnv3ys?rel=0" frameborder="0" allowfullscreen></iframe> 
+
+Bideoa: [Hizkuntz Proiektua guraso bilera](http://www.youtube.com/embed/iFEjAhnv3ys?rel=0)
+
+##
+
+Eta [hemen](http://elblogdemiguelcalvillo.blogspot.com/2011/02/video-promocional-del-proyecto.html) bat Andaluziakoa
+
+# Hizkuntza Programak
+
+##
+
+Irakasleek ikasleekin egin beharreko **jarduerak** dira, eta betebeharretako bat zentroan dauden hizkuntza ezberdinen gaineko kontzientzia piztea izan daiteke.
+
+## Munduko beste eskola batzuetan zelako programez erantzuten zaie hizkuntza gutxituei?
+
+##
+
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/nPUMvUBuX00?rel=0" frameborder="0" allowfullscreen></iframe> 
+
+Bideoa: [Euronews Learning World - El bilingüismo en el mundo](http://www.youtube.com/embed/nPUMvUBuX00?rel=0)
+
+
+## Irakaskuntzan
+
+## CSS color background {data-background=#ff0000}
+
+# {data-background="01_01-HD.png"}
+
+##
+
+Hizkuntza bat **ikastean** hiru faktorek eragiten dutela dio, gainera, osagarriak dira eta lotura dute:
+
+1. **Motibazioak**: Hizkuntza bat ikastera daramaten arrazoi, nahi edo interesak
+2. **Ezagutzak**: Hizkuntzaren funtzionamendua ulertzeko gaitasuna edo prozesua.
+3. **Erabilerak**.
+
+# {data-background="01_02-HD.png"}
+
+## Hizkuntzen ikas-irakaskuntzaz: aurrekariak
+
+
+```
+Ikuspegia+Metodoa+Teknika
+
+Gaitasun Komunikatiboa
+
+Estrategiak
+
+Trebetasunak
+
+Gogoeta metalinguistikoa
+```
+
+## Metodoak
+
+**Hizkuntza ulertzeko modua** $\rightarrow$ **Irakasteko modua** $\rightarrow$ **Metodologia ezberdinak**
+
+* Gramatika/itzulpenak
+* Gramatika/itzulpen metodoak
+* Eredu audiolinguala (egituren errepikapena, buruz ikasi)
+* Eredu kognoszitiboa (arauak)
+* Pragmatika eta eredu nozional/komunikaziozkoa: _The communicative approach_
+
+# {data-background="01_03-HD.png"}
+
+##
+
+Testu horiek era egokian “erabiltzea” nahi badugu, gure lan eduki nagusiak trebezia mailakoak izango dira: hitz egiten, idazten, irakurtzen, entzuten irakastea izango da gure zeregina. 
+Eta testu horiek gero eta hobeto erabili ahal izateko, gero eta hobeto hitz egin, idatzi, irakurri edo entzuteko,  egiten dugun horren inguruko hausnarketa beharko dugu. Gramatika eta hizkuntzaren sistemaren gaineko lanak beste era bateko funtzioa hartzen du, ez da aprendizaiaren helburu, baizik eta  baliabide
+
+# Lehenengo jarduera
+
+##
+
+[Testu](http://www.euskaltzaindia.net/dok/euskera/74632.pdf) honi heldu eta landu. 
+
+Idiazabal, I., & Manterola, I. (2009). Euskal eredu elebidunak, murgilketa eta hizkuntzen irakaskuntza bateratua: kontzeptuen berrikusketa. *Euskera*, 54, 2–1. Eskuragarri http://www.euskaltzaindia.net/dok/euskera/74632.pdf helbidean
+
+##
+
+Taldekideen bizipenak erreferentzia hartuta, **aurkezpena** datorren asterako
+
+
