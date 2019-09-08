@@ -152,14 +152,12 @@ Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2015). _
 
 Rychen, D. S., & Salganik, L. H. (Arg.). (2003). _Key competencies for a successful life and a well-functioning society_. Cambridge, Massachusetts: Hogrefe & Huber.
 
-# Jarduera {-}
+# Bigarren jarduera {-}
 
-* [ ] 1/2 Irakurri eta aztertu:
-  Oinarrizko Hezkuntzako Curriculuma 
+* Oinarrizko Hezkuntzako Curriculuma 
   (236/2015eko Dekretuaren II. Eranskina osatzen duen curriculum orientatzailea)
 
-* [ ] 2/2- Aurkeztu eta konpartitu:
+* Aurkeztu eta konpartitu:
   Sort ezazu  egokitu zaizuen multzoaren eskema. Ikaskideei aurkeztu eta eurekin partekatu beharko duzue.
-  [labur.eus/**HD18-bigarrenlana**](http://labur.eus/HD18-bigarrenlana) helbideak eramango zaitu lana aurkeztu behar duzun tokira. Lanak aurkezteko epea amaitutakoan besteen lanak helbidean bertan kontsultagai izango dituzu(e) hurrengo egitekoetarako.
 
-**Ebaluazioa** egiteko erabiliko dut zuek [hauen artean](http://evirtual.uaslp.mx/FCQ/estrategias/Material de Apoyo/cat_rubrica.pdf) aukeratzen duzuen errubrika bat.
+**Ebaluazioa** egiteko [hau](http://evirtual.uaslp.mx/FCQ/estrategias/Material de Apoyo/cat_rubrica.pdf) erabiliko dut.

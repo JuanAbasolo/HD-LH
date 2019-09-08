@@ -142,15 +142,12 @@ Irakasleek ikasleekin egin beharreko **jarduerak** dira, eta betebeharretako bat
 
 ##
 
-
 <iframe width="560" height="315" src="http://www.youtube.com/embed/nPUMvUBuX00?rel=0" frameborder="0" allowfullscreen></iframe> 
 
 Bideoa: [Euronews Learning World - El bilingüismo en el mundo](http://www.youtube.com/embed/nPUMvUBuX00?rel=0)
 
 
 ## Irakaskuntzan
-
-## CSS color background {data-background=#ff0000}
 
 # {data-background="01_01-HD.png"}
 
@@ -165,7 +162,6 @@ Hizkuntza bat **ikastean** hiru faktorek eragiten dutela dio, gainera, osagarria
 # {data-background="01_02-HD.png"}
 
 ## Hizkuntzen ikas-irakaskuntzaz: aurrekariak
-
 
 ```
 Ikuspegia+Metodoa+Teknika
