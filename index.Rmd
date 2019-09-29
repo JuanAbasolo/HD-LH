@@ -13,7 +13,7 @@ biblio-style: apalike
 link-citations: yes
 description: "Hizkuntzaren Didaktika ikasgaiko apunteak dira hauek. Ikasgaian aurrera egin ahala egokitzen joango dira"
 url: 'https://juanabasolo.github.io/HD-LH/apunteak/'
-cover-image: assets/azala.png # relative to index
+cover-image: assets/azala.png  # relative to index
 github-repo: JuanAbasolo/HD-LH
 
 ---
