@@ -18,6 +18,10 @@ github-repo: JuanAbasolo/HD-LH
 
 ---
 
+```{r echo=FALSE}
+# options(tinytex.verbose = TRUE)
+```
+
 # Ikasgaia Hizkuntzaren eta Literaturaren Didaktika - 25868 {-}
 
 Ikasleak badakienez, ikasgaiak zati nagusi bi ditu: lehenengoa Hizkuntzaren Didaktika, lehenengo lauhilekoaren hasieratik praktikaldira artekoa da, eta zati horri dagozkio hemengo baliabideok. Bigarren zatia Literaturaren Didaktika da eta beste irakasle baten ardurapekoa izango da. [Hemen](https://www.ehu.eus/eu/lehen-hezkuntzako-gradua-bizkaia/kreditu-eta-irakasgaiak?p_redirect=consultaAsignatura&p_cod_proceso=egr&p_anyo_acad=20180&p_ciclo=X&p_curso=3&p_cod_asignatura=25868) ikasgaiko gida ofiziala UPV/EHUko web orrian.
