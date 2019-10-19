@@ -1,0 +1,383 @@
+---
+title: "Metodoak"
+date: 'Hizkuntzaren Didaktika'
+language: eu
+output: 
+  revealjs::revealjs_presentation:
+    slide_level: 2
+    theme: night #  "default", "simple", "sky", "beige", "serif", "solarized", "blood", "moon", "night", "black", "league", "white"
+    center: true
+    transition: fade
+---
+
+```{r setup, echo=FALSE}
+library(DiagrammeR)
+library(magrittr)
+```
+
+
+# Hizkuntzen irakaskuntzarako metodoak {data-background=#000055 }
+
+## Zenbait galdera hasieran erantzuteko: {data-background=#AA0000 }
+
+1. Badago alderik, zure ustez, *ikuspegia*, *metodoa* eta *teknika* kontzeptuen artean?
+2. Zerk osatzen du hizkuntzen irakaskuntzarako metodoa?
+3. Zein metodo daude hizkuntzen ikaskuntza eta irakaskuntzarako?
+4. Zein ezaugarri dituzte?
+
+Galderon lehenengo erantzun bat eman behar zenuke(te), argiago ulertzeko segidan datorren teoria-eta. Horretan aurreko galderei erantzun oinarritu bat ematen saiatu nahi da.
+
+## {data-background=#555555 }
+
+```{r echo=FALSE}
+a <- mermaid("
+graph LR
+  Teknika-->Metodoa
+  Metodoa-->ikuspegia
+", height=400)
+a  %>%
+  htmltools::html_print() %>%
+  webshot::webshot(file = "5-mermaid-1.png")
+
+```
+
+Edward Anthony, 1963
+
+## {data-background=#555555 }
+
+```{r echo=FALSE, fig.retina=3}
+
+a <- mermaid('
+graph TB
+  Ikuspegia
+  Ikuspegia-->ikus[TEORIA<br>Deskribapenak:<br>hizkuntzarena eta<br>ikaskuntzarena]
+  Metodoa 
+  Metodoa-->met1[PROZESUA<br>Teoria praktikara<br>zer, nola, hurrenkera]
+  Teknika
+  Teknika-->tek1[APLIKAZIOA<br>Helbururako baliabidea<br>bat besteekin]
+', height=400)
+a  %>%
+  htmltools::html_print() %>%
+  webshot::webshot(file = "5-mermaid-2.png")
+
+```
+
+## {data-background=#555555 }
+
+```{r echo=FALSE}
+a <- mermaid('
+graph TD
+  B[Metodoa]
+  B---C[Ikuspegia]
+  C---c1[1. Hizkuntzari buruzko teoria<br>Hizkuntza gaitasunaren deskribapena<br>2. Hizkuntzaren irakaskuntzari buruzkoa<br> Prozesuen deskribapena<br>linguistiko eta kognitiboak]
+  B---D[Diseinua]
+  D---d1[1. Metodoaren helburuak<br>orokorrak eta espezifikoak<br><br>2. Programa eredua<br>Eduki ling.ak edo gaiak<br>aukeratzeko eta antolatzeko<br>irizpideak<br>3. Jarduera motak eta materialak<br>4. Ikasleen egitekoa<br>5. Irakasleen egitekoa<br>6. Materialak]
+  B---E[Prozesua]
+  E---e1[1. Metodoa aplikatzean<br> behatutako teknikak, <br>praktikak eta jokaerak<br>-Irakasleek erabilitako baliabideak<br>-Ikasgaietan behatutako elkarreragin-ereduak<br>-Irakasleek eta ikasleek erabilitako estrategiak]
+', height=400)
+a  %>%
+  htmltools::html_print() %>%
+  webshot::webshot(file = "5-mermaid-3.png")
+
+```
+
+(Richards, C eta Rodgers, S, 2009)
+
+# Hizkuntzari buruzko teoriak {data-background=#222222 }
+
+## Kontzeptu batzuk oinarrizkoak dira hizkuntzen ikas-irakaskuntzaz aritzeko:
+
+## Hizkuntza jabekuntza
+
++ Gizakien berezko prozesua eta inkontzientea
++ Hizkuntzaren arauak berez barneratzen dira
++ Hizkuntzaren erabilera naturalean egina
++ Komunikatzeko helburua
++ Hizkuntza-formari arreta gutxi
+
+## Hizkuntza ikaskuntza
+
++ Prozesu kontzientea
++ Hizkuntzaren sistema ikasia
++ Ikasketa formala
+
+## Bigarren Hizkuntza
+
++ Hizkuntzak komunikazioan funtzio soziala eta instituzionala betetzen du
++ Komunitate batzuek hizkuntza sistema bi dituzte arrazoi historiko eta sozialek eratuak.
++ Adibidez: gaztelania (edo euskara) EHan ikastea
+
+## Atzerriko Hizkuntza
+
++ Testuinguru instituzionalean ikasten da eta ez du funtzio sozialik gizarte horretan.
++ Adibidez, gaztelania Portugalen  (eskola edo unibertsitatean) ikastea
+
+## Iraganean
+
+**XVIII. eta XIX. mendeetan** hizkuntza modernoen irakaskuntza bideratzen zen gramatika arauemailearen ikaskuntzara; horretarako *gramatika-itzulpenezko metodoa*k ikaslea eramaten zuen gramatika era induktiboan ikastera, hitzen zerrenda elebidunak buruz ikastera eta itzulpenak egitera.
+
+<br>
+
+**XIX. mendearen amaieran** hizkuntza eta literaturaren ikaskuntzari begiratu zitzaion. Horretarako, hizkuntza arauak era induktiboan ikasi behar zituen ikasleak eta literaturaren irakasuntzari begiratzen hasi zitzaion. *Metodo zuznea* deritzo ordukoari. Ezaugarri nabarmenak dira ahozko elkarreraginaren erabilera, xede hizkuntzaren bidez edukiak ikastea eta gramatikari buruzko ikaskuntzak era deduktiboan lantzen ditu.
+
+## 50ko hamarkadan
+
+Metodo audiolinguala
+: EEBBetan. Mintzaira hartzen zen hizkuntzaren oinarritzat
+
+Metodo situazionala
+: Erresuma batuan, edukiak egoera jakinetan aurkezten eta lantzen ziren.
+
+Metodo estruktural-globala
+: Izena, berez, *ikus-entzunezko metodo estruktural-globala (IEEG, SGAV)* du; Frantzian garatu zen eta hizkuntza laborategiak ziren euren ezaugarri behinena.
+
+## 80ko hamarkadaren erditik aurrera
+
+**Planteamendu komunikatiboa** garatu zen orduan; horretan, egiazko komunikazio egoerak indartzen dira. Komunikazioaren unitatetzat testua hartzen da; erabiltzen diren testuak egiazkoak dira eta testuinguratuta lantzen dira, testuinguru jakinetan. Komunikazioa bultzatzeko, lanketak elkarlanean egiten dira (bikoteka, taldeka ...). Helburua izaten du hizkuntzaren lau trebetasunen lanketa.
+
+## XXI. mendean
+
+<br>
+
+Europako Erreferentzia Marku Bateratua (Europako Kontseilua, 2002) bihurtu da hizkuntzaren ikaskuntzaz pentsatzeko ardatz. Errealitate eleaniztunari begiratzen dio. Horretarako hizkuntzan murgiltzea du helburu, Edukien Bitarteko Hizkuntzen Ikaskuntza; planteamenduak ekintzetan oinarritzen dira eta atazen bitarteko ikaskuntza bideratu nahi izaten da. Elkarrizketa berarizko trebetasuntzat orduan hasten da hartzen.
+
+<br>
+
+Oinarrizko Gaitasunen formulazioan sustraituta dago metodoa eta curriculumaren planteamenduetan txertatzen dira. Gizarte berriaren ikasteko eredu berriei erantzuteko mugimendua antzematen da.
+
+<br>
+
+Gaitasun komunikatiboa (edo *komunikazio-gaitasuna*) oinarrizko gaitasunetarikotzat hartzen da.
+
+<br>
+
+Ikastetxeetako antolakuntzan aldaketak eragin dira Ikastetxearen Hizkuntza Proiektua (IHP) eta eleaniztasunerako planteamenduak ahalbidetzeko.
+
+# Planteamendu komunikatiboaren ezaugarriak {data-background=#444444 }
+
+##
+
+<small>
+
+1. Eskolako irakaskuntzak badu zerikusirik hizkuntzaren erabilerarekin eta ez hizkuntzaren jakintzarekin
+2. Hizkuntzak eguneroko bizimoduaren komunikazio-egoera errealetan erabiltzeko ikasten dira
+3. Ikasleak/hiztunak oinarrizko trebetasunak garatu behar ditu: ulermenezkoak (irakurri, entzun) eta adierazkorrak (hitz egin, idatzi)
+4. Egoera errealetan hizkuntza erabiltzeak ikasketa eraginkorragoa egiten du
+5. Ikaslea da ikaste-prozesuaren ardatza
+6. Irakaslea ez da ikasketaren erdigunea, eta toki hori ikasleari utzi behar dio ikasketa autonomoagoa egin dezan
+7. Ikaslearen beharrizanak, asmoak eta ikasteko modu anitzak kontuan hartu behar dira, bai eta ikaslearen esperientziak beste hizkuntzen ikasketetan
+8. Material irekiak erabili behar dira: helburuen arabera behar dena gehituz, kenduz edo egokituz
+9. Oreka bat bilatu behar da zuzentasun gramatikalaren eta komunikazio eraginkorraren artean
+10. Dena den, gramatika komunikazioaren  zerbitzuan dago (eta ez alderantziz)
+
+</small>
+
+# Ikaskuntza eta jabekuntza
+
+##
+
+> Zer prozesu kognitibok eta psikolinguistikok hartzen du parte hizkuntzaren ikaskuntzan?
+
+<br><br>
+
+> Zein baldintza dira nahitaezkoak ikaskuntza-prozesu horiek aurrera eramateko?
+
+##
+
+KRASHEN-en Monitorearen Eredua (1981) eredu naturala
+Jabekuntza eta ikaskuntza bereizten ditu.
+
+<br><br>
+
+Stephen Krashen (1987) psikolinguistak hizkuntza‐informazioa prozesatzeko –eta ondorioz hizkuntza gaitasuna lortzeko ere‐ bi prozesu bereizi zituen: jabekuntza (acquisition) eta ikaskuntza (learning), hurrenez hurren.
+
+## Hizkuntzen jabekuntza
+
+| Ezaugarriak | Prozesua | Emaitza |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Praktikoa<br />Erabilerari lotua (elkarreragina).<br />Ez-kontzientea.<br />Okerrez jabetzen garen arren, ez dakigu zergatia (gramatika arauak) | Egoera komunikatiboan input ulergarria jaso ondoren berez sortzen den hizkuntza-gaitasuna | Era automatikoan sortzen eta ateratzen diren hitzak eta esaldiak |
+
+## Hizkuntzen ikaskuntza
+
+| Ezaugarriak |
+| ------------------------------------------------------------ |
+| Indukzio eta dedukzio prozesu logikoen emaitza.<br />Arau, definiziko, printzipio eta informazio-unitateen ezagutza esplizitua<br />Arreta kontzientea<br />Arrazoiaren eremua<br />Metahizkuntza: hizkuntzari buruzko ezagutza teorikoa.<br />Itzulpen-mekanismoa: H1ean esaldiak sortu eta hizkuntza ezagutza formala erabilz H2ko esaldi bihurtu.<br />Monitorearen teoria. |
+
+## {data-background=#555555 }
+
+```{r echo=FALSE}
+a <- mermaid('
+graph TB
+  id1[Ezagutza gramatikala]
+  id2[irakaskuntza formala]
+  +
+  id3(BILTEGIA)
+  id1 ==> +
+  id2 ==> +
+  + ==> id3    
+        ', height=400)
+a  %>%
+  htmltools::html_print() %>%
+  webshot::webshot(file = "5-mermaid-4.png")
+```
+
+##
+
+**Eta praktikan zer?**
+
+Praktikan maiz ikusten ditugu bata eta bestea hiztun baten jardueran. Ez dira nahastu behar:
+
+* Berezko ezagutza eskuratzea **jabekuntza** prozesuaren ardura da.
+* Arrazoiaren bitarteko ezagutza **ikaskuntzari** dagokio.
+
+## Nola jabetzen da bigarren hizkuntzaz pertsona bat?
+
+Krashenek (1987) dioenez hizkuntzaz jabetzen gara **I+1 ulertzean**.
+
+
+
+## 
+
+I
+: Hizkuntza inputa
+
+<br />
+
+\+1
+: Ulertzen dena baino maila bat gehiago
+
+## Hizkuntza-inputaren bitartez hizkuntzaren jabe izateko beharrezkoa da:
+
+* Inputa ulergarria izatea.
+* Arreta edo interesa piztu behar du.
+* Hizkuntza osotasunean agertu behar da, ez arau gramatikalak soilik.
+* Xede-hizkuntza hitz egiten den eremuan murgilduta.
+
+# Haurrak nola jabetzen dira hizkuntzaz <br> Itziar Laka (2005)
+
+## Jaio aurretik: Amaren hizkuntzaren doinu batzuk bereizten ditu.
+
+## Jaio bezain laster
+
+Soinuak izan daitezkeen fonema guztiak bereizteko gaitasuna du. Gero hori galdu egiten da. Lehen 4-5 hilabeteetan.
+
+Adibideak
+: Japoniarrek eta txinatarrek *R* eta *L*. Denok berdin erabiltzen duzue gaztelaniazko *J*? Entzun.
+: Euskara ikasten duten helduek ergatiboaren *K*.
+
+## Hizkuntza jakinen fonologia bereganatu ahala, soinuak bereizteari uzten zaio.
+
+## 6 hilabetetik aurrera: 
+
+Egiturez jabetzen hasten dira. Helduen hitz jarioan silabak non diren sumatzen dute. Frekuentziak ateratzen dituzte. Fonologiaz eta silabez jabetzean “ma”, “pa”... silabak egiten dituzte. Mundu osoko ume guztiak silaba berberak egiten dituzte hasieran: ezpainkaria (b, m, p)+bokala.
+
+## Ondoren... espezialiazazioa: hizkuntzari dagozkion soinu bereziak egiten dituzte.
+
+## 3 urterekin: Hizkuntza ikasi du: atal guztien jabekuntza ez da aldi berean egiten (ikertzen ari dira).
+
+# Metodoaren diseinua
+
+##
+
+Metodoa diseinatzeko orduan, ikasleen eta irakasleen jardunak antolatzeko irizpideak eta baliabideen erabilerarako irizpideak ezarri behar dira.
+
+## Ikaslearen zeregina {data-background=#555555 }
+
+```{r echo=FALSE}
+a<- mermaid('
+  graph TB
+    i1[Jarduera motak]
+    i2[Ikasleek edukiez duten <br>jakintza maila]
+    i3[taldekatze irizpideak]
+    i4[ikasleen arteko eragin maila]
+    i5(ikasletzat hartu beharrekoa <br>informazioa prozesatzen duena<br>jarduera egiten duena<br>zerbait ebazten duena)
+    i1 === i2
+    i3 === i4
+    i2 === i5
+    i4 === i5
+', height=400)
+a  %>%
+  htmltools::html_print() %>%
+  webshot::webshot(file = "5-mermaid-5.png")
+
+```
+
+## Irakaslearen zeregina {data-background=#555555 }
+
+```{r echo=FALSE}
+a <- mermaid('
+graph LR
+  a1(Irakaslearen betebehar motak)
+  a2(Irakaslearen eragin maila irakaskuntzan)
+  a3(Irakaslearen eragin maila edukietan)
+  a4(Irak. eta ikaslearen arteko elkarreragin mota)
+    a1---koherentzia
+    a2---koherentzia
+    a3---koherentzia
+    a4---koherentzia
+', height=400)
+a  %>%
+  htmltools::html_print() %>%
+  webshot::webshot(file = "5-mermaid-6.png")
+
+```
+
+## Baliabide materialak {data-background=#555555 }
+
+```{r echo=FALSE}
+a <- mermaid('
+     graph BT
+      a(materialen funtzioa)
+      b(materialen forma -liburu, ikusentzunezko...)
+      c(bestelako informazio-iturriekiko lotura)
+      a---b
+      b---c   
+')
+a  %>%
+  htmltools::html_print() %>%
+  webshot::webshot(file = "5-mermaid-7.png")
+```
+
+# Hizkuntzaren ikaskuntza kooperatiboa
+
+##
+
+> “El aprendizaje cooperativo es una actividad de aprendizaje en grupo organizada de manera que el aprendizaje esté en dependencia del intercambio de información, socialmente estructurado, entre los alumnos distribuidos en grupos, y en el cual a cada alumno se le considera responsable de su propio aprendizaje y se le motiva para aumentar el aprendizaje de los demás.”
+>
+> (Olsen y Kagan, 1992: 8)
+
+## Hizkuntzen ikaskuntza komunikatiboaren ildokoa da ikaskuntza kooperatiboa. Hona zergatik:
+
+* Hizkuntza era naturalean lantzen da taldean eta bakarka egiten diren jardueren bidez.
+* Elkarreraginaren bidez hizkuntzaren sistema lantzen da: lexikoa, hizkuntza-egiturak eta funtzio komunikatiboak.
+* Komunikazio- eta ikas-estrategiak lantzen dira.
+
+# Jarduera(txoa) (3/3) {data-background=#550000 }
+
+## {data-background=#550000 }
+
+**Zein ikaskuntza teoria**tan oinarritu dugu gure planteamendu praktikoa; hurrengo jarreretan zuena identifikatu eta horren arabera + hemengo baliabidetxu hau erabilita **sarrera idatzi zuen Sekuentzia Didaktiko / Unitate Didaktikoari**.
+
+> Hitz egiteko jaio gara
+
+ala
+
+> Gehien erabiltzen dugun testu mota elkarrizketa da
+
+ala
+
+> Elkarrizketak kooperazio irizpideen arabera antolatu ditugu
+
+Vygotskyk eta Piagetek nabarmendu zuten 1965ean: ***Gizartearekiko elkarreraginaren bidez ikasten dugu***.
+
+## {data-background=#550000 }
+
+Aztertu ezaugarriok:
+
+- Interdependentzia positiboa
+- Taldea eratzea
+- Bakoitzaren ardura
+- Gizarteko trebetasunak
+- Egituratzea
+
+# Orain bai: <br> zuen lana aztertu eta sarrera polita idatzi egiozue.  {data-background=#550044 }
