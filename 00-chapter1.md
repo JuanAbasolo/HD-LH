@@ -1,8 +1,35 @@
 # Ikasgaiaren gida
 
-Gida hau UPV/EHUko web [orritik bertatik](https://www.ehu.eus/eu/lehen-hezkuntzako-gradua-bizkaia/kreditu-eta-irakasgaiak?p_redirect=consultaAsignatura&p_cod_proceso=egr&p_anyo_acad=20180&p_ciclo=X&p_curso=3&p_cod_asignatura=25868) hartutakoa da, beraz, irakurri eta aztertuta baduzu, hurrengo pausura iragan.
+Pantailan duzun dokumentuak ikasgairako beharko dituzun elementu gehienak ditu:
+
+1. Ikagaiaren gida eta nirekin harremanetan paratzeko argigarriak
+2. Gida ofiziala (kapitulu honetan)
+3. Kapitulurik kapitulu, apunteak, diapositiboetarako estekak eta bakotzaren amaieran bibliografia eta ariketak aurkituko dituzu.
+
+Goiko "download" botoian PDF edo EPUB formatuan ere jaits dezakezue gida.
+
+**Irakaslea**: Juan Abasolo
+
+Nirekin kontaktuan jartzeko, Telegram erabiltzea gomendatzen dizuet, korreoak eta abar baino eraginkorragoa baita. Hala ere, batzuetan ibili ez arren eta biltegiratze gaitasun urria badu ere, denok dugunez UPV/EHUko korreoa, komunikazio ofizialak bertatik egin behar ditugu. Aurten zuen banaketa zerrenda ez da ibili ondo, zuen taldeari baino iazkoari bidaltzen dizkio lehenengo astean, behintzat.
+
++ Telegram: [abildua]JuanAbasolo
++ emaila: juan[puntu]abasolo[abildua]ehu[puntu]eus
++ Bulegoa: 3S40B
++ Tutoretzak: https://labur.eus/JAbasolo-tutoretzak  
+   Aurretik norbaitekin hitzordua egiten dudanean hor ere agertuko da. Fakultatekoa edo GAURrekoa bitaminizatua, beraz.
+
+**Ikastaldea**: LH 32, 3. maila, lehenengo lauhilekoan.
+
+Balibideak partekatzeko, eztabaida informaletarako eta azken momentuko informazio edo premietarako-eta proposatzen dizuedan foroa [hemen](https://t.me/joinchat/CheQnxAMdJ206V3d4kDLkw) duzue. Hori erabiltzeko Telegrameko kontua egin beharko duzue (telefonoan edo ordenagailuan erabil dezakezue). Watsappeko taldeen antzerako kudeaketa du, baina inori telefono zenbakia eman beharrik gabe.
+
+Ikasgaian ez dugu erabiliko Moodle-n oinarritutako plataformarik.
+
+**Ikasgaia**: Gida hau UPV/EHUko web [orritik bertatik](https://www.ehu.eus/eu/lehen-hezkuntzako-gradua-bizkaia/kreditu-eta-irakasgaiak?p_redirect=consultaAsignatura&p_cod_proceso=egr&p_anyo_acad=20180&p_ciclo=X&p_curso=3&p_cod_asignatura=25868) hartutakoa da, beraz, irakurri eta aztertuta baduzu, hurrengo pausura iragan.
+
+---
 
 # Hizkuntzaren eta Literaturaren Didaktika - 25868
+
 
 ## Irakaskuntza
 
