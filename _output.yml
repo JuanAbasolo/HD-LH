@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">HD (LH) apunteak</a></li>
       after: |
-        <li><a href="labur.eus/HD(LH)apunteak" target="blank">Published with bookdown</a></li>
+        <li><a href="https://labur.eus/HD-LHapunteak" target="blank">Published with bookdown</a></li>
     edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:

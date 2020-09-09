@@ -1,0 +1,363 @@
+---
+output: 
+  pdf_document:
+    keep_tex: false
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: ja-latex-syllabus.tex
+urlcolor: red
+geometry: margin=1in
+
+title: "25916 Hizkuntzaren (eta Literaturaren) Didaktika: 25868"
+author: Juan Abasolo
+date: "2020/2021"
+# bibliography: "Exported Items.bib"
+# csl: "apa-euV0.2.csl"
+
+email: "juan.abasolo@ehu.eus"
+web: "labur.eus/HD-LHapunteak"
+telegram: "JuanAbasolo"
+phone: "(+34) 94 601 7567"
+officehours: "https://labur.eus/JAbasolo-tutoretzak"
+office: "3S40B"
+classroom: "32 2S08G"
+classhours: "As 18:30-20 + Og 16:30-20:00"
+
+fontfamily: mathpazo
+fontsize: 11pt
+header-includes:
+   - \linespread{1.05}
+---
+
+
+```{r setup, include=FALSE, cache=F, message=F, warning=F, results="hide"}
+knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_chunk$set(fig.path='figs/')
+knitr::opts_chunk$set(cache.path='_cache/')
+knitr::opts_chunk$set(warning=F, message=F)
+# knitr::opts_knit$get(kable.force.latex = TRUE)
+```
+
+
+
+```{r dates_bib, include=FALSE}
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+mon <- as.Date("2020-09-07")
+# fri <- as.Date("2016-01-08")
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 3 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Astea ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+library(RefManageR)
+# # library(knitcitations)
+# # library(rcrossref)
+bib <- ReadBib("Bibliografia_HDHH_2020.bib")
+myopts <- BibOptions(bib.style = "authoryear", 
+                     first.inits=FALSE, 
+                     dashed = FALSE,
+                     sorting = 'nyt',
+                     max.names = 20, 
+                     style="markdown")
+```
+
+# Ikastaroaren deskribapena
+
+Ikasgai hau urte osokoa da, lehenengo lauhilekoko zatian *Hizkuntzaren Didaktikaz* arituko gara eta bigarrenean *Literaturaren Didaktikaz* arituko zarete. Honako gida honek Hizkuntzaren Didaktika atalaz dirautso eta informazio gehiena ikasgaiaren alderdi komunak edo Hizkuntzaren Didaktikari soilik dagozkionari buruzkoa izango da.
+
+Ikasgaiaren atal biak gainditu behar dira ikasgaia osorik gainditzeko.
+
+Ikasturtean bertan ohiko deialdian alderdi bat gainditu ez duenak ez-ohiko deialdian soilik zati hori egin beharko du. Baina **hurrengo deialdietarako ez da gordeko notarik**.
+
+DAL bitan arituko zara ikasgaian (5. DAL eta 6. DAL), ondo aztertu DAL eta ikasgaiko gidetan zein toki duen ikasgaian.
+
+# Ikasgaian garatzea espero den gaitasunen zerrenda
+
+A) Hizkuntzen eta literaturaren eskolako curriculuma ezagutzea, aztertzea  eta balioestea, eta ahozko eta idatzizko hizkuntzaren irakaskuntzarako  proposamen metodologikoak aztertzea eta ebaluatzea
+
+B) Lehen  Hezkuntzako curriculumean aurreikusitako erabilera arloei dagozkien  ahozko eta idatzizko berbaldiak ulertzen eta sortzen irakasteko  estrategiak menderatzea
+
+C) Ahozko edo idatzizko hizkuntzaren garapena sustatzeko sekuentzia didaktikoak diseinatzea, Lehen Hezkuntzako  ikasgeletan aplikatzeko eta ikasleen hizkuntza-gaitasunen garapena  bermatuko dituzten sekuentzia berriak diseinatu ahal izateko
+
+D)  Ikasleari oinarrizko ezagutzak ematea bere literatur prestakuntza eta  etorkizunean izango dituen ikasleena osatzeko, eta Haur eta Gazte  Literaturaren genero eta kontzeptuei buruzko hausnarketa kritikoak  egiteko
+
+E) Ikaslea literatur lanen irakurketa lantzeko eta  bultzatzeko gai izatea, egile klasiko eta garaikideen lanak ezagutzea,  eta bere sentikortasuna garatzea Haur eta Gazte Literaturaren  prestakuntza-, sormen- eta estetika-balioez jabetzeko
+
+F) Ikasleari  gaitasuna ematea, didaktikako irizpideen arabera eta ahozko zein  idatzizko literatur materialetatik abiatuta, irakaskuntza/ikaskuntako  metodo, baliabide eta teknikak praktikan jartzeko, eta literatur  irakurketak aukeratzeko irizpide egokien arabera 
+
+# Beharrezko irakurketak
+
+Dokumentu honen amaieran agertzen dira erreferentziak zein bestelako irakurgai batzuk ere. Beharrezkoa izango duzu aipatutako apunte erako testuak lantzea zein asterik aste aipatzen direnak.
+
+# Ikasgaiaren politika
+
+Oinarri-oinarrian: testuak irakurri eta zalantzak argitzen ahalegindu. Lanak egiten dituzunean, hori eginaz zer ari zaren ikasten aztertu,  amaitutzat noiz jo daitekeen pentsatzen ibili baino, helburua zerbait ikastea bailitzan.
+
+## Gainditzeko bidea
+
+Hizkuntzaren Didaktikaren atalaren azken emaitza honela banatuko da
+
++  Azken Ebaluazioaren Sistema
++  Kalifikazioko tresnak eta ehunekoak:
+  + Garatu beharreko proba idatzia (%): **30**
+  + Test motatako proba (%): **20**
+  + Banakako lanak (%): **10**
+  + Talde lanak (arazoen ebazpenak, proiektuen diseinuak) (%): **14**
+  + Lanen, irakurketen... aurkezpena (%): **10**
+  + DAL (%): **16**
+
+
+Atal guztiak gainditu beharrekoak dira. Atalen bat gainditzeke geratuz gero, atal horretako nota, *x/10*, hartuko da azkentzat.
+
+**Azken ebaluazioko** ikasleek azken azterketan lan praktikoei legozkiekeen atalaren inguruko itemak garatu beharko dituzte; horretarako komenigarria da lanok egitea, kalifikaziorako izango ez balira ere.
+
+Jakina, **ikasgaia osotasunean gainditzeko Literaturaren Didaktikari dagozkion atalak ere gainditu beharrekoak dira**, zati biak ikasturte honetan.
+
+## Bertaratzearen inguruan
+
+Covid-19aren ingurukoak direla eta, eskolara denok klase guztiera bertaratzea zaila izango dena jakina da; hala ere, bertaratzearen inguruko segimendua egingo du irakasleak helburu didaktikoekin zein hala eskatu delako gaur eguneko egoeragatik 
+
+Ikasgaiaren inguruko baliabide pisutsuak-eta partekatzeko [Telegram](http://www.telegram.org) plataforman talde bat egingo da. Horretara batzeko derrigorrik ez dago, baina bat-bateko mezularitza denez, ezbeharren berri zein bestelako momentuko jakingarri ez hain formalena emateko bide egokia da, eta erabili egingo da.
+
+## Ikasleak klasera berandu sartzearen inguruan
+
+Ez da onargarria klasea hasi eta gero bertara sartzea.
+
+Baina jakin badakigu ezbeharrak ere badirena eta zerbaitek eroan zaitzakeena klasea hasi eta gero sartu behar izatera. Horrelako kasuan bazaude, izan kontuan ahalik eta gutxien igarri behar dela zure etorrera, jesarlekua soinurik egin gabe mugituz eta, batez ere, berbazko komunikazioa ekidinez.
+
+## Korreo elektronikoaren inguruko politika
+
+Korreo elektronikoak ikasleek (zein neuk) [netiketa](https://eu.wikipedia.org/wiki/Netiketa) segituaz egin behar dira. Netiketaren kontzeptu bera baino jarrerazko edukia ere Gaitasun komunikatiboaren baitan sartzen da. 
+
+Korreo instituzionala astean batean zabaltzeko ohitura dut, hori baita SPAMa-eta kudeatzeko neuk darabildan modua. Beraz, **premiazko komunikazioetarako ez da eraginkorra**.
+
+## Beherapenak eta deskontuak
+
+Entregatze data baino 48 ordu berandura arte hartuko dira lanak eta horietan azken emaitzaren %60 zenbatuko da, %40ko deskontua aplikatuko zaie. Hori baino beranduago aurkeztutakorik ez da kalifikatuko eta 0 emaitza izango lukete.
+
+Behar ona eta behar perfektua elkarren arerioak dira.
+
+## Zintzotasunik gabeko jardunbide akademikoak
+
+Legez eta [araudiz](https://www.ehu.eus/eu/web/biblioteka/plagioa-eta-onestasun-akademikoa) debekatua da kopia. Plagioren bat detektatuz gero, lanak 0 emaitza hartuko du^[Talde lanetan ere 0 emaitza hartuko dute plagiodun lanek], ez da zuzenduko eta, plagioaren tamainaren arabera, denuntziatu ere egingo da.
+
+> plagio
+>   : iz. Besterenak diren obren kopia edo imitazioa, norberak eginak balira bezala azaltzeko egiten dena. *Errealitateak, baita garratzenak ere, pasarte literario gorenen plagioa dirudi askotan*. 
+> 
+> -- Euskaltzaindiaren Hiztegia
+
+Zintzotasun falta ere bada norberak lanik egin ez eta taldekideek egindakoaren bizkar izena ezartzea. Hori denok jakin badugu ere, gogoratu beharra egoten da inoiz.
+
+\newpage
+
+# Egutegia
+
+Honako gaiok eta baliabideok erabiliko dira Hizkuntzaren Didaktikako eskolan. 
+
+Orientabidetzat hartu behar da hurrengo zerrenda, **ez beza ahaz ikasleak**.
+
+## Astea 01, 09/10: Aurkezpenak | Testuingurua
+
+Egun honetan ikasgaiaren, irakaslearen eta ikasleen aurkezpena egiteaz gain, lehenengo gaia landuko da
+
+Egin beharrekoa: Talde laneko aurkezpena
+
+Oharrak  
+  : Klase egun hau on-line izango da.
+
+## `r advdate(mon, 2)`: Testuingurua | Hizkuntza eta ageriko curriculuma
+
+Aste honetako lehenengo egunean taldeko ahozko aurkezpena egingo duzue (ebaluatu egingo da), lehenengo gaiari dagokiona.
+
+Oharra  
+  : Aurkezpena digitalki grabatuko da, hurrengo batean erabiltzeko.
+
+Bigarren gaiarekin hasi behar dugu eta curriculumaren inguruko lana egin beharko duzue.
+
+Egin beharreko lana  
+  : Curriculum dekretuaren laburpen erabilgarria.
+
+##  `r advdate(mon, 3)`: Hizkuntza eta ageriko curriculuma | Ahozko trebetasunak Lehen Hezkuntzan
+
+Aste honetako lehenengo egunean aurreko asteko gaiarekin jarraituko dugu eta aurkeztu beharreko dokumentu/lana amaituko da.
+
+Bigarren egunean Ahozko trebetasunaren inguruan jardungo dugu
+
+Egin beharreko lana 
+  : Ahozko jardunaren analisia.
+
+##  `r advdate(mon, 4)`: Ahozko trebetasunak LHn | Idatzizko trebetasunak LHn
+
+Aste honetan, lehenengo egunean biribilduko ditugu ahozko jardunaren analisiak segidan hasteko Idatzizko trebetasunei dagokion gaiarekin. Hurrengo astean ez denez ikasgaiari dagokion gairik landu behar, honetan komentatuko dira Sekuentzia Didaktikoaren diseinurako elementurik garrantzitsuenak.
+
+Egin beharreko lana  
+  : Sekuentzia Didaktikoa diseinatzeko elementuak eta horien ordena proiektatu
+
+##  `r advdate(mon, 5)`: 5. Disziplina Arteko Lana (5DAL)
+
+Aste honetan ikasgai guztien ordutegi osoa erabiliko da DALerako. 
+
+Oharra  
+  : Aste hau ere on-line garatuko da.
+
+##  `r advdate(mon, 6)`: Sekuentzia Didaktikoa garatu
+
+Aste honetako eguena osorik bideratuko da Sekuentzia Didaktikoaren planteamendu teoriko-praktikoak egoki ardaztera, besteak bestee, ikasleen eta irakasleen helburuak, interesak eta abarrez oldoztuta.
+
+Oharra  
+  : Aste honetako astelehenean gogoratzen ditugu Cortezek eta Pizzarrok eragindako genozidioak eta Atahualparen martiritza; hori dela eta, besteak beste, ez dugu klaserik izango.
+
+##  `r advdate(mon, 7)`: Hizkuntzen irakaskuntzarako metodologiak
+
+Osotasunean eskainiko zaio astea metodologiaren inguruko gaiari.
+
+Egin beharreko lana  
+  : Aurrez planteatutako metodologiaren gaineko hausnarketa eta garapen idatzia
+
+##  `r advdate(mon, 8)`: Estrategiak
+
+Estrategien gaia bere zabalean irakasle, ikasle, ikastun eta estrategiak eurak sartzen dira. Denen inguruko teorizazioa eta hausnarketa planteatzen dira aste honetako lanketarekin.
+
+Egin beharreko lana  
+  : Estrategien gaineko baliabide didaktiko kokatua diseinatzea
+
+##  `r advdate(mon, 9)`: Estrategiak
+
+Aurreko asteko gaiari emango zaio jarraipena.
+
+Egin beharreko lana  
+  : Estrategien gaineko baliabide didaktiko kokatua garratzea
+
+##  `r advdate(mon, 10)`: Ebaluazioak
+
+Azkenenko asteko lehenengo eguna erabiliko da, baliabide didaktikoen aurkezpenerako.
+
+Azken egunean azterketarako nondik norakoetan jardungo da gehienbat... irakasleak nahi lukeen moduan edukirik atzeratu ez bada. DElako egoerak atzeratzea eragingo balu, azken klase hori erabiliko litzateke amaitzeko.
+
+
+# Ikasgaiko bibliografia
+
+Araka ikertaldea. (2003). Araka ikertaldea - legeria \[web\]. Berreskuratua 2018(e)ko otsailakaren 9a, [http://www.vc.ehu.es/araka/orri12.htm](http://www.vc.ehu.es/araka/orri12.htm) etik
+
+Cassany, D., Luna, M., & Sanz, G. (2000). *Enseñar lengua* (6. arg.). Bartzelona: Graó.
+
+Centro Universitario de Desarrollo Intelectual. (2016). Catálogo de rúbricas para la evaluación del aprendizaje. Berreskuratua [http://evirtual.uaslp.mx/FCQ/estrategias/Material de Apoyo/cat\_rubrica.pdf](http://evirtual.uaslp.mx/FCQ/estrategias/Material de Apoyo/cat_rubrica.pdf) -etik
+
+Chamot, A. U., & O'Malley, J. M. (1994). *The CALLA handbook: implementing the cognitive academic language learning approach /*. Reading, Mass.: Addison-Wesley Pub. Co.,.
+
+Cuq, J.-P. (2003). *Dictionnaire de didactique du français langue étrangère et seconde*. Paris: Clé International.
+
+Cyr, P. (2000). *Estrategiak bigarren hizkuntza baten irakaskuntzan*. (B. Urkizu, Itzul.). Donostia: Habe.
+
+Delors, J., International Commission on Education for the Twenty-First Century, & UNESCO (Arg.). (1998). _Education for the twenty-first century: issues and prospects: contributions to the work of the International Commission on Education for the Twenty-First Century_. Paris: UNESCO Publishing.
+
+Durkin, D. (1992). *Teaching Them to Read* (6. argitalpena). Boston: Pearson.
+
+Dörnyei, Z. (2003). *Motibazio-estrategiak hizkuntz ikasgelan*. (A. I. Morales, Itzul.). Donostia: Habe.
+
+EURIDYCE (Arg.). (2002). _Key competencies: a developing concept in general compulsory education_. Brussels.
+
+EURYDICE. (2003). _Las Competencias clave: un concepto en expansión dentro de la educación general obligatoria._ Madril: Eurydice. Unidad Española. Berreskuratua [http://www.hezkuntza.ejgv.euskadi.eus/contenidos/informacion/dig\_publicaciones\_innovacion/es\_curricul/adjuntos/14\_curriculum\_competencias\_300/300001c\_Pub\_UE\_Eurydice\_Competencias\_c.pdf](http://www.hezkuntza.ejgv.euskadi.eus/contenidos/informacion/dig_publicaciones_innovacion/es_curricul/adjuntos/14_curriculum_competencias_300/300001c_Pub_UE_Eurydice_Competencias_c.pdf) -etik
+
+Etxebarria, A. (2008). Estrategiak hizkuntzen ikaskuntzan eta irakaskuntzan: M. O'Malley-ren eta A. Chamot-en ekarpena. *Litterae vasconicae: euskeraren iker atalak*, (10), 241–279.
+
+Etxebarria, A., & Garay, U. (2012). Estilo de aprendizaje basado en el uso de estrategias cognitivas por medio de aplicaciones virtuales. Learning style based on the use of cognitive strategies by virtual applications. In *V Congreso Mundial de Estilos de Aprendizaje*. Santander. Berreskuratua <https://dialnet.unirioja.es/servlet/articulo?codigo=4636744>-(e)tik
+
+Europar Batasuna. (2006). _2006/962/CE Recommendation of the European Parliament and of the Council of 18 December 2006 on key competences for lifelong learning_ (Gomendioa No. 32006H0962) (or. 10~18). Estrasburgo: Europako Parlamentua. Berreskuratua [http://data.europa.eu/eli/reco/2006/962/oj/eng](http://data.europa.eu/eli/reco/2006/962/oj/eng) -etik
+
+Euskaltzaindia. (1998). Euskara batuaren ahoskera zaindua (EBAZ). *Euskera: Euskaltzaindiaren lan eta agiriak*, 43, 485–490.
+
+Eusko Jaurlaritza (Hezkuntza, Hizkuntza Politika eta Kultura Saila). (2017). Oinarrizko konpetentzia giltzei buruzko proposamen arteko erlazioa [pdf formatudun dokumentoa]. Berreskuratua 2018(e)ko otsailakaren 9a,  [http://www.hezkuntza.ejgv.euskadi.eus/contenidos/informacion/heziberri\_2020/eu\_erlazioa/adjuntos/oinarrizko\_konpetentzia\_giltzei\_buruzko\_proposamen\_arteko\_erlazioa.pdf](http://www.hezkuntza.ejgv.euskadi.eus/contenidos/informacion/heziberri_2020/eu_erlazioa/adjuntos/oinarrizko_konpetentzia_giltzei_buruzko_proposamen_arteko_erlazioa.pdf)-etik
+
+Eusko Jaurlaritzaren Legebiltzarra. (2015). 236/2015 Dekretua, abenduaren 22koa, Oinarrizko Hezkuntzaren curriculuma zehaztu eta Euskal Autonomia Erkidegoan ezartzen duena. *Euskal Herriko Agintaritzaren Aldizkaria, 2016ko urtarrilaren 15a*, *141*. Berreskuratua https://www.euskadi.eus/y22-bopv/eu/bopv2/datos/2016/01/1600141e.shtml  -(e)tik 
+
+Eusko Jaurlaritzaren legebiltzarra. (2015). 236/2015 Dekretua, abenduaren 22koa, Oinarrizko Hezkuntzaren curriculuma zehaztu eta Euskal Autonomia Erkidegoan ezartzen duena. _Euskal Herriko Agintaritzaren Aldizkaria, 2016ko urtarrilaren 15a_, _141_. Berreskuratua [https://www.euskadi.eus/y22-bopv/eu/bopv2/datos/2016/01/1600141e.shtml](https://www.euskadi.eus/y22-bopv/eu/bopv2/datos/2016/01/1600141e.shtml) -etik
+
+Fons Esteve, M. (2004). *Leer y escribir para vivir: alfabetizacion inicial y uso real de la lengua escrita en el aula*. Bartzelona: Graó.
+
+Færch, C., & Kasper, G. (1980). Processes and Strategies in Foreign Language Learning and Communication. *Interlanguage Studies Bulletin*, *5*(1), 47–118.
+
+Gobierno de España (Ministerio de Educación, Cultura y Deporte). (2014). Real Decreto 126/2014, de 28 de febrero, por el que se establece el currículo básico de la Educación Primaria. _Boletín Oficial del Estado_, _52_, 19349–19420. Berresekuratua [https://www.boe.es/buscar/act.php?id=BOE-A-2014-2222](https://www.boe.es/buscar/act.php?id=BOE-A-2014-2222) -tik
+
+Gobierno de España (Ministerio de Educación, Cultura y Deporte). (2015). Orden Ecd/65/2015, de 21 de enero, por la que se describen las relaciones entre las competencias, los contenidos y los criterios de evaluación de la educación primaria, la educación secundaria obligatoria y el bachillerato. _Boletín Oficial de Estado_, (25). Berreskuratua [https://www.boe.es/buscar/doc.php?id=BOE-A-2015-738](https://www.boe.es/buscar/doc.php?id=BOE-A-2015-738) -tik
+
+Gobierno de España. (2013). Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa. _Boletín Oficial del Estado_. Berreskuratua  [https://www.boe.es/buscar/act.php?id=BOE-A-2013-12886](https://www.boe.es/buscar/act.php?id=BOE-A-2013-12886) -tik
+
+Idiazabal I.(2003). Eskolaren kalitatea eta euskara.*BAT Soziolinguistika Aldizkaria* 49, 2003, 195-199. ISSN: 1130-8435
+
+Idiazabal, I., & Manterola, I. (2009). Euskal eredu elebidunak, murgilketa eta hizkuntzen irakaskuntza bateratua: kontzeptuen berrikusketa. *Euskera*, 54, 2–1. Eskuragarri http://www.euskaltzaindia.net/dok/euskera/74632.pdf helbidean
+
+Kolb, D. (1985). *Learning style inventory*. Boston, MA: McBer and Company.
+
+Legendre, R. (1993). *Dictionnaire actuel de l’éducation*. Paris: Guérin. Berreskuratua  <https://dspacecdc-test.inlibro.net/xmlui/handle/11515/5065> -(e)tik
+
+Lewis, M. P.(2005). Towards a categorization of endangerment of the world’s languages._SIL International_.
+
+Lomas, C., & Osoro, A. (1994). Enseñar Lengua. In *El enfoque comunicativo de la enseñanza de la lengua* (or. 17–30). Bartzelona: Paidós Ibérica.
+
+López Valero, A. (1998). Hacia una conformación histórica de la Didáctica de la Lengua y la Literatura. *Didáctica. Lengua y literatura*, (10), 215–232.
+
+Martí, F., Ortega, P., Idiazabal, I., Barreña, A., Juaristi, P., Junyent, C., … Amorrortu, E.(2005).*Hizkuntzen mundua. Munduko hizkuntzei buruzko txostena*. Bilbo: UPV/EHU.
+
+Ministerio de Educación y Ciencia. (2007). *PIRLS 2006. Estudio internacional de progreso en comprensión lectora de la IEA. Informe español*. Madril: Ministerio de Educación y Ciencia.
+
+Moreno-Cabrera, J. C.(2008). _El nacionalismo lingüístico: Una ideología destructiva_. Barcelona: Ediciones Península.
+
+Moseley, Christopher (ed.). *2010. Atlas of the World’s Languages in Danger*, 3rd edn. Paris:UNESCO Publishing. Online version: http://www.unesco.org/culture/en/endangeredlanguages/atlas
+
+Mullis, I. V. ., & Martin, M. O. (Arg.). (2016). *PIRLS 2016. Marco de la evaluación* (2. arg.). Madril: Ministerio de Educación Cultura y Deporte. Berreskuratua https://www.mecd.gob.es/inee/dam/jcr:d79b8f8b-d4a8-42b7-b63e-42aed382a8e7/pirls2016webokk.pdf -tik
+
+OECD. (2014). El programa PISA de la OCDE. Qué es y para qué sirve. OECD. Berreskuratua https://www.oecd.org/pisa/39730818.pdf  -tik 
+
+Organisation for Economic Co-operation and Development. (2002, urriak 7). Definition and Selection of Competences (DeSeCo): Theoretical and conceptual foundations. Berreskuratua [http://deseco.ch/bfs/deseco/en/index/02.parsys.34116.downloadList.87902.DownloadFile.tmp/oecddesecostrategypaperdeelsaedcericd20029.pdf](http://deseco.ch/bfs/deseco/en/index/02.parsys.34116.downloadList.87902.DownloadFile.tmp/oecddesecostrategypaperdeelsaedcericd20029.pdf) -etik
+
+Organisation for Economic Co-operation, & Development (OECD). (2005). _The definition and selection of key competencies: Executive summary_. OECD Paris. Berreskuratua [http://deseco.ch/bfs/deseco/en/index/02.html](http://deseco.ch/bfs/deseco/en/index/02.html) -etik
+
+Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2015). _La definición selección de las competencias clave. Resumen ejecutivo_.
+
+Oxford, R. L. (1990). *Language Learning Strategies: What Every Teacher Should Know* (1. arg.). Heinle ELT. Berreskuratua <http://gen.lib.rus.ec/book/index.php?md5=D35AD86CE0610D7EC0AD25197FB3BBE4> -(e)tik
+
+Oñederra, M. L., Elordui, A., Epelde, I., Etxeberria, P., Jauregi, O., & Salaberria, J. (2015). Euskaltzaindiaren Ahoskera batzordearen txostena (Ahoskerak axola du). *Euskera: Euskaltzaindiaren lan eta agiriak*, 60(2), 499–531.
+
+Pikabea, I. (2002). *Ikasle helduen ikas-estiloak eta ikas-estrategiak euskararen ikaskuntzan eta erabilera ohiturak ikasgelatik kanpo: interventzio-programa bat* (PhD). Euskal Herriko Unibertsitatea, Donostia. Berreskuratua  <http://www.euskara.euskadi.net/appcont/tesisDoctoral/PDFak/Inaki_Pikabea_TESI.pdf>-(e)tik
+
+Résultats de Recherche. (2003). *Dictionnaire de didactique du français langue étran- Livre*. Paris: Clé International.
+
+Ruiz, J. C., & Albert, M. E. (1996). Presentación del tema monográfico ¿Estrategias y estilos de aprendizaje?. *Anales de psicología*, *12*(2), 121–122.
+
+Ruiz, U., & Aldekoa, I. (2000). La comprensión lectora. In U. Ruiz (Arg.), *Didáctica de la segunda lengua en educación infantil y primaria* (or. 217–248). Madril: Síntesis.
+
+Rumiche-Chávarry, R. del P. (2013). *Los estilos de aprendizaje y el uso de la plataforma virtual por los estudiantes de la facultad de educación de la universidad católica Santo Toribio de Mogrovejo* (Doktorego-tesia). Universidad de Málaga. Berreskuratua <https://dialnet.unirioja.es/servlet/tesis?codigo=132172>-(e)tik
+
+Rychen, D. S., & Salganik, L. H. (Arg.). (2003). _Key competencies for a successful life and a well-functioning society_. Cambridge, Massachusetts: Hogrefe & Huber.
+
+Scheidecker, D., & Freeman, W. (1999). *Bringing Out the Best in Students: How Legendary Teachers Motivate Kids*. New York: Skyhorse Publishing.
+
+Smith, R. M. (1984). *Learning How to Learn*. Milton Keynes: Open University Press.
+
+Solé, I. (1987). Las posibilidades de un modelo teórico para la enseñanza de la comprensión lectora. *Infancia y Aprendizaje*, *10*(39–40), 1–13. https://doi.org/10.1080/02103702.1987.10822170
+
+Solé, I. (1992). *Estrategías de lectura*. Bartzelona: Graó.
+
+Stern, H. H. (1984). *Fundamental concepts of language teaching*. Oxford: Oxford University Press.
+
+Sánchez, J. M.(1991). *Un futuro para nuestro pasado. Claves de la recuperación del Euskara y teoría social de las lenguas* (Libk. 1). Donostia: Gipuzkoako Foru Aldundia. Berreskuratua [http://www.ehu.eus/ojs/index.php/ASJU/article/view/8593](http://www.ehu.eus/ojs/index.php/ASJU/article/view/8593-%28e%29tik)-tik
+
+Tardif, J. (1992). *Pour un enseignement stratégique. L’apport de la psychologie cognitive*. Montreal: Logiques.
+
+Villanueva, M. L., & Navarro, I. (1997). *Los estilos de aprendizaje de lenguas: un estudio sobre las representaciones culturales y las interacciones de enseñanza-aprendizaje*. Castellón: Universitat Jaume I.
+
+
+
+```{r echo=FALSE, results='asis'}
+# bib
+# 
+# PrintBibliography(bib, 'markdown', .opts = myopts)
+# paste('\\n')
+
+```
+

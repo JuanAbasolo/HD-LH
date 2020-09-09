@@ -1,36 +1,55 @@
-\documentclass[]{book}
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage{hyperref}
-\hypersetup{unicode=true,
-            pdftitle={Hizkuntzaren Didaktika (Lehen Hezkuntza)},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{natbib}
-\bibliographystyle{apalike}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Hizkuntzaren Didaktika (Lehen Hezkuntza) V-2020/09},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs}
-\usepackage{graphicx,grffile}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -39,52 +58,14 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-%%% Use protect on footnotes to avoid problems with footnotes in titles
-\let\rmarkdownfootnote\footnote%
-\def\footnote{\protect\rmarkdownfootnote}
-
-%%% Change title format to be more compact
-\usepackage{titling}
-
-% Create subtitle command for use in maketitle
-\providecommand{\subtitle}[1]{
-  \posttitle{
-    \begin{center}\large#1\end{center}
-    }
-}
-
-\setlength{\droptitle}{-2em}
-
-  \title{Hizkuntzaren Didaktika (Lehen Hezkuntza)}
-    \pretitle{\vspace{\droptitle}\centering\huge}
-  \posttitle{\par}
-    \author{true}
-    \preauthor{\centering\large\emph}
-  \postauthor{\par}
-      \predate{\centering\large\emph}
-  \postdate{\par}
-    \date{2019/2020}
-
 \usepackage{booktabs}
 \usepackage{amsthm}
 \usepackage[basque]{babel}
@@ -94,6 +75,12 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{Hizkuntzaren Didaktika (Lehen Hezkuntza) V-2020/09}
+\author{true}
+\date{2020/2021}
 
 \begin{document}
 \maketitle
@@ -102,106 +89,481 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{ikasgaia-hizkuntzaren-eta-literaturaren-didaktika---25868}{%
-\chapter*{Ikasgaia Hizkuntzaren eta Literaturaren Didaktika - 25868}\label{ikasgaia-hizkuntzaren-eta-literaturaren-didaktika---25868}}
-\addcontentsline{toc}{chapter}{Ikasgaia Hizkuntzaren eta Literaturaren Didaktika - 25868}
+\hypertarget{hizkuntzaren-didaktika-lh-apunteak-20202021}{%
+\chapter*{Hizkuntzaren Didaktika (LH): apunteak 2020/2021}\label{hizkuntzaren-didaktika-lh-apunteak-20202021}}
+\addcontentsline{toc}{chapter}{Hizkuntzaren Didaktika (LH): apunteak 2020/2021}
 
-Ikasleak badakienez, ikasgaiak zati nagusi bi ditu: lehenengoa Hizkuntzaren Didaktika, lehenengo lauhilekoaren hasieratik praktikaldira artekoa da, eta zati horri dagozkio hemengo baliabideok. Bigarren zatia Literaturaren Didaktika da eta beste irakasle baten ardurapekoa izango da. \href{https://www.ehu.eus/eu/lehen-hezkuntzako-gradua-bizkaia/kreditu-eta-irakasgaiak?p_redirect=consultaAsignatura\&p_cod_proceso=egr\&p_anyo_acad=20180\&p_ciclo=X\&p_curso=3\&p_cod_asignatura=25868}{Hemen} ikasgaiko gida ofiziala UPV/EHUko web orrian.
+\includegraphics{assets/azala.png}
 
-Ikasgaiak bi atal izango ditu HIZKUNTZAREN eta LITERATURAREN didaktika, ikasgaia urte osokoa da eta bi atalak gainditu behar dira ikasgaia gainditzeko.
+\hypertarget{jakingarriak}{%
+\section*{Jakingarriak}\label{jakingarriak}}
+\addcontentsline{toc}{section}{Jakingarriak}
 
-Hizkuntzaren didaktika atalari dagokionez, azterketa, lan praktikoak eta modulu-lana gainditu behar dira.
+Hemen duzun dokumentuak ikasgairako beharko dituzun elementu gehienak editu berton edo estekatuta:
 
-Azterketak \%50 balio du eta lan praktikoak eta modulu-lanak beste \%50.
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ikagaiaren gida eta nirekin harremanetan paratzeko argigarriak
+\item
+  \href{https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaAsignatura\&p_anyo_acad=20200\&p_ciclo=X\&p_curso=3\&p_cod_asignatura=25868\&p_cod_plan=GPRIMA30\&p_cod_centro=354}{Gida ofiziala} (kapitulu honetan)
+\item
+  Kapitulurik kapitulu, apunteak, diapositibetarako estekak eta bakoitzaren amaieran bibliografia eta ariketak aurkituko dituzu.
+\end{enumerate}
 
-\textbf{Orduen banaketa}
+Goiko ``download'' botoian PDF(?) edo EPUB formatuan ere jaits dezakezue gida.
+
+\textbf{Irakaslea}: Juan Abasolo
+
+Nirekin kontaktuan jartzeko, Telegram erabiltzea gomendatzen dizuet, korreoak eta abar baino eraginkorragoa baita. Hala ere, batzuetan ibili ez arren eta biltegiratze gaitasun urria badu ere, denok dugunez UPV/EHUko korreoa, komunikazio ofizialak bertatik egin behar ditugu. Aurten zuen banaketa zerrenda ez dabil.
+
+\begin{itemize}
+\tightlist
+\item
+  Telegram: {[}abildua{]} JuanAbasolo
+\item
+  emaila: juan {[}puntu{]} abasolo {[}abildua{]} ehu {[}puntu{]} eus
+\item
+  Bulegoa: 3S40B
+\item
+  Tutoretzak: \url{https://labur.eus/JAbasolo-tutoretzak}\\
+  Aurretik norbaitekin hitzordua egiten dudanean hor ere agertuko da. Fakultatekoa edo GAURrekoa bitaminizatua, beraz.
+\end{itemize}
+
+\textbf{Ikastaldea}: LH 32, 3. maila, lehenengo lauhilekoan.
+
+Balibideak partekatzeko, eztabaida informaletarako eta azken momentuko informazio edo premietarako-eta proposatzen dizuedan foroa \href{https://t.me/joinchat/CheQnxAMdJ206V3d4kDLkw}{hemen} duzue. Hori erabiltzeko Telegrameko kontua egin beharko duzue (telefonoan edo ordenagailuan erabil dezakezue). Whatsappeko taldeen antzerako kudeaketa du, baina inori telefono zenbakia eman beharrik gabe.
+
+Ikasgaiaren lehenengo zatian ia ez dugu erabiliko Moodle-n oinarritutako plataformarik.
+
+\textbf{Ikasgaia}: Gida hau UPV/EHUko web \href{https://www.ehu.eus/eu/lehen-hezkuntzako-gradua-bizkaia/kreditu-eta-irakasgaiak?p_redirect=consultaAsignatura\&p_cod_proceso=egr\&p_anyo_acad=20180\&p_ciclo=X\&p_curso=3\&p_cod_asignatura=25868}{orritik bertatik} hartutakoa da, beraz, irakurri eta aztertuta baduzu, hurrengo pausura iragan.
+
+\textbf{Proiektua}:
+
+\href{syllabusa/Syllabus_HDLH20-V1.pdf}{\includegraphics{assets/pdficon.png}}
+
+\hypertarget{hizkuntzaren-eta-literaturaren-didaktika---25868}{%
+\chapter*{Hizkuntzaren eta Literaturaren Didaktika - 25868}\label{hizkuntzaren-eta-literaturaren-didaktika---25868}}
+\addcontentsline{toc}{chapter}{Hizkuntzaren eta Literaturaren Didaktika - 25868}
+
+\begin{itemize}
+\item
+  Ikastegia\\
+  Bilboko Hezkuntza Fakultatea
+\item
+  Titulazioa\\
+  Lehen Hezkuntzako Gradua
+\item
+  Ikasturtea\\
+  2020/21
+\item
+  Maila\\
+  3
+\item
+  Kreditu kopurua\\
+  10
+\item
+  Hizkuntzak\\
+  Euskara
+\end{itemize}
+
+\hypertarget{irakaskuntza}{%
+\section*{Irakaskuntza}\label{irakaskuntza}}
+\addcontentsline{toc}{section}{Irakaskuntza}
 
 \begin{longtable}[]{@{}lll@{}}
 \toprule
-Irakaskuntza mota & M & GA\tabularnewline
+\begin{minipage}[b]{0.18\columnwidth}\raggedright
+Irakaskuntza mota\strut
+\end{minipage} & \begin{minipage}[b]{0.25\columnwidth}\raggedright
+Ikasgelako eskola-orduak\strut
+\end{minipage} & \begin{minipage}[b]{0.48\columnwidth}\raggedright
+Ikaslearen ikasgelaz kanpoko jardueren orduak\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Ikasgelako eskola-orduak & 5 & 40\tabularnewline
-Ikaslearen ikasgelaz kanpoko jardueren orduak & 7.5 & 60\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright
+Magistrala\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright
+20\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+30\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright
+Gelako p.\strut
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\raggedright
+80\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+120\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
-\textbf{Ikasgaiaren ikuskera orokorra}
+\hypertarget{irakaskuntza-gida}{%
+\section*{Irakaskuntza-gida}\label{irakaskuntza-gida}}
+\addcontentsline{toc}{section}{Irakaskuntza-gida}
 
-\begin{longtable}[]{@{}llll@{}}
+\hypertarget{helburuak}{%
+\subsection*{Helburuak}\label{helburuak}}
+\addcontentsline{toc}{subsection}{Helburuak}
+
+\begin{enumerate}
+\def\labelenumi{\Alph{enumi})}
+\tightlist
+\item
+  Hizkuntzen eta literaturaren eskolako curriculuma ezagutzea, aztertzea eta balioestea, eta ahozko eta idatzizko hizkuntzaren irakaskuntzarako proposamen metodologikoak aztertzea eta ebaluatzea
+\item
+  Lehen Hezkuntzako curriculumean aurreikusitako erabilera arloei dagozkien ahozko eta idatzizko berbaldiak ulertzen eta sortzen irakasteko estrategiak menderatzea
+\item
+  Ahozko edo idatzizko hizkuntzaren garapena sustatzeko sekuentzia didaktikoak diseinatzea, Lehen Hezkuntzako ikasgeletan aplikatzeko eta ikasleen hizkuntza-gaitasunen garapena bermatuko dituzten sekuentzia berriak diseinatu ahal izateko
+\item
+  Ikasleari oinarrizko ezagutzak ematea bere literatur prestakuntza eta etorkizunean izango dituen ikasleena osatzeko, eta Haur eta Gazte Literaturaren genero eta kontzeptuei buruzko hausnarketa kritikoak egiteko
+\item
+  Ikaslea literatur lanen irakurketa lantzeko eta bultzatzeko gai izatea, egile klasiko eta garaikideen lanak ezagutzea, eta bere sentikortasuna garatzea Haur eta Gazte Literaturaren prestakuntza-, sormen- eta estetika-balioez jabetzeko
+\item
+  Ikasleari gaitasuna ematea, didaktikako irizpideen arabera eta ahozko zein idatzizko literatur materialetatik abiatuta, irakaskuntza/ikaskuntako metodo, baliabide eta teknikak praktikan jartzeko, eta literatur irakurketak aukeratzeko irizpide egokien arabera
+\end{enumerate}
+
+\hypertarget{irakasgai-zerrenda}{%
+\subsection*{Irakasgai-zerrenda}\label{irakasgai-zerrenda}}
+\addcontentsline{toc}{subsection}{Irakasgai-zerrenda}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  GAIA.- Hizkuntzen eta literaturaren curriculumaren diseinua.\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Curriculumaren kontzeptua\\
+\item
+  Hizkuntzaren curriculuma gaur egungo ikuspegi didaktikotik:\\
+  - ezaugarriak
+  - osatzen duten elementuak (helburuak, edukiak, metodologia, ebaluazioa)\\
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  GAIA.- Ahozko hizkuntzaren didaktika.\\
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Ahozkotasuna eta ulermena:\\
+  - hitz egitea
+  - mintzamenaren ulermena
+  - hitz egitea eta entzutea gelaren egunerokoan\\
+\item
+  Mintzamena irakastea:\\
+  - Irakasleen jarduerak ikasleen mintzamena garatzeko
+  - Orientabideak LHko gelarako
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  GAIA.- Idatzizko hizkuntzaren didaktika
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Ahozko hizkuntza vs.~hizkuntza idatzia
+  \item
+    Zer da irakurtzea?
+  \item
+    Zer da idaztea?
+  \item
+    Hizkuntza idatziaren psikogenesia
+  \item
+    Irakurtzen-idazten irakasteko metodoak
+  \item
+    Erabaki didaktikoak.
+  \item
+    Proposamen didaktikoak: erabilera praktikoa eta erabilera zientifikoa.\\
+  \end{itemize}
+\item
+  GAIA.- Hausnarketa metalinguistikorako didaktika LHn.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Tartehizkuntza eta errorea.
+  \item
+    Hizkuntzaren funtzioak umeen lengoian.
+  \item
+    Testua eta diskurtsoa
+  \item
+    Erroreak\\
+  \end{itemize}
+\item
+  GAIA.- LHn ahozko eta idatzizko hizkuntza garatzeko sekuentzia didaktikoak programatzea.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Programak eta proposamen didaktikoak
+  \item
+    Atazak eta zereginak ahozko gaitasun komunikatiboa lantzeko
+  \item
+    Atazak eta zereginak idatzizko gaitasun komunikatiboa lantzeko\\
+  \end{itemize}
+\item
+  GAIA.- Haur- eta gazte-literaturaren kontzeptua: teoriak, eztabaidak eta ikerketako ikuspegiak.
+\item
+  GAIA.- HGLren ezaugarriak eta generoak.
+\item
+  GAIA.- HGLren historiara hurbiltzea.
+\item
+  GAIA.- HGL eta eskola; irakurtzeko ohitura eta literatura-gaitasuna.
+\item
+  GAIA.- HGLa eta horren aplikazioa ikasgelan.
+\end{enumerate}
+
+\hypertarget{metodologia}{%
+\subsection*{Metodologia}\label{metodologia}}
+\addcontentsline{toc}{subsection}{Metodologia}
+
+\begin{itemize}
+\tightlist
+\item
+  Era indibidualean edota taldeka egindako lana
+\item
+  Ikaskuntza gidatua edota autonomoa
+\item
+  Ikaskuntza kooperatiboa
+\item
+  Jarduera teoriko-praktikoak
+\end{itemize}
+
+\hypertarget{ebaluazio-sistemak}{%
+\subsection*{Ebaluazio-sistemak}\label{ebaluazio-sistemak}}
+\addcontentsline{toc}{subsection}{Ebaluazio-sistemak}
+
+\begin{itemize}
+\tightlist
+\item
+  Azken Ebaluazioaren Sistema
+\item
+  Kalifikazioko tresnak eta ehunekoak:
+\item
+  Garatu beharreko proba idatzia (\%): 30
+\item
+  Test motatako proba (\%): 20
+\item
+  Banakako lanak (\%): 10
+\item
+  Talde lanak (arazoen ebazpenak, proiektuen diseinuak) (\%): 14
+\item
+  Lanen, irakurketen\ldots{} aurkezpena (\%): 10
+\item
+  DAL (\%): 16
+\end{itemize}
+
+\hypertarget{nahitaez-erabili-beharreko-materiala}{%
+\subsection*{Nahitaez erabili beharreko materiala}\label{nahitaez-erabili-beharreko-materiala}}
+\addcontentsline{toc}{subsection}{Nahitaez erabili beharreko materiala}
+
+1513/2006 Errege Dekretua, 2006ko abenduaren 7koa, Lehen Hezkuntzako gutxieneko irakaskuntza ezartzen duena.
+
+175/2007 DEKRETUA, urriaren 16koa, Euskal Autonomia Erkidegoko Oinarrizko Hezkuntzaren curriculuma sortu eta ezartzekoa. 218. gehigarria. 2007ko azaroak 13, EHAA.
+
+• Testuen dossierra komentarioak egiteko
+• Lehen Hezkuntzako hizkuntza ikasgaiaren testu liburuak
+• Ordenagailua
+• Testu liburuak
+
+\hypertarget{bibliografia}{%
+\subsection*{Bibliografia}\label{bibliografia}}
+\addcontentsline{toc}{subsection}{Bibliografia}
+
+\hypertarget{oinarrizko-bibliografia}{%
+\subsubsection*{Oinarrizko bibliografia}\label{oinarrizko-bibliografia}}
+\addcontentsline{toc}{subsubsection}{Oinarrizko bibliografia}
+
+Abascal, D., Beneito, J.M. y Valero, F. (1997) Hablar y escuchar. Barcelona, Octaedro
+
+Camps, A y Zayas, F. (Coords) (2006) Secuencias didácticas para aprender gramática.
+Barcelona, Graó
+
+Camps, A (coord) (2003) Secuencias didácticas para aprender a escribir. Barcelona, Graó.
+
+Cassany, D. Enseñar lengua (1994) Barcelona, Graó.
+
+COLOMER, T. (2009). Introducción a la literatura infantil y juvenil. Madril: Síntesis.
+
+COLOMER, T.; Manresa, Mireia; Ramada Prieto, Lucas \& Lara Reyes López (eds.) (2018). Narrativas literarias en educación infantil y primaria. Madril: Síntesis.
+
+CULLER, J. (2009). Breve introducción a la teoría de la literatura. Bartzelona: Crítica.
+
+DURAN, T. (2009). Álbumes y otras lecturas. Análisis de los libros infantiles. Bartzelona: Octaedro.
+
+ETXANIZ ERLE, X. eta J.M. López Gaseni (2011). XXI. mende hasierako haur eta gazte literatura. Arabako Foru Aldundia
+
+ETXANIZ \& LOPEZ GASENI (2011): Egungo haur eta gazte literaturaren historia. Bilbo: UPV-EHU Argitalpen zerbitzua.
+
+Fons Esteve, M. (2004) Leer y escribir para vivir. Barcelona, Graó.
+
+IGERABIDE, J. K. (1993). Bularretik mintzora. Donostia: Erein.
+
+JIMÉNEZ-PÉREZ, E. eta S. Fabregat Barrios (koords.) (2019). La literatura infantil y juvenil: investigaciones. Bartzelona: Octaedro.
+
+LLUCH, G. eta F. Zayas (2015). Leer en el centro escolar. El plan de lectura. Bartzelona: Octaedro.
+
+RETOLAZA, Iratxe (2017): Egungo euskal komikiaren historia. Bilbo: UPV-EHU Argitalpen Zerbitzua.
+
+RODARI, G. (1979). Gramática de la fantasía. Madril: Avance.
+
+Ruiz Bikandi, U., (2000) Didáctica de la segunda lengua en educación infantil y primaria. Madrid, Síntesis.
+
+Palou, J Y Bosch, C. (Coords) (2005) La lengua oral en la escuela. Barcelona, Graó.
+
+Sainz, M., (1996) ¿Irakurketa eta idazketa LHko bigarren eta hirugarren zikloetan¿, in HIK HASI, 10. zb.
+
+Solé, I. Estrategias de lectura. Barcelona, Graó.
+
+Wells, G., (1988) Aprender a leer y escribir. Barcelona, Laia
+
+\hypertarget{gehiago-sakontzeko-bibliografia}{%
+\subsubsection*{Gehiago sakontzeko bibliografia}\label{gehiago-sakontzeko-bibliografia}}
+\addcontentsline{toc}{subsubsection}{Gehiago sakontzeko bibliografia}
+
+Alcoba, S. (coord) (1999) La oralización. Barcelona, Ariel.
+
+Bronckart, J. P. (1996), Activité Langagière, textes et discours. Lausanne.Delachaux et Niestlé.
+
+Cassany, D. La cocina de la escritura. Barcelona Anagrama
+
+Colomer, T. y Camps, A. (1996), Enseñar a leer, enseñar a comprender
+
+González Fernández, A. (2004) Estrategias de comprensión lectora. Madrid, Síntesis.
+
+Mendoza.A. (Coord) (2003) Didáctica de la lengua y la literatura. Madrid, Pearson Educación.
+
+Pérez Rodríguez, M. A. (2004) Los nuevos lenguajes de la comunicación. Enseñar y aprender con los medios. Barcelona, Paidós.
+
+Sanz Moreno, A.(2003) Cómo diseñar actividades de comprensión lectora. Departamento de Educación. Gobierno de Navarra
+
+Schneuwly, B., (1992) ¿La concepción vygotskiana del lenguaje escrito¿ en Comunicación, Lenguaje y Educación, 16, pp.~49-59,
+
+Teberosky, A. (1992), Aprendiendo a escribir. Barcelona, Horsori.
+
+Tolchinsky, L. (1993); Aprendizaje del lenguaje escrito. Barcelona, Anthropos.
+
+\hypertarget{aldizkariak}{%
+\subsubsection*{Aldizkariak}\label{aldizkariak}}
+\addcontentsline{toc}{subsubsection}{Aldizkariak}
+
+TEXTOS de Didáctica de la lengua y la literatura.
+ARTICLES de Did.actica de la lengua y la literatura
+Lenguaje y textos
+
+\hypertarget{taldeak}{%
+\section*{Taldeak}\label{taldeak}}
+\addcontentsline{toc}{section}{Taldeak}
+
+\ldots{}
+
+\hypertarget{ikasgelak}{%
+\subsubsection*{Ikasgela(k)}\label{ikasgelak}}
+\addcontentsline{toc}{subsubsection}{Ikasgela(k)}
+
+\begin{itemize}
+\tightlist
+\item
+  1S03G - IRAKASLEEN ESKOLAKO ERAIKIN HORIZONTALA - LEIOA
+\end{itemize}
+
+\hypertarget{teoriakoa-euskara---goizezerakutsiizkutatu-azpiorriak}{%
+\subsection{32 Teoriakoa (Euskara - Goizez)Erakutsi/izkutatu azpiorriak}\label{teoriakoa-euskara---goizezerakutsiizkutatu-azpiorriak}}
+
+\begin{longtable}[]{@{}llllll@{}}
 \toprule
-\begin{minipage}[b]{0.36\columnwidth}\raggedright
-Alderdi teorikoa\strut
-\end{minipage} & \begin{minipage}[b]{0.36\columnwidth}\raggedright
-Alderdi praktikoa\strut
-\end{minipage} & \begin{minipage}[b]{0.02\columnwidth}\raggedright
-\strut
-\end{minipage} & \begin{minipage}[b]{0.14\columnwidth}\raggedright
-\strut
-\end{minipage}\tabularnewline
+Asteak & Astelehena & Asteartea & Asteazkena & Osteguna & Ostirala\tabularnewline
 \midrule
 \endhead
-\begin{minipage}[t]{0.36\columnwidth}\raggedright
-Testuingurua eta hizkuntzaren didaktikarako kontzepturik garrantzitsuenak\strut
-\end{minipage} & \begin{minipage}[t]{0.36\columnwidth}\raggedright
-Testuinguruaren azalpenaArtikulua irakurri eta kontzeptuak ulertuTaldeko esperientziaren aurkezpena\strut
-\end{minipage} & \begin{minipage}[t]{0.02\columnwidth}\raggedright
-1.5\strut
-\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright
-12\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.36\columnwidth}\raggedright
-Hizkuntza curriculumeanAhozko trebetasuna lehen hezkuntzanIdatzizko trebetasuna lehen hezkuntzanProposamen didaktikoak sortzeko metodoak, teknikak eta ikuspegiakIkaskuntza kooperatiboa eta hizkuntzen ikaskuntza/irakaskuntza\strut
-\end{minipage} & \begin{minipage}[t]{0.36\columnwidth}\raggedright
-Egungo araudia aztertu , konpartitu eta sekuentzia didaktikoa sortu heziberri marko pedagogikoaren arabera\strut
-\end{minipage} & \begin{minipage}[t]{0.02\columnwidth}\raggedright
-2\strut
-\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright
-34DAL6\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.36\columnwidth}\raggedright
-Hizkuntzaren ikaskuntzan-irakaskuntzan estrategiak:Komunikazio-estrategiakMotibazio-estrategiakIkas-estrategiak\strut
-\end{minipage} & \begin{minipage}[t]{0.36\columnwidth}\raggedright
-Estrategiak: motak, definizioak eta ezaugarriakTaldeko ikas-estrategiak neurtu eta emaitzak atera kalkulu orria erabilitaIkas-estrategiak lantzeko tutoriala sortu\strut
-\end{minipage} & \begin{minipage}[t]{0.02\columnwidth}\raggedright
-2\strut
-\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright
-78\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.36\columnwidth}\raggedright
-Hizkuntzaren inguruko gogoeta eta metalinguistikaErroreak eta lapsusak\strut
-\end{minipage} & \begin{minipage}[t]{0.36\columnwidth}\raggedright
-Kontzeptuen azalpenaProiektua: irakurketa eta lapsusak \href{http://www.praat.org}{Praat} erabiliz\strut
-\end{minipage} & \begin{minipage}[t]{0.02\columnwidth}\raggedright
-2\strut
-\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\raggedright
-910\strut
-\end{minipage}\tabularnewline
+1-1 & & & & 14:00-16:30 17:00-19:30 &\tabularnewline
+5-5 & & & & 14:00-16:30 17:00-19:30 &\tabularnewline
+16-16 & & 14:00-16:00 16:30-18:30 19:00-20:00 & & &\tabularnewline
+19-19 & & 14:00-16:00 16:30-18:00 & & &\tabularnewline
 \bottomrule
 \end{longtable}
 
-Ikasgaiaren aurkezpeneko diapositibak \href{https://gitpitch.com/JuanAbasolo/HD/}{hemen}
+\hypertarget{irakasleak}{%
+\subsubsection*{Irakasleak}\label{irakasleak}}
+\addcontentsline{toc}{subsubsection}{Irakasleak}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias\&p_anyo_acad=20200\&p_idp=351472}{ABASOLO ISASA, JUAN SEBASTIAN}
+\item
+  \href{https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias\&p_anyo_acad=20200\&p_idp=4636}{ROJO COBOS, FRANCISCO JAVIER}
+\end{itemize}
+
+\hypertarget{gelako-p.-1-euskara---goizezerakutsiizkutatu-azpiorriak}{%
+\subsection{32 Gelako p.-1 (Euskara - Goizez)Erakutsi/izkutatu azpiorriak}\label{gelako-p.-1-euskara---goizezerakutsiizkutatu-azpiorriak}}
+
+\begin{longtable}[]{@{}llllll@{}}
+\toprule
+Asteak & Astelehena & Asteartea & Asteazkena & Osteguna & Ostirala\tabularnewline
+\midrule
+\endhead
+2-4 & 18:30-20:00 & & & 16:30-20:00 &\tabularnewline
+6-10 & 18:30-20:00 & & & 16:30-20:00 &\tabularnewline
+17-18 & & & 14:00-15:30 & & 16:00-17:30\tabularnewline
+20-30 & & & 14:00-15:30 & & 16:00-17:30\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{irakasleak-1}{%
+\subsubsection*{Irakasleak}\label{irakasleak-1}}
+\addcontentsline{toc}{subsubsection}{Irakasleak}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias\&p_anyo_acad=20200\&p_idp=351472}{ABASOLO, JUAN}
+\item
+  \href{https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias\&p_anyo_acad=20200\&p_idp=2768}{KORTAZAR URIARTE, JON BATTI}
+\item
+  \href{https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias\&p_anyo_acad=20200\&p_idp=4636}{ROJO COBOS, FRANCISCO JAVIER}
+\end{itemize}
+
+\hypertarget{ikasgela}{%
+\subsubsection*{Ikasgela}\label{ikasgela}}
+\addcontentsline{toc}{subsubsection}{Ikasgela}
+
+\begin{itemize}
+\tightlist
+\item
+  2S08M - IRAKASLEEN ESKOLAKO ERAIKIN HORIZONTALA - LEIOA
+\end{itemize}
 
 \hypertarget{testuingurua}{%
 \chapter{Testuingurua}\label{testuingurua}}
 
 \href{../Diapoak/01_Diap-testuingurua.html}{\includegraphics{assets/badge.png}}
 
-Hizkuntza Didaktikaz aritu aurretik, hizkuntza, didaktika obejktua, alegia, inguratzen duten ezaugarriez jardun beharra dugu.
+Hizkuntza Didaktikaz aritu aurretik, hizkuntza, didaktika honen objektua alegia, inguratzen duten ezaugarriez jardun beharra dugu.
 
 \hypertarget{hizkuntza-desberdinek-egoera-desberdinak}{%
 \section{Hizkuntza desberdinek egoera desberdinak}\label{hizkuntza-desberdinek-egoera-desberdinak}}
 
-\begin{enumerate}
-\def\labelenumi{\Roman{enumi}.}
-\setcounter{enumi}{19}
-\item
-  Mendea arte: Eskolan gehien irakatsi diren hizkuntzak, hizkuntza handiak izan dira(Idiazabal, 2003; Martí eta beste, 2005).
-\item
-  Mendeko estatu mugen sorrerak hizkuntza gutxituen presentzia eskolan erabat baztertu zuen, eskolak hizkuntza nagusia eta bakarra irakatsI behar zuen. Nazio(kultura, hizkuntza, etnia)-estatu(ofiziala, administratiboa) kontzeptuak bateratu ziren.
-\end{enumerate}
+Begiratzen badugu zen zen egoera XX. mendera arte, ikusiko dugu eskolan gehien irakatsi diren hizkuntzak, hizkuntza handiak izan direla (Idiazabal, 2003; Martí eta beste, 2005).
 
-Hizkuntzak nazioak eta estatuak baino askoz ere ugariagoak dira, eta ez datoz bat lurraldeetako mugekin, gainera, hizkuntza asko estatu bat baino gehiagoko lurretan hitz egiten dira(euskara adibide argia da).
+Kontuan izan behar da XIX. mendeko estatu mugen sorrerak hizkuntza gutxituen presentzia eskolan erabat baztertu zuela, eskolak hizkuntza nagusia eta bakarra irakatsi behar zuen. \emph{Nazioa}\footnote{kultura, hizkuntza, etnia} eta \emph{estatua}\footnote{ofiziala, administratiboa} kontzeptuak bat egin ziren.
+
+Hizkuntzak nazioak eta estatuak baino askoz ere ugariagoak dira, eta ez datoz bat lurraldeetako mugekin, gainera, hizkuntza asko estatu bat baino gehiagoko lurretan hitz egiten dira (euskara, gaztelania eta frantsesa adibide argiak dira).
 
 \begin{quote}
 El concepto de lengua no es preciso, ni las fronteras lingüísticas coinciden con las geográficas. En España se reconocen cuatro lenguas, pero hay otras más, desde el leonés, el bable o la fabla aragonesa, hasta las lenguas de los emigrantes o el caló. Así y todo, España es uno de los países lingüísticamente más homogéneos, pues tiene una lengua oficial y común, el español, que hablan y entienden la mayoría de sus ciudadanos.''
@@ -212,51 +574,49 @@ El concepto de lengua no es preciso, ni las fronteras lingüísticas coinciden c
 \hypertarget{zer-da-hizkuntzaren-didaktika}{%
 \section{Zer da Hizkuntzaren Didaktika}\label{zer-da-hizkuntzaren-didaktika}}
 
-\begin{itemize}
-\tightlist
-\item
-  Prozesu luze baten ondorioz finkatu da ikerketa eremu gisa. Eremu ezberdinetatik aztertua izan da: hizkuntzalaritza, pedagogia, filologia\ldots{}
-\item
-  Hizkuntzaren irakaskuntzak aspaldiko erroak ditu, hizkuntza ulertzeko erak irakasteko modu anitzak ekarri baititu.
-\item
-  70eko hamarkadan has daiteke hizkuntzaren didaktikaz hitz egiten lehenago hizkuntzalaritza aplikatuaz hitz egiten zen, eta psikologiako, soziologiako eta pedagogiako jakintza alde batera uzten zen.
-\end{itemize}
+Jakintza eremu hau prozesu luze baten ondorioz finkatu da ikerketa eremu bakar gisa. Berez, eremu ezberdinetatik aztertua izan da \emph{hizkuntza} objektuaren didaktika: hizkuntzalaritzatik, pedagogiatik, filologiatik, politikatik eta abarretik.
+
+Hizkuntzaren irakaskuntzak aspaldiko erroak ditu; hizkuntza bera zer den ulertzeko era bakoitzak irakasteko era edo filosofiaren bat ekarri baitu, horrela, aniztasun handia aurki dezakegu hizkuntzaren didaktikaren arloaren historian eta jardunean.
+
+70eko hamarkadan has daiteke hizkuntzaren didaktikaz hitz egiten. Lehenago hizkuntzalaritza aplikatuaz hitz egiten zen, eta ordura arte psikologiako, soziologiako eta pedagogiako jakintzak alde batera uzten ziren.
 
 \begin{quote}
-``Así (Galisson, 1986) podemos decir que la Didáctica de la Lengua dependió directamente de la Linguistica y que de ahí surgió la Lingüística Aplicada la cual intentó responder ante todo a las cuestiones ¿Qué? y ¿Cómo?. A continuación y bajo la ínfluencia de la Psicología evolutiva, de la Psicología educativa y de la Psicología cognitiva, añadió una preocupación por la metodología. Finalmente y del conjunto de una serie de disciplinas tales como las Ciencias del Lenguaje, de la Psicología, de la Sociedad y de la Educación surgiría con entidad propia la Didáctica de la Lengua y la Literatura que intenta responder a las preguntas: ¿Por qué enseñar lengua y Literatura?, ¿Qué enseñar?, ¿A quién enseñar?, ¿Cómo? Y ¿Dónde?.''
+Así (Galisson, 1986) podemos decir que la Didáctica de la Lengua dependió directamente de la Lingüística y que de ahí surgió la Lingüística Aplicada, la cual intentó responder ante todo a las cuestiones ¿Qué? y ¿Cómo?.
 
---López Valero, 1998: 222
+A continuación y bajo la ínfluencia de la Psicología Evolutiva, de la Psicología Educativa y de la Psicología Cognitiva, añadió una preocupación por la metodología.
+
+Finalmente y del conjunto de una serie de disciplinas tales como las Ciencias del Lenguaje, de la Psicología, de la Sociedad y de la Educación surgiría con entidad propia la Didáctica de la Lengua y la Literatura que intenta responder a las preguntas: ¿Por qué enseñar lengua y Literatura?, ¿Qué enseñar?, ¿A quién enseñar?, ¿Cómo? Y ¿Dónde?
+
+--\emph{López Valero}, 1998: 222
 \end{quote}
 
-Galdera horiek erantzuteko sortu zen diziplina hau honela definitu dezakegu:
+Galdera horiei erantzuna emateko sortu zen \textbf{Hizkuntzaren Didaktika} diziplina hau honela defini dezakegu:
 
 \begin{quote}
-La didáctica de la lengua constituye un campo de conocimiento que tiene como objeto el complejo proceso de enseñar y aprender lenguas con el fin de mejorar las prácticas y adecuarlas a las situaciones cambiantes en que esta actividad se desarrolla
+La Didáctica de la Lengua constituye un campo de conocimiento que tiene como objeto el complejo proceso de enseñar y aprender lenguas con el fin de mejorar las prácticas y adecuarlas a las situaciones cambiantes en que esta actividad se desarrolla
 
 --Camps, Guasch y Ruiz Bikandi, 2010, p.~71
 \end{quote}
 
+Gogoratu ditzagun, beraz, azpimarratutako ideiak:
+
+\emph{Ezagutza eremu bat da bere objektua hizkuntzak irakastea eta ikastea duena, jarduna hobetu eta egokitzea helburu}
+
 \hypertarget{hizkuntzak-zergatik-galtzen-dira}{%
 \section{Hizkuntzak zergatik galtzen dira?}\label{hizkuntzak-zergatik-galtzen-dira}}
 
-\begin{itemize}
-\tightlist
-\item
-  Kanpoko indarren ondorioz: \textbf{Globalizazioa.} Sarritan kanpoko
-  indarrak barnekoari eragiten dio. Hizkuntza indartsuak,
-  aurrerapen soziala eta pertsonala, hizkuntza natiboak desagertu.
-\item
-  Barneko indarren ondorioz: \textbf{Estatu/nazio} kontzeptuak
-\end{itemize}
+Kanpoko indarren ondorioz: \textbf{Globalizazioa.} Sarritan kanpoko indarrak barnekoari eragiten dio. Hizkuntza indartsuak, aurrerapen soziala eta pertsonala, hizkuntza natiboak desagertu.
 
-Hizkuntza inperialistak hedatzeak homogeneotasun linguistikoa ekarri du eta ez aniztasuna, izan ere hiztunek euren hizkuntza natiboak baztertu dituzte edota ez dituzte zaindu behar bezala, sarritan pentsatu baitute hizkuntza horiek garapen eta aurrerapen sozialaren nahiz pertsonalaren kontra doazela. Era honetan, bost kontinenteetako hizkuntza internazionalek beste zenbait baztertu eta desagertarazi dituzte, Moreno-Cabrera (2008)
+Barneko indarren ondorioz: \textbf{Estatu/nazio} kontzeptuaren eragina ulertu behar da (grikoa, behe-prusiera edo euskara bera, bakoitza bere historiarekin).
+
+Moreno-Cabrerak (2008) horren azalpena ekskaintzen du hurrengoa azalduaz: Hizkuntza inperialistak hedatzeak homogeneotasun linguistikoa ekarri du eta ez aniztasuna, izan ere hiztunek euren hizkuntza natiboak baztertu dituzte edota ez dituzte zaindu behar bezala, sarritan pentsatu baitute hizkuntza horiek garapen eta aurrerapen sozialaren nahiz pertsonalaren kontra doazela. Era honetan, bost kontinenteetako hizkuntza internazionalek beste zenbait baztertu eta desagertarazi dituzte.
 
 \hypertarget{bost-kontinenteetako-hizkuntzen-egoeraz}{%
 \section{Bost kontinenteetako hizkuntzen egoeraz}\label{bost-kontinenteetako-hizkuntzen-egoeraz}}
 
 Hurrengo taulak hizkuntzen egoera erakusten du, ikuskera administratibo-kauntitatibo batetik gehienbat.
 
-\begin{longtable}[]{@{}llllll@{}}
+\begin{longtable}[]{@{}lrrrrr@{}}
 \caption{Hizkuntzen egoera administratiboa (Iturria:\href{https://www.ethnologue.com/}{ethnologue.com}).}\tabularnewline
 \toprule
 & Amerikak & Afrika & Europa & Asia & Ozeania\tabularnewline
@@ -274,14 +634,14 @@ Desagertzeko zorian & 339 & 131 & 51 & 187 & 208\tabularnewline
 \bottomrule
 \end{longtable}
 
-Kontuan izan hizkuntza instituzionalez ari garenean, ez garela ari 578 hizkuntzez, kontinente guztietako gehiketak horretara eramango gintuzke-eta. Europako hizkuntza nagusiak dira Ameriketan, Afrikan, Asian eta Ozeanian hizkuntza instituzionalak, hala nola, ingelesa, gaztelania, frantsesa eta portugesa.
+Kontuan izan, hizkuntza instituzionalez ari garenean, ez garela ari 578 hizkuntzez. Kontinente guztietako gehiketak horretara eramango bagintuzke ere, Europako hizkuntza nagusiak dira Ameriketan, Afrikan, Asian eta Ozeanian hizkuntza instituzionalak; hala nola, ingelesa, gaztelania, frantsesa, portugesa eta neerlandera.
 
 Hizkuntza minorizatuen gaineko testigantza batzuk Nathional Geographic-eko erreportai \href{http://www.nationalgeographic.com.es/mundo-ng/grandes-reportajes/lenguas-peligro-extincion_6174/26}{honetan}.
 
 \hypertarget{hizkuntzen-egoera-eta-hizkuntzen-didaktikak}{%
 \section{Hizkuntzen egoera eta hizkuntzen didaktikak}\label{hizkuntzen-egoera-eta-hizkuntzen-didaktikak}}
 
-Lewisek 2005ean azaldu zuenez bada ezaugarri zerrenda bat kontuan hartu beharrekoa:
+Lewisek 2005ean azaldu zuenez, bada ezaugarri zerrenda bat kontuan hartu beharrekoa:
 
 \begin{itemize}
 \tightlist
@@ -294,7 +654,7 @@ Lewisek 2005ean azaldu zuenez bada ezaugarri zerrenda bat kontuan hartu beharrek
 \item
   Hizkuntzaren erabilera-eremu berrien sorrera
 \item
-  Alfabetatzerako eta hezkuntzarako materialak egotea (gramatikak, hiztegiak, idatzizko literatura, hedabideak\ldots{})
+  Alfabetatzerako eta hezkuntzarako materialak egotea (gramatikak, hiztegiak, idatzizko literatura, hedabideak\ldots)
 \item
   Gobernu eta erakundeen babesa
 \item
@@ -402,7 +762,7 @@ Hizkuntza bat \textbf{ikastean }hiru faktorek eragiten dutela dio, gainera, osag
 Testu horiek era egokian ``erabiltzea'' nahi badugu, gure lan eduki nagusiak trebezia mailakoak izango dira: hitz egiten, idazten, irakurtzen, entzuten irakastea izango da gure zeregina.
 Eta testu horiek gero eta hobeto erabili ahal izateko, gero eta hobeto hitz egin, idatzi, irakurri edo entzuteko, egiten dugun horren inguruko hausnarketa beharko dugu. Gramatika eta hizkuntzaren sistemaren gaineko lanak beste era bateko funtzioa hartzen du, ez da aprendizaiaren helburu, baizik eta baliabide
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{erreferentziak}{%
 \section{Erreferentziak}\label{erreferentziak}}
@@ -417,7 +777,9 @@ López Valero, A. (1998). Hacia una conformación histórica de la Didáctica de
 
 Martí, F., Ortega, P., Idiazabal, I., Barreña, A., Juaristi, P., Junyent, C., \ldots{} Amorrortu, E.(2005).\emph{Hizkuntzen mundua. Munduko hizkuntzei buruzko txostena}. Bilbo: UPV/EHU.
 
-Moreno-Cabrera, J. C.(2008).\_El nacionalismo lingüístico: Una ideología destructiva\_. Barcelona: Ediciones Península.
+Moseley, Christopher (ed.). \emph{2010. Atlas of the World's Languages in Danger}, 3rd edn. Paris:UNESCO Publishing. Online version: \url{http://www.unesco.org/culture/en/endangeredlanguages/atlas}
+
+Moreno-Cabrera, J. C.(2008). \emph{El nacionalismo lingüístico: Una ideología destructiva}. Barcelona: Ediciones Península.
 
 Sánchez, J. M.(1991). \emph{Un futuro para nuestro pasado. Claves de la recuperación del Euskara y teoría social de las lenguas} (Libk. 1). Donostia: Gipuzkoako Foru Aldundia. Berreskuratua \href{http://www.ehu.eus/ojs/index.php/ASJU/article/view/8593-\%28e\%29tik}{http://www.ehu.eus/ojs/index.php/ASJU/article/view/8593}-tik
 
@@ -425,11 +787,7 @@ Sánchez, J. M.(1991). \emph{Un futuro para nuestro pasado. Claves de la recuper
 \chapter*{Lehenengo jarduera}\label{lehenengo-jarduera}}
 \addcontentsline{toc}{chapter}{Lehenengo jarduera}
 
-\begin{itemize}
-\tightlist
-\item
-  {[} {]} Landu Idiazabal \& Manterola (2008) testua, bertako kontzeptu gakoak ulertze aldera.
-\end{itemize}
+Landu Idiazabal \& Manterola (2008) testua, bertako kontzeptu gakoak ulertze aldera.
 
 \hypertarget{taldearen-hizkuntz-esperientzia}{%
 \subsection{Taldearen hizkuntz esperientzia}\label{taldearen-hizkuntz-esperientzia}}
@@ -441,8 +799,8 @@ Ikaskideen aurreko aurkezpena egin behar duzue aipatu testuko gako idiak kontuan
 
 \begin{itemize}
 \tightlist
-\item
-  {[} {]} Irakurri \emph{Txepetx}ek\footnote{\emph{Txepetx} da Jose Maria Sánchezen desizena. izenpetu ere bere desizenez egiten zuenez, hori ere erabiltzeko ohitura zabaldu da.} dioena eta erantzun galderak. Horretarako aparteko laburpena dago, Telegrameko kanaleko lehenengotariko dokumentua edo \href{https://github.com/JuanAbasolo/HD/blob/01-gaia/1_Txepetx_testuak.pdf}{esteka honetan}.
+\item[$\square$]
+  Irakurri \emph{Txepetx}ek\footnote{\emph{Txepetx} da Jose Maria Sánchezen desizena. izenpetu ere bere desizenez egiten zuenez, hori ere erabiltzeko ohitura zabaldu da.} dioena eta erantzun galderak. Horretarako aparteko laburpena dago, Telegrameko kanaleko lehenengotariko dokumentua edo \href{https://github.com/JuanAbasolo/HD/blob/01-gaia/1_Txepetx_testuak.pdf}{esteka honetan}.
 \end{itemize}
 
 \hypertarget{ahozko-aurkezpena-ebaluatzeko-errubrika}{%
@@ -469,24 +827,24 @@ Hurrengo errubrika hau erabiliko dugu ahozko ebaluazioetarako
 \begin{minipage}[t]{0.11\columnwidth}\raggedleft
 \textbf{Taldeko lana}\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Taldekideen artean ez da elkarlanik egon eta lanean nabaritzen da\strut
+Taldekideen artean ez da elkarlanik egon eta lanean nabaritzen da \textbar{} Kohesio falt\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Kohesio falta dago, lana taldekideen artean banatu dute baina oso zaila da tokatu zaien zatiaz hitz egitea.\strut
+Kohesio falta dago, lana taldekideen artean banatu dute baina oso zaila da tokatu zaien zatiaz hitz egitea. \textbar{} Lana taldekideen artean banat\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Lana taldekideen artean banatu dute baina azken entsegua denen artean egin dute.\strut
+Lana taldekideen artean banatu dute baina azken entsegua denen artean egin dute. \textbar{} Koordinazio eta komunikazio han\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Koordinazio eta komunikazio handia dago, guztiek tokatu zaien zatia ondo egin dute.\strut
+Koordinazio eta komunikazio handia dago, guztiek tokatu zaien zatia ondo egin dute. \textbar{}\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.11\columnwidth}\raggedleft
 \textbf{Edukiak}\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Edukiak txarto hautau dituzte, txarto antolatuta daude eta errepikatuta\strut
+Edukiak txarto hautau dituzte, txarto antolatuta daude eta errepikatuta \textbar{} Edukiak egokia\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Edukiak egokiak dira, baina edukiak hobeto antolatu daitezke\strut
+Edukiak egokiak dira, baina edukiak hobeto antolatu daitezke \textbar{} Edukiak ondo auk\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Edukiak ondo aukeratu dituzte, ondo antolatuta daude eta ondo azalduta\strut
+Edukiak ondo aukeratu dituzte, ondo antolatuta daude eta ondo azalduta \textbar{} Edukiak ond\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Edukiak ondo aukeratu dituzte, ondo antolatuta daude eta ondo azalduta.\strut
+Edukiak ondo aukeratu dituzte, ondo antolatuta daude eta ondo azalduta. \textbar{}\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.11\columnwidth}\raggedleft
 \textbf{Irudia}\strut
@@ -497,7 +855,7 @@ Aurkezpena ondo ikusten da, baina itxusia da.\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
 Argazkiak ondo aukeratu dira, testua orekatua da, ondo ikusten da.\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Argazkiak ondo aukeratu dira, testua orekatua da, gainera, ikusten dena oso erakargarria da.\strut
+Argazkiak ondo aukeratu dira, testua orekatua da, gainera, ikusten dena oso erakargarria da. \textbar{}\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.11\columnwidth}\raggedleft
 \textbf{Ahozko aurkezpena}\strut
@@ -508,7 +866,7 @@ Aurkezpena egokia da, baina denboretara egokitzeko arazoak. Ahozkera arazoak.\st
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
 Aurkezpen egokia, denboretara ondo egokituta, ahozkera ona.\strut
 \end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\raggedright
-Aurkezpen egokia, denboretara ondo egokituta, ahozkera ona. Gorpuzkerak, aurpegikerak eta keinuek diskurtsoari indarra ematen diote.\strut
+Aurkezpen egokia, denboretara ondo egokituta, ahozkera ona. Gorpuzkerak, aurpegikerak eta keinuek diskurtsoari indarra ematen diote. \textbar{}\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
@@ -560,7 +918,7 @@ Horrela, gaurko lege-markoa ulertzeko paradigamren eraikuntzatik hasi, legeek eg
   Oinarrizko Hezkuntzarako curriculum Dekretua + Nafarroako ordenamendua
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{hegoaldeko-lege-markoa}{%
 \section{Hegoaldeko lege markoa}\label{hegoaldeko-lege-markoa}}
@@ -586,7 +944,7 @@ La LOMCE hace especial incidencia con vistas a la transformación del sistema ed
 Real Decreto 126/2014, de 28 de febrero, por el que se establece el currículo básico de la Educación Primaria\href{https://www.boe.es/buscar/pdf/2014/BOE-A-2014-2222-consolidado.pdf}{*}.
 
 \begin{quote}
-\ldots{}se entiende por currículo la regulación de los elementos que determinan los procesos de enseñanza y aprendizaje para cada una de las enseñanzas\ldots{}
+\ldots se entiende por currículo la regulación de los elementos que determinan los procesos de enseñanza y aprendizaje para cada una de las enseñanzas\ldots{}
 \end{quote}
 
 Ikasgaien antolaketa ere dekretu horretan zehazten da:
@@ -759,7 +1117,7 @@ Lehen Hezkuntzari dagozkion adierazpenezko, prozedurazko eta jarrerazko edukiak 
   Hizkuntzaren alderdi soziala.
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{kapituluko-erreferentziak}{%
 \section{Kapituluko erreferentziak}\label{kapituluko-erreferentziak}}
@@ -772,7 +1130,7 @@ Delors, J., International Commission on Education for the Twenty-First Century, 
 
 EURIDYCE (Arg.). (2002). \emph{Key competencies: a developing concept in general compulsory education}. Brussels.
 
-Europar Batasuna. (2006). \emph{2006/962/CE Recommendation of the European Parliament and of the Council of 18 December 2006 on key competences for lifelong learning} (Gomendioa No.~32006H0962) (or. 10\textasciitilde{}18). Estrasburgo: Europako Parlamentua. Berreskuratua \url{http://data.europa.eu/eli/reco/2006/962/oj/eng} -etik
+Europar Batasuna. (2006). \emph{2006/962/CE Recommendation of the European Parliament and of the Council of 18 December 2006 on key competences for lifelong learning} (Gomendioa No.~32006H0962) (or. 10\textasciitilde18). Estrasburgo: Europako Parlamentua. Berreskuratua \url{http://data.europa.eu/eli/reco/2006/962/oj/eng} -etik
 
 EURYDICE. (2003). \emph{Las Competencias clave: un concepto en expansión dentro de la educación general obligatoria.} Madril: Eurydice. Unidad Española. Berreskuratua \url{http://www.hezkuntza.ejgv.euskadi.eus/contenidos/informacion/dig_publicaciones_innovacion/es_curricul/adjuntos/14_curriculum_competencias_300/300001c_Pub_UE_Eurydice_Competencias_c.pdf} -etik
 
@@ -883,7 +1241,7 @@ Ikasleen arteko harremanak sortzea; ez bakarrik egiturak ezagutzea.Ikasleek hizk
   Elkarrizketak
 \end{itemize}
 
-\ldots{}eta ekintza horiek hurrengoak eska ditzakete:
+\ldots eta ekintza horiek hurrengoak eska ditzakete:
 
 \begin{itemize}
 \tightlist
@@ -1026,13 +1384,13 @@ errezitatua adierazteko era emozio horretarako moldatuko dute.
 \begin{itemize}
 \tightlist
 \item
-  gaitasunak eta helburuak (behar bereziak, irakurzaletasuna, kokapena curriculum dekretuan\ldots{})
+  gaitasunak eta helburuak (behar bereziak, irakurzaletasuna, kokapena curriculum dekretuan\ldots)
 \item
-  taldekatzea (teknikarik? \ldots{})
+  taldekatzea (teknikarik? \ldots)
 \item
   berdinen arteko tutoretza (bai/ez)
 \item
-  familien, ingurunearen\ldots{} parte hartzea (bai/ez, zein neurritan\ldots{})
+  familien, ingurunearen\ldots{} parte hartzea (bai/ez, zein neurritan\ldots)
 \item
   baliabideak edo materialak originalak diren eta zein neurritan
 \item
@@ -1043,6 +1401,8 @@ Taldeko txosten bat egin behar duzue, zeinetan sekuentzia didaktiko bat baino ge
 
 \hypertarget{idatzizko-trebetasunak-lehen-hezkuntzan}{%
 \chapter{Idatzizko trebetasunak Lehen Hezkuntzan}\label{idatzizko-trebetasunak-lehen-hezkuntzan}}
+
+\href{../Diapoak/04_Diap-idatzizko_trebetasunak.html}{\includegraphics{assets/badge.png}}
 
 \textbf{Irakurtzea eta idaztea elkarrekin doaz}
 
@@ -1110,7 +1470,7 @@ Leer es el proceso mediante el cual se comprende el texto escrito.\\
 \item
   Komunikazioaren ikuspegitik: Gizartean betetzen duen helburuari ematen dio
   garrantzia: Ingurua material inprimatuetan (Kartelak, elikagaien etiketak,
-  seinaleak\ldots{}) aberatsa dela ikusita, haurrak ulertzen hasten dira zer funtzio betetzen
+  seinaleak\ldots) aberatsa dela ikusita, haurrak ulertzen hasten dira zer funtzio betetzen
   dituzten irakurtzeak eta idazteak beren gizartean.
 \item
   Kodea ikastearen ikuspegitik: zentzua ematen diegu idatzizko zeinuei, eta soinuen
@@ -1395,8 +1755,8 @@ Umea aktiboa da, ingurunetik datorkion informazioa etengabe
 interpretatzen eta berrantolatzen ari delako. Umeek hasiera batean ez dute ikusten idazkera hizkuntzari lotua. Hori prozesu geldo eta luze baten helmuga da.
 Idazkera sistema interpretatu nahian, hipotesiak formulatu, frogatu eta birformulatu egin beharko ditu.
 
-\hypertarget{kapituluko-erreferentziak-1}{%
-\section{Kapituluko erreferentziak}\label{kapituluko-erreferentziak-1}}
+\hypertarget{kapituluko-erreferentziak}{%
+\section{Kapituluko erreferentziak}\label{kapituluko-erreferentziak}}
 
 Cassany, D., Luna, M., \& Sanz, G. (2000). \emph{Enseñar lengua} (6. arg.). Bartzelona: Graó.
 
@@ -1614,7 +1974,7 @@ Izena, berez, \emph{ikus-entzunezko metodo estruktural-globala (IEEG, SGAV)} du;
 \hypertarget{ko-hamarkadaren-erditik-aurrera}{%
 \subsection{80ko hamarkadaren erditik aurrera}\label{ko-hamarkadaren-erditik-aurrera}}
 
-\textbf{Planteamendu komunikatiboa} garatu zen orduan; horretan, egiazko komunikazio egoerak indartzen dira. Komunikazioaren unitatetzat testua hartzen da; erabiltzen diren testuak egiazkoak dira eta testuinguratuta lantzen dira, testuinguru jakinetan. Komunikazioa bultzatzeko, lanketak elkarlanean egiten dira (bikoteka, taldeka \ldots{}). Helburua izaten du hizkuntzaren lau trebetasunen lanketa.
+\textbf{Planteamendu komunikatiboa} garatu zen orduan; horretan, egiazko komunikazio egoerak indartzen dira. Komunikazioaren unitatetzat testua hartzen da; erabiltzen diren testuak egiazkoak dira eta testuinguratuta lantzen dira, testuinguru jakinetan. Komunikazioa bultzatzeko, lanketak elkarlanean egiten dira (bikoteka, taldeka \ldots). Helburua izaten du hizkuntzaren lau trebetasunen lanketa.
 
 \hypertarget{xxi.-mendean}{%
 \subsection{XXI. mendean}\label{xxi.-mendean}}
@@ -1691,7 +2051,7 @@ Hizkuntzaren dimentsio semantiko-komunikatiboari begiratzen zaio. Hizkuntza tres
 \item
   Hizketarako egiturak irakatsi behar dira.
 \item
-  Nozioen (hitzen esangura, denbora\ldots{}) eta funtzioen (agurtzea, aurkeztea\ldots{}) arteko loturari garrantzia.
+  Nozioen (hitzen esangura, denbora\ldots) eta funtzioen (agurtzea, aurkeztea\ldots) arteko loturari garrantzia.
 \item
   Irakaskuntza programek honakoak zehaztu behar ditu ikaslea komunikatzeko:
 \item
@@ -1906,7 +2266,7 @@ Hizkuntzen ikaskuntza komunikatiboaren ildokoa da ikaskuntza kooperatiboa. Hona 
   Komunikazio- eta ikas-estrategiak lantzen dira.
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{jardueratxoa-33}{%
 \chapter*{Jarduera(txoa) (3/3)}\label{jardueratxoa-33}}
@@ -2005,8 +2365,8 @@ Zaila da hizkuntza honetan aritzea!
 
 Eta asko-askotan, galdera guztien ardatza estrategiak eta motibazioak zehazten dute!
 
-\hypertarget{testuingurua-1}{%
-\section{Testuingurua}\label{testuingurua-1}}
+\hypertarget{testuingurua}{%
+\section{Testuingurua}\label{testuingurua}}
 
 80ko eta 90eko hamarkadetanko \textbf{eredu psikopragmatiko}ari jarraituz:
 
@@ -2287,7 +2647,7 @@ Horiek zerrendatzeko O'Malleyk eta Chamotek (1990) egindako tipologia erabiliko 
   \end{itemize}
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{klasean-egin-beharreko-ariketa}{%
 \section*{Klasean egin beharreko ariketa}\label{klasean-egin-beharreko-ariketa}}
@@ -2307,7 +2667,7 @@ Teorian eta galdetegiko erantzunetan oinarrituta, erantzun galderok:
 
 Sortu grafikoa eta azaldu.
 
-\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{ikas-estrategiak-lantzeko-proposamenak}{%
 \subsection{Ikas-estrategiak lantzeko proposamenak}\label{ikas-estrategiak-lantzeko-proposamenak}}
@@ -2363,8 +2723,8 @@ A. Chamot eta M. O'Malley, 1994
   Literatura
 \end{itemize}
 
-\hypertarget{adibideak-1}{%
-\paragraph{Adibideak}\label{adibideak-1}}
+\hypertarget{adibideak}{%
+\paragraph{Adibideak}\label{adibideak}}
 
 \textbf{Topatu zure bidea jarduera}
 
@@ -2466,8 +2826,8 @@ ikasleek hitzik gabeko komikietako hutsuneak xede hizkuntzan bete beharko dituzt
 
 Oxford, 1989: 112
 
-\hypertarget{erreferentziak-1}{%
-\section{Erreferentziak}\label{erreferentziak-1}}
+\hypertarget{erreferentziak}{%
+\section{Erreferentziak}\label{erreferentziak}}
 
 Chamot, A. U., \& O'Malley, J. M. (1994). \emph{The CALLA handbook: implementing the cognitive academic language learning approach /}. Reading, Mass.: Addison-Wesley Pub. Co.,.
 
@@ -2531,6 +2891,5 @@ Jarduera hau klasean azalduko da ondo. Baina, despistatuentzat lehenengo pausuak
 \item
   Era desberdinetakoen adibide itxurosoak aurkitu
 \end{itemize}
-
 
 \end{document}

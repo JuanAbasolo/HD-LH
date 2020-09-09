@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Idatzizko trebetasunak   LH-n</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="04_Diap-idatzizko_trebetasunak_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="04_Diap-idatzizko_trebetasunak_files/reveal.js-3.3.0.1/css/theme/simple.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <script src="04_Diap-idatzizko_trebetasunak_files/header-attrs-2.3/header-attrs.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Idatzizko trebetasunak <br> LH-n</h1>
+    <h3 class="date">Hizkuntzaren Didaktika</h3>
+</section>
+
+<section id="irakurri-idatzi-kontatu" class="title-slide slide level1">
+<h1>Irakurri, idatzi, kontatu</h1>
+<p>Irakurtzea eta idaztea elkarrekin doaz</p>
+</section>
+
+<section id="section" class="title-slide slide level1">
+<h1></h1>
+<p><strong>Legeak eta ideiak</strong></p>
+<p><strong>Irakurketa prozesua</strong></p>
+<p><strong>Irakurketaren irakaspena</strong></p>
+<p><strong>Alfabetatzea</strong></p>
+<p><strong>Irakaskuntza LHn</strong></p>
+<p><strong>Estrategiak</strong></p>
+<p><strong>Irakurri eta idatzi</strong></p>
+<p><strong>Kontatzea</strong></p>
+<p><strong>Trebetasunak + sekuentzia didaktikoak</strong></p>
+<p><strong>Lana</strong></p>
+</section>
+
+<section>
+<section id="section-1" class="title-slide slide level1">
+<h1></h1>
+<blockquote>
+<p><small>Ahozko komunikazioarekin lotutako hizkuntza-trebetasunak ahaztuak izan ditu erabat gure eskola-sistemak. Eta, hala eta guztiz ere, behar-beharrezkoa da hizkuntza-trebetasunon garrantzia behar bestetan azpimarratzea, horiek emango baitiete aukera ikasleei beren komunikaziorako konpetentzia guztiz garatzeko, ikasgelan ikaskideen arteko komunikazioa errazteko eta esaten dituztenen esanahia behar bezala negoziatzeko. Esan gabe doa, noski, hori guztia funts-funtsezkoa dela gure neska-mutilek, arlo guztietan landuko dituzten ezagueren bitartez, beren trebetasun kognitibo-linguistikoak ganoraz landu ditzaten. Horrekin batera, baina, Euskal Autonomia Erkidegoko egoera soziolinguistikoa zein den kontuan hartuta, eta gure hizkuntzaren erabilera soziala eta normalizazio-prozesua sustatuko baditugu, begi-bistakoa da eskolan nahitaez bultzatu behar dugula gure ikasleek elkarrekin euskaraz hitz egin dezaten.</p>
+<p>Era berean, garbi esan behar dugu hitz egitea eta entzutea, bai eta irakurtzea eta idaztea ere, elkarrekin estu lotuta daudela, eta, beraz, komeni dela <strong>ikaskuntza-jardueren sekuentzian hizkuntza-erabileraren bi alderdiak, ulerkuntza eta ekoizpena, integratzea</strong>.</small></p>
+</blockquote>
+<p>Eusko Jaurlaritzaren Legebiltzarra (2015:153)</p>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<h3 id="zer-da-irakurtzea">Zer da irakurtzea?</h3>
+<p>PISA</p>
+<blockquote>
+<p>… se entiende por competencia lectora la capacidad de un individuo para <strong>comprender</strong>, <strong>utilizar</strong> y <strong>reflexionar</strong> sobre textos escritos, con el propósito de alcanzar sus objetivos personales, desarrollar su conocimiento y sus capacidades, y participar en la sociedad.</p>
+</blockquote>
+<p>OECD, (2014:7) <a href="https://www.oecd.org/pisa/39730818.pdf">*</a></p>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<p><a href="https://en.wikipedia.org/wiki/Progress_in_International_Reading_Literacy_Study" title="Progress in International Reading Literacy Study (PIRLS)">PIRLS</a>:</p>
+<blockquote>
+<p>La competencia lectora es la habilidad para <strong>comprender</strong> y <strong>utilizar</strong> las formas lingüísticas requeridas y/o valoradas por el individuo. Los lectores son capaces de construir significado a partir de una variedad de textos. Leen para aprender, para participar en las comunidades de lectores del ámbito escolar y de la vida cotidiana, y para su disfrute personal.</p>
+</blockquote>
+<p>Ministerio de Educación y Ciencia (2007:19)</p>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p>Oinarrian ideiok daude:</p>
+<ul>
+<li>Prozesu <strong>konstruktiboa</strong> eta <strong>interaktiboa</strong> da.</li>
+<li>Esanahia testua eta irakurlearen arteko interakziotik <strong>eraikitzen</strong> da, horri irakurlearen eskarmentuak eragiten dio.</li>
+<li>Esanahia eraikitzeko prozesuan trebetasun linguistikoek, estrategia kognitiboek eta metakognitiboek nahiz aurretiko jakintzen elkarreraginek hartzen dute parte.</li>
+</ul>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<p><strong>Irakurtzea ulertzea da</strong></p>
+<blockquote>
+<p>Leer es el proceso mediante el cual se comprende el texto escrito.</p>
+</blockquote>
+<p>Solé (1987)</p>
+</section></section>
+<section>
+<section id="irakurtzearen-ezaugarriak" class="title-slide slide level1" data-background="https://i1.wp.com/listverse.com/wp-content/uploads/2010/02/chinese-b.jpg">
+<h1 data-background="https://i1.wp.com/listverse.com/wp-content/uploads/2010/02/chinese-b.jpg"><span style="color: red;">Irakurtzearen ezaugarriak</span></h1>
+
+</section>
+<section id="prozesu-aktiboa-da" class="slide level2">
+<h2>Prozesu <strong>aktiboa</strong> da:</h2>
+<ul>
+<li>Testuaren esanahia eraiki egiten da; aurrez irakurleak dakienaren eta helburuen bitartez.</li>
+<li>Helburua lortzea da.</li>
+<li>Testuaren eta irakurlearen arteko elkarreraginezko prozesua da.</li>
+</ul>
+</section>
+<section id="aurreikuspen-eta-inferentzia-prozesua-da" class="slide level2">
+<h2><strong>Aurreikuspen</strong> eta <strong>inferentzia</strong> prozesua da:</h2>
+<ul>
+<li>Testua irakurri baino lehen hipotesiak egiten dira eta irakurri ahala baieztatu eta ezeztatu.</li>
+</ul>
+</section>
+<section id="ariketa-bat-irakurri-hurrengo-testua" class="slide level2">
+<h2>Ariketa bat: <strong>irakurri hurrengo testua</strong></h2>
+</section>
+<section id="roken-is-dodelijk" class="slide level2">
+<h2>roken is dodelijk</h2>
+</section>
+<section id="section-6" class="slide level2" data-background="http://www.vanbun.com/wp-content/uploads/2014/03/sigaretten.jpg">
+<h2 data-background="http://www.vanbun.com/wp-content/uploads/2014/03/sigaretten.jpg">·</h2>
+</section>
+<section id="erak-edo-motak" class="slide level2">
+<h2>Erak edo <strong>motak</strong>:</h2>
+<ul>
+<li>Isilean</li>
+<li>Ahoz gora</li>
+</ul>
+</section></section>
+<section>
+<section id="irakurketaren-irakasbide-tradizionalak" class="title-slide slide level1">
+<h1>Irakurketaren irakasbide tradizionalak</h1>
+
+</section>
+<section id="komunikazioaren-ikuspegitik" class="slide level2">
+<h2>Komunikazioaren ikuspegitik:</h2>
+<p>Gizartean betetzen duen <strong>helburuari</strong> ematen dio garrantzia: <strong>Ingurua</strong> material inprimatuetan (Kartelak, elikagaien etiketak, seinaleak…) aberatsa dela ikusita, haurrak ulertzen hasten dira zer <strong>funtzio</strong> betetzen dituzten irakurtzeak eta idazteak beren gizartean.</p>
+</section>
+<section id="kodea-ikastearen-ikuspegitik" class="slide level2">
+<h2>Kodea ikastearen ikuspegitik:</h2>
+<p>Zentzua ematen diegu idatzizko zeinuei, eta <strong>soinuen eta letren arteko harremana</strong> finkatzen dugu. Kontzientzia fonologikoa landu behar da.</p>
+</section></section>
+<section>
+<section id="alfabetatze-prozesuaren-faseak" class="title-slide slide level1">
+<h1>Alfabetatze prozesuaren faseak</h1>
+<ul>
+<li>Partziala</li>
+<li>Osoa</li>
+<li>Finkatua</li>
+</ul>
+</section>
+<section id="alfabetatze-partzialeko-fasea" class="slide level2">
+<h2>Alfabetatze partzialeko fasea</h2>
+<p>5 urteen ingurukoa</p>
+<ul>
+<li>Zenbait letraren izena edo soinua ikasi dute ikasleek.</li>
+<li>Ez dituzte erabiltzen letra guztiak, batzuk bakarrik; oro har, hasierako letrak eta, hainbatetan, azkena.</li>
+<li>Oker irakurtzen dituzte antzeko letrez osatutako hitzak.</li>
+</ul>
+</section>
+<section id="alfabetatze-osoko-fasea" class="slide level2">
+<h2>Alfabetatze osoko fasea</h2>
+<p>6 urteen ingurukoa</p>
+<ul>
+<li>Ikasleek letren eta soinuen arteko lotura guztiak ikasi dituzte.</li>
+<li>Hitzak irakurtzeko erabil ditzakete.</li>
+<li>Zehazki irakurtzen dute.</li>
+<li>Nekez nahasten dituzte antzeko letrez osatutako hitzak</li>
+</ul>
+</section>
+<section id="alfabetatze-finkatuko-fasea" class="slide level2">
+<h2>Alfabetatze finkatuko fasea</h2>
+<p>7 urteen ingurukoa</p>
+<ul>
+<li>Osotasuntzat ikasten dituzte hitzak, eta buruz irakurtzen dituzte.</li>
+<li>Lotura fonologikoek ere hartzen dute parte fase honetan.</li>
+</ul>
+</section></section>
+<section>
+<section id="ariketa-bat-eskolan-zer-du-gogoko-umeak" class="title-slide slide level1">
+<h1>Ariketa bat eskolan: <em>Zer du gogoko umeak?</em></h1>
+<p></br> </br></p>
+<p><a href="http://munitibarkoeskolahlhi.blogspot.com/search?updated-max=2016-05-04T15:20:00%2B02:00&amp;max-results=7">+</a> - <a href="http://munitibarkoeskolahlhi.blogspot.com/search?updated-max=2016-04-13T15:48:00%2B02:00&amp;max-results=7&amp;start=7&amp;by-date=false">++</a></p>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+<h3 id="kjo9i874ºghu">KJO9I874ºGHU</h3>
+<p><img data-src="https://3.bp.blogspot.com/-WaASfY4W9xQ/VyNe3wCa69I/AAAAAAAADHg/qugElR2vz9I0ocM0W7qndYENcG8RKSo8wCLcB/s400/00000001.jpg" title="pelikula bat mounstroana" /></p>
+<p>3 urte eta 5 hile</p>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
+<h3 id="ociea-uex-oaea">OCIEA UEX OAEA</h3>
+<p><img data-src="https://2.bp.blogspot.com/-N5cl93A8OHs/VyNdyKTU39I/AAAAAAAADHQ/GONzy_0K2rMXmRLQ3YlHDYdmCegQJkgvgCLcB/s400/00000001.jpg" title="lo egitea eta muinekakaz jolastea" /></p>
+<p>4 urte eta hilabete</p>
+</section>
+<section id="section-9" class="slide level2">
+<h2></h2>
+<h3 id="lorak-bie">LORAK BIE</h3>
+<p><img data-src="https://1.bp.blogspot.com/-rZ1z8axBA5Y/Vx4aCMOQxMI/AAAAAAAADEQ/CEY-vPGqSoo9Bn6axXLC0MYjbwAjQUEzACKgB/s1600/00000001.jpg" title="lorak batzie" style="width:50.0%" /></p>
+<p>4 urte eta 5 hile</p>
+</section>
+<section id="section-10" class="slide level2">
+<h2></h2>
+<h3 id="dansa-egta">DANSA EGTA</h3>
+<p><img data-src="https://2.bp.blogspot.com/-RdW9-J-z2Nc/Vw5MIvlnMAI/AAAAAAAAC6Y/2Pk1a5irrgY0tkNLsTAKDrDQBsi_ma9awCLcB/s400/Aina.jpg" title="dantza egitea" /></p>
+<p>4 urte eta 7 hile</p>
+</section>
+<section id="section-11" class="slide level2">
+<h2></h2>
+<h3 id="kopako-cokoa">KOPAKO COKOA</h3>
+<p><img data-src="https://3.bp.blogspot.com/-xwrzNIpACVQ/VxonJpwxWOI/AAAAAAAADCU/R77z7uaHf6QrFFdFtX_A4yBdTwy4ZGxrACLcB/s1600/00000001.jpg" title="kopako jokoa" style="width:40.0%" /></p>
+<p>4 urte eta 9 hile</p>
+</section>
+<section id="section-12" class="slide level2">
+<h2></h2>
+<h3 id="mueai-jolsta">MUEAI JOLSTA</h3>
+<p><img data-src="https://3.bp.blogspot.com/-XQahBvBqyuk/Vx4aHbbEODI/AAAAAAAADEM/1me_0Z3tY9Ux0BfZS-0zyP4uGwipkAw2wCLcB/s400/00000001.jpg" title="muinekakin jolastea" /></p>
+<p>4 urte eta 9 hile</p>
+</section>
+<section id="section-13" class="slide level2">
+<h2></h2>
+<h3 id="paioj-olastea">PAIOJ OLASTEA</h3>
+<p><img data-src="https://3.bp.blogspot.com/-Fub22OuPfoA/VxDRnRv94oI/AAAAAAAAC7E/N5j5XE36F_A53NWct5P_3vgtpo32-oppACLcB/s400/Lander.jpg" title="Playmobilakin jolastea" /></p>
+<p>5 urte eta 4 hile</p>
+</section>
+<section id="section-14" class="slide level2">
+<h2></h2>
+<h3 id="eskuppilotan-golstea">ESKUPPILOTAN GOLSTEA</h3>
+<p><img data-src="https://3.bp.blogspot.com/-8f0IDZWlwAQ/VxDR13b4toI/AAAAAAAAC7M/NTvaQtPlnqofNZX57LPx8snK29JC7qYpwCLcB/s400/Aner.jpg" title="eskupilotan jolastea" /></p>
+<p>6 urte eta hile bi</p>
+</section></section>
+<section>
+<section id="irakurketaren-irakaskuntza-lehen-hezkuntzan" class="title-slide slide level1">
+<h1>Irakurketaren irakaskuntza <br>Lehen Hezkuntzan</h1>
+
+</section>
+<section id="section-15" class="slide level2">
+<h2></h2>
+<h3 id="lehen-zikloan">Lehen zikloan</h3>
+<p>6 eta 8 urteen artean</p>
+<ul>
+<li>Idatzizko kodean, testu- eta formatu-motetan eta idatzizko hizkuntza erabiltzeko moduetan sakontzen dute.</li>
+<li>Fonemaren eta grafemaren arteko harremana sendotzen dute.</li>
+<li>LHko lehen zikloa funtsezkoa da idatzizko kodeaz jabetzeko. Gela arruntean (berezko esparruan) heldu behar diogu jabekuntza horri.</li>
+</ul>
+</section>
+<section id="section-16" class="slide level2">
+<h2></h2>
+<h3 id="bigarren-zikloan">Bigarren zikloan</h3>
+<p>9 eta 11 urteen bitartean</p>
+<ul>
+<li><em>Irakurtzen ikasteari</em> uzten diote eta <em>ikasteko irakurtzen</em> hasten dira</li>
+<li>Irakurketaren beste funtzio batzuk<br> Besteak beste aisia, plazera, pertsonen arteko komunikazioa eta komunikazio soziala.</li>
+</ul>
+</section>
+<section id="section-17" class="slide level2">
+<h2></h2>
+<p><img data-src="https://www.minecraft.net/content/dam/archive/0cb0bf82fb4938850268ab2bf29a6164-header.jpg.transform/minecraft-image-large/image.jpg" /></p>
+</section></section>
+<section>
+<section id="helburua" class="title-slide slide level1">
+<h1>Helburua…</h1>
+
+</section>
+<section id="irakurtzen-duguna-ulertzen-irakastea" class="slide level2">
+<h2>irakurtzen duguna ulertzen irakastea:</h2>
+<ul>
+<li>I<em>rakurketaren funtsa</em> da irakurtzen duguna ulertzea</li>
+<li>Prozesu horren bidez eratzen dugu testuaren esanahia.</li>
+<li>Prozesu konplexua da testuen esanahia eratzea.</li>
+<li>Ez da prozesu automatikoa. Parte hartzen dute: motibazioak, intentzioak, pentsatzeko eta arazoak konpontzeko prozesuek eta aurre-ezagutzek.</li>
+</ul>
+</section>
+<section id="irakurritakoaren-ulermen-estrategiak" class="slide level2">
+<h2>Irakurritakoaren ulermen estrategiak</h2>
+<ul>
+<li>Dekodetzea ez da arazoa eta hitzak identifikatzeko mekanismoak garatuta daude.</li>
+<li>Testuari buruz aldez aurretik dakiena erabili behar du.</li>
+<li>Ulermen estrategiak erabiltzea komenigarria da: <br> Metakognizioaren garrantzia (zer eta nola egiten duen ohartzea).</li>
+</ul>
+</section>
+<section id="irakurtzeko-estrategiak" class="slide level2">
+<h2>Irakurtzeko estrategiak</h2>
+<blockquote>
+<p>Arazoak konpontzeko edo helburu jakin bat lortzeko eman behar diren pausoak.</p>
+</blockquote>
+<p>Ruiz &amp; Aldekoa (2000)</p>
+</section>
+<section id="section-18" class="slide level2">
+<h2></h2>
+<dl>
+<dt>Irakurri aurrekoak</dt>
+<dd>garrantzitsuenak jatorrizko hiztun ez diren irakurleentzat.
+</dd>
+<dt>Irakurri bitartean</dt>
+<dd>?
+</dd>
+<dt>Irakurri ondoren</dt>
+<dd>estrategiok irakurleak zer ulertzen duen eta zer ez ohartaraztea dute helburu
+</dd>
+</dl>
+</section></section>
+<section>
+<section id="section-19" class="title-slide slide level1">
+<h1></h1>
+<p>Isabel Soléren berbaldi bateko bideoak: <a href="http://leer.es/web/leer/-/estrategias-de-lectura-1-introduccion" title="Estrategias de lectura">Irakurketarako estrategiak</a>, <a href="http://leer.es/web/leer/-/estrategias-de-lectura-10-ayudas-previas">aurretiko laguntzak</a>, <a href="http://leer.es/web/leer/-/estrategias-de-lectura-12-despues-de-leer">irakurri ondorengoak</a> eta <a href="http://leer.es/web/leer/-/estrategias-de-lectura-11-durante-la-lectura">irakurri bitartean</a></p>
+<p>Daniel Cassanyk sortutako baliabideak, ezagutu beharrekoak:</p>
+<ul>
+<li><a href="http://educalab.es/documents/235507/242734/ep_eso_prof_10clavesparaensenarainterpretar.pdf">Irakurtzen <strong>irakasteko</strong> irizpideak</a></li>
+<li><a href="http://leer.es/documents/235507/353837/art_alum_ep_eso_leereradigital_10clavesparaaprenderrainterpretar_danielcassany.pdf">Irakurtzen <strong>ikasteko</strong> irizpideak</a></li>
+</ul>
+</section>
+<section id="irakurketa-aurrekoak" class="slide level2">
+<h2>Irakurketa aurrekoak:</h2>
+<p>Helburuak zehazteko eta aldez aurretiko jakintza ateratzeko:</p>
+<ul>
+<li>Xedea ulertzea</li>
+<li>Kasuan kasuko edukiaren jakintza aktibatzeko</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><strong>Xedea ulertzea</strong> <small> <br> Zergatik irakurri behar dut? <br> Zertarako irakurri behar dut?</small></p>
+<p><strong>Kasuan kasuko edukiaren jakintza aktibatzeko</strong><small> <br> Zer dakit testu horren edukiaz? <br> Testu mota horretaz?<br> Zer dakit autore horretaz? <br> Zer dakit testuinguruaz?</small></p>
+</section>
+<section id="irakurri-bitartean" class="slide level2">
+<h2>Irakurri bitartean:</h2>
+<p>Ulertzen dena berrikusi eta egiaztatu, akatsen aurrean neurriak hartzeko jarduerak:</p>
+<ul>
+<li>Inferentziak</li>
+<li>Berrikustea eta laburtzea</li>
+<li>Zentzua neurtzea</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><strong>Inferentziak</strong>: <small><br> Zein izan liteke eleberri edo ipuin honen amaiera? <br> Zer proposatuko nuke hemen planteatzen den arazoa konpontzeko? <br> Zer esan nahi ote dezake hitz ezezagun horrek?</small></p>
+<p><strong>Berrikustea eta laburtzea: <small><br></strong> Zer azaldu nahi zen paragrafo, atal edo kapitulu honetan? <br> Zer erlazio du aurrekoekin? <br> Berregin al dezaket azaldutako argudioen haria? </small></p>
+<p><strong>Zentzua neurtzea: <small><br></strong> Ba ote du zentzurik testu honek? <br> Koherentea da? <br> Ulertzen da? <br> Zer zailtasun ditu?</small></p>
+</section>
+<section id="irakurri-ondoren" class="slide level2">
+<h2>Irakurri ondoren</h2>
+<p>Irakurri bitartean lortutako ezagutza laburtzeko, sintetizatzeko eta hedatzeko jarduerak.</p>
+<ul>
+<li>Arreta ideia nagusira zuzentzea</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><strong>Arreta ideia nagusira zuzentzea: <small><br></strong> Zein da testuak ematen duen informazio ezinbestekoa, irakurketa-helburua lortzekoa?<br> Zer informazio jo ditzaket garrantzi gutxikoa? <br> Eta funtsezkoa? <br> Zer ekarpen egiten du testuak nik ez nekienik? <br> Nola antolatuko ditut ideia nagusiak zentzua izango duen testu batean?</small></p>
+</section></section>
+<section>
+<section id="testu-motak-ere-badu-garrantzia" class="title-slide slide level1">
+<h1>Testu motak ere badu garrantzia…</h1>
+
+</section>
+<section id="section-20" class="slide level2">
+<h2></h2>
+<p>1994n lau makrotrebetasun, helburu komunikatiboak lortzeko: <strong>hitz egitea</strong>, <strong>entzutea</strong>, <strong>irakurtzea</strong> eta <strong>idaztea</strong>. Eta mikrotrebetasunak barne, esaterako: <small></p>
+<ol type="1">
+<li>Idazteko sistema: grafiak identifikatu, hitzak nola ordenatzen diren ikasi…</li>
+<li>Hitzak eta esaldiak: hitzak identifikatu eta esanahia…</li>
+<li>Gramatika eta sintaxia: perpausaren zatiak identifikatu…</li>
+<li>Testua eta komunikazioa (mezua): informazioa bilatu, testua zehatz ulertu, abiadura egokian irakurtzen jakin…</li>
+</ol>
+<p></small> Horretarako proposamen didaktikoak aurkeztu zituen.</p>
+</section>
+<section id="section-21" class="slide level2">
+<h2></h2>
+<p>Gaur egun, ordea,…</p>
+<p><a href="http://www.youtube.com/watch?v=lsHc3SWiWEQ" title="Daniel Cassany"><img data-src="http://img.youtube.com/vi/lsHc3SWiWEQ/0.jpg" alt="Prácticas letradas contemporáneasa" /></a></p>
+<p>Prácticas letradas contemporáneas por Daniel Cassany: la perspectiva sociocultural (10 min), <a href="https://en.wikipedia.org/wiki/Progress_in_International_Reading_Literacy_Study">zerrenda osoan</a></p>
+</section>
+<section id="section-22" class="slide level2" data-background="#FF00FF">
+<h2 data-background="#FF00FF"></h2>
+<p>Oinarrizko erderazko baliabidea: <a href="http://leer.es/" class="uri">http://leer.es/</a></p>
+<p>MECD-ek</p>
+</section></section>
+<section>
+<section id="idaztea-eta-irakurtzea-lotura-duten-prozesu-bi-dira" class="title-slide slide level1">
+<h1>Idaztea eta irakurtzea lotura duten prozesu bi dira?</h1>
+<p><strong>Tradizioan</strong>: lehenengo irakurtzen eta gero idazten.</p>
+<p><strong>Ondoren</strong>: batera irakatsi eta ikasi beharreko jarduera bakartzat hartu zen, fase bi dituena.</p>
+<p>Zergatik?<br />
+Biek testu idatzia hartzen dutelako oinarritzat.</p>
+<p><small>Fons Esteve (2004: 20)</small></p>
+</section>
+<section id="section-23" class="slide level2">
+<h2></h2>
+<p><strong>Garatuta ote dituzte ikasleek gaitasunak agintzen zaizkien testuak sortzeko?</strong></p>
+<blockquote>
+<p>“Se escribe mucho pero se enseña poco a escribir… las prácticas explícitas de escritura, cuyo objetivo es incrementar las capacidades compositivas del alumnado, son escasas, breves y disciplinarias de lengua.”</p>
+<p>–Cassany, Luna, &amp; Sanz (2000:128)</p>
+</blockquote>
+</section>
+<section class="slide level2">
+
+<p>Egoera horri aurre egiteko zenbait proposamen sortu ziren ideia honetan oinarrituta: Jakintza eraiki behar da ikasleak lehendik dakiena aprobetxatuta eta egoera komunikatibo jakinetan. (konstruktibismoaren ideia)</p>
+</section>
+<section id="section-24" class="slide level2">
+<h2></h2>
+<p>Ikuspegi konstruktibista ezin da uztartu metodologia didaktiko zehatz batekin.</p>
+<p>Ez dago metodologia didaktiko konstruktibistarik; dagoena zera da: izaera konstruktibista duen estrategia didaktiko orokor bat.</p>
+</section></section>
+<section>
+<section id="section-25" class="title-slide slide level1">
+<h1></h1>
+
+</section>
+<h3 id="hizkuntza-idatzia-eta-konstruktibismoa">Hizkuntza idatzia eta konstruktibismoa</h3>
+<section id="section-26" class="slide level2">
+<h2></h2>
+<h4 id="zer-ikasten-dugu-irakurtzen-ikasten-dugunean">Zer ikasten dugu irakurtzen ikasten dugunean?</h4>
+<h4 id="zer-ikasten-dugu-idazten-ikasten-dugunean">Zer ikasten dugu idazten ikasten dugunean?</h4>
+</section>
+<section class="slide level2">
+
+<p>Konstruktibisten arabera, mezuak interpretatzen eta ekoizten ikasten dugu.</p>
+<p>Irakurtzea eta idaztea ekintza sinbolikoak dira. Zergatik? Ez dira diruditena (gainazal baten gaineko trazu batzuk), baizik eta adierazten dutena.</p>
+</section>
+<section id="section-27" class="slide level2">
+<h2></h2>
+<h4 id="zergatik-esaten-da-umeak-hizkuntza-idatzia-eraiki-egiten-duela">Zergatik esaten da umeak hizkuntza idatzia eraiki egiten duela?</h4>
+<p><br> Umea aktiboa da, ingurunetik datorkion informazioa etengabe interpretatzen, berrantolatzen, ari delako. Umeek hasiera batean ez dute ikusten idazkera hizkuntzari lotua.</p>
+</section>
+<section id="section-28" class="slide level2">
+<h2></h2>
+<h4 id="hori-prozesu-geldo-eta-luze-baten-helmuga-da.">Hori prozesu geldo eta luze baten helmuga da.</h4>
+<p>Idazkera sistema interpretatu nahian, «hipotesiak» formulatu, frogatu eta birformulatu egin beharko ditu.</p>
+</section></section>
+<section>
+<section id="kontatzea-eskolako-beste-egiteko-bat" class="title-slide slide level1" data-background="#00FF00">
+<h1 data-background="#00FF00">Kontatzea: eskolako beste egiteko bat</h1>
+
+</section>
+<section id="section-29" class="slide level2">
+<h2></h2>
+<p><small>orain…</small></p>
+</section></section>
+<section id="上班" class="title-slide slide level1" data-background="#FF2200">
+<h1 data-background="#FF2200">上班 !!</h1>
+
+</section>
+    </div>
+  </div>
+
+  <script src="04_Diap-idatzizko_trebetasunak_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="04_Diap-idatzizko_trebetasunak_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: true,
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '04_Diap-idatzizko_trebetasunak_files/reveal.js-3.3.0.1/plugin/notes/notes.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

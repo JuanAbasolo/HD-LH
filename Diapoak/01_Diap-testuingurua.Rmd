@@ -187,6 +187,8 @@ Gogoeta metalinguistikoa
 
 # {data-background="01_03-HD.png"}
 
+![](01_03-HD.png)
+
 ##
 
 Testu horiek era egokian “erabiltzea” nahi badugu, gure lan eduki nagusiak trebezia mailakoak izango dira: hitz egiten, idazten, irakurtzen, entzuten irakastea izango da gure zeregina. 

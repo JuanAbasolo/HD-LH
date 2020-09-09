@@ -10,8 +10,14 @@ output:
     transition: fade
 ---
 
-# Hizkuntzen irakaskuntzan ikuspegi eta metodo ezberdinak eraman dira
-praktikara eta ahozko komunikazioak ez du beti toki bera izan:
+# Historiatik hasi
+
+**Hizkuntzen irakaskuntzan ikuspegi eta metodo ezberdinak eraman dira praktikara eta ahozko komunikazioak ez du beti toki bera izan**
+
+- XX\. mendearen aurretik
+- XX\. mendea
+- Ikuspegi eta metodo alternatiboak
+- Gaur
 
 ## 
 

@@ -1,4 +1,4 @@
-# Ikasgaiaren gida
+# Ikasgaiaren gida: Hizkuntzaren eta Literaturaren Didaktika - 25868
 
 Pantailan duzun dokumentuak ikasgairako beharko dituzun elementu gehienak ditu:
 
@@ -12,10 +12,14 @@ Goiko "download" botoian PDF edo EPUB formatuan ere jaits dezakezue gida.
 
 Nirekin kontaktuan jartzeko, Telegram erabiltzea gomendatzen dizuet, korreoak eta abar baino eraginkorragoa baita. Hala ere, batzuetan ibili ez arren eta biltegiratze gaitasun urria badu ere, denok dugunez UPV/EHUko korreoa, komunikazio ofizialak bertatik egin behar ditugu. Aurten zuen banaketa zerrenda ez da ibili ondo, zuen taldeari baino iazkoari bidaltzen dizkio lehenengo astean, behintzat.
 
-+ Telegram: [abildua]JuanAbasolo
-+ emaila: juan[puntu]abasolo[abildua]ehu[puntu]eus
-+ Bulegoa: 3S40B
-+ Tutoretzak: https://labur.eus/JAbasolo-tutoretzak  
+Telegram 
+   : [abildua]JuanAbasolo
+emaila 
+   : juan[puntu]abasolo[abildua]ehu[puntu]eus
+Bulegoa
+   : 3S40B
+Tutoretzak
+   : https://labur.eus/JAbasolo-tutoretzak  
    Aurretik norbaitekin hitzordua egiten dudanean hor ere agertuko da. Fakultatekoa edo GAURrekoa bitaminizatua, beraz.
 
 **Ikastaldea**: LH 32, 3. maila, lehenengo lauhilekoan.
