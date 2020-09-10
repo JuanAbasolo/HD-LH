@@ -163,7 +163,10 @@ Orientabidetzat hartu behar da hurrengo zerrenda, **ez beza ahaz ikasleak**.
 
 Lehenengo egunean ikasgaiaren, irakaslearen eta ikasleen aurkezpena egiteaz gain, lehenengo gaia landuko da
 
-Egin beharrekoa: Talde laneko aurkezpena
+Zereginak  
+  : Lan-taldeak sortzea
+  : Talde laneko laburpena
+  : Talde laneko aurkezpena prestatu
 
 Oharrak  
   : Klase egun hau on-line izango da.
@@ -229,13 +232,11 @@ Egin beharreko lana
 Aurreko asteko gaiari emango zaio jarraipena.
 
 Egin beharreko lana  
-  : Estrategien gaineko baliabide didaktiko kokatua garatzea
+  : Estrategien gaineko baliabide didaktiko kokatua garatzea eta aurkeztea
 
-##  `r advdate(mon, 10)`: Ebaluazioak
+##  `r advdate(mon, 10)`: Gogoeta metalinguistikoa
 
-Azkenenko asteko lehenengo eguna erabiliko da, baliabide didaktikoen aurkezpenerako.
-
-Azken egunean azterketarako nondik norakoetan jardungo da gehienbat... irakasleak nahi lukeen moduan edukirik atzeratu ez bada. DElako egoerak atzeratzea eragingo balu, azken klase hori erabiliko litzateke amaitzeko.
+Azkenengo asteko lehenengo eguna erabiliko da gaiari sarrera emateko eta bigarrena horretan sakondu eta lanketa praktikoak egiteko.
 
 
 # Ikasgaiko bibliografia
@@ -246,6 +247,8 @@ Azken egunean azterketarako nondik norakoetan jardungo da gehienbat... irakaslea
 \noindent
 
 Araka ikertaldea. (2003). Araka ikertaldea - legeria [web]. Berreskuratua 2018(e)ko otsailakaren 9a, [http://www.vc.ehu.es/araka/orri12.htm](http://www.vc.ehu.es/araka/orri12.htm) etik
+
+Boersma, P., & Weenink, D. (2014). *Praat: Doing phonetics by computer*. Institute of Phonetic Sciences of the University of Amsterdam. http://www.praat.org/
 
 Cassany, D., Luna, M., & Sanz, G. (2000). *Enseñar lengua* (6. arg.). Bartzelona: Graó.
 
@@ -268,6 +271,8 @@ EURIDYCE (Arg.). (2002). _Key competencies: a developing concept in general comp
 EURYDICE. (2003). _Las Competencias clave: un concepto en expansión dentro de la educación general obligatoria._ Madril: Eurydice. Unidad Española. Berreskuratua [http://www.hezkuntza.ejgv.euskadi.eus/contenidos/informacion/dig\_publicaciones\_innovacion/es\_curricul/adjuntos/14\_curriculum\_competencias\_300/300001c\_Pub\_UE\_Eurydice\_Competencias\_c.pdf](http://www.hezkuntza.ejgv.euskadi.eus/contenidos/informacion/dig_publicaciones_innovacion/es_curricul/adjuntos/14_curriculum_competencias_300/300001c_Pub_UE_Eurydice_Competencias_c.pdf) -etik
 
 Etxebarria, A. (2008). Estrategiak hizkuntzen ikaskuntzan eta irakaskuntzan: M. O'Malley-ren eta A. Chamot-en ekarpena. *Litterae vasconicae: euskeraren iker atalak*, (10), 241–279.
+
+Etxebarria, A., Gaminde, I., Romero, A., & Iglesias, A. (2016). Desarrollo de la competencia prosódica en la lectura en voz alta: Importancia de las pausas. Ocnos: Revista de Estudios Sobre Lectura, 15(2), 110–118. https://doi.org/10/gf7hm7
 
 Etxebarria, A., & Garay, U. (2012). Estilo de aprendizaje basado en el uso de estrategias cognitivas por medio de aplicaciones virtuales. Learning style based on the use of cognitive strategies by virtual applications. In *V Congreso Mundial de Estilos de Aprendizaje*. Santander. Berreskuratua <https://dialnet.unirioja.es/servlet/articulo?codigo=4636744>-(e)tik
 
