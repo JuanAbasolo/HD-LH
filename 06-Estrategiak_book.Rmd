@@ -3,7 +3,9 @@ output:
   pdf_document: default
   html_document: default
 ---
-# Hizkuntzen irakaskuntza estrategiak [![GitPitch](assets/badge.png)](https://gitpitch.com/JuanAbasolo/HD/04-gaia?grs=github&t=simple)
+# Hizkuntzen irakaskuntza estrategiak
+
+[![GitPitch](assets/badge.png)](../Diapoak/06_diapo_estrategiak.html)
 
 Hizkuntzen ikaskuntzaren gainean hainbat zalantza eta galdera etortzen zaizkio irakasle zein ikasleari, askotan antzerako erantzuna izaten dutena
 
@@ -373,7 +375,7 @@ Tardif, J. (1992). *Pour un enseignement stratégique. L’apport de la psycholo
 
 Villanueva, M. L., & Navarro, I. (1997). *Los estilos de aprendizaje de lenguas: un estudio sobre las representaciones culturales y las interacciones de enseñanza-aprendizaje*. Castellón: Universitat Jaume I.
 
-# Laugarren jarduera {-}
+## Laugarren jarduera {-}
 
 Jarduera hau klasean azalduko da ondo. Baina, despistatuentzat lehenengo pausuak:
 
