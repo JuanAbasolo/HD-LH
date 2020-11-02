@@ -192,21 +192,39 @@ Sánchez, J. M.(1991). *Un futuro para nuestro pasado. Claves de la recuperació
 Landu Idiazabal & Manterola (2008) testua, bertako kontzeptu gakoak ulertze aldera.
 
 
-### Taldearen hizkuntz esperientzia
+### Taldearen hizkuntz esperientzia {-}
 
 Ikaskideen aurreko aurkezpena egin behar duzue aipatu testuko gako idiak kontuan izanda.
 
-## Hautazko jarduera:
+Honako kontzeptuok argitu behar dira irakurketaren bitartez, gero aurkezpenean egoki erabiltzeko.
+
++ Ikasteredua
++ Eskola hizkuntza
++ Murgilketa eredua
++ D eredua
++ D eredu naturala
++ Tesuinguru euskalduna
++ Elebiduna
++ Elebakarra
++ Bigarren hizkuntza (H~2~)
++ Garapen interdependentea
+
+Lanerako galdera  
+  : Zein izan da zuon taldearen eskarmentua hizkuntzaren ikaskuntzari dagokionez?
+
+## Hautazko jarduera: {-}
 
 - [ ] Irakurri *Txepetx*ek[^1] dioena eta erantzun galderak. Horretarako aparteko laburpena dago, Telegrameko kanaleko lehenengotariko dokumentua edo [esteka honetan](https://github.com/JuanAbasolo/HD/blob/01-gaia/1_Txepetx_testuak.pdf).
 
 # Ahozko aurkezpena ebaluatzeko errubrika {-}
 
+
+
 Hurrengo errubrika hau erabiliko dugu ahozko ebaluazioetarako
 
 |                         | **Hobekuntza franko behar duen lana**    | **Lan nahikoa**                        | **Lan ona**                            | **Lan bikaina**                        |
 | ----------------------: | :--------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-|      **Taldeko lana** | Taldekideen			artean ez da elkarlanik egon eta lanean nabaritzen da | Kohesio			falta dago, lana taldekideen artean banatu dute baina oso zaila da			tokatu zaien zatiaz hitz egitea. | Lana			taldekideen artean banatu dute baina azken entsegua denen artean			egin dute. | Koordinazio			eta komunikazio handia dago, guztiek tokatu zaien zatia ondo egin			dute. |
-|             **Edukiak** | Edukiak			txarto hautau dituzte, txarto antolatuta daude eta errepikatuta | Edukiak			egokiak dira, baina edukiak hobeto antolatu daitezke | Edukiak			ondo aukeratu dituzte, ondo antolatuta daude eta ondo azalduta | Edukiak			ondo aukeratu dituzte, ondo antolatuta daude eta ondo azalduta. |
-| **Irudia** | Kolorea txarto aukeratu da, testu gehiegi, ikusteko arazoak. | Aurkezpena ondo ikusten da, baina itxusia da. | Argazkiak	 ondo aukeratu dira, testua orekatua da, ondo ikusten da. | Argazkiak	 ondo aukeratu dira, testua orekatua da, gainera, ikusten dena oso erakargarria da. |
-| **Ahozko aurkezpena** | Isilune handiak, testua falta da. Diapositibak nahasten dira. | Aurkezpena egokia da, baina denboretara egokitzeko arazoak. Ahozkera arazoak. | Aurkezpen egokia, denboretara ondo egokituta, ahozkera ona. | Aurkezpen egokia, denboretara ondo egokituta, ahozkera ona.	Gorpuzkerak,			aurpegikerak eta keinuek diskurtsoari indarra ematen diote. |
+|      **Taldeko lana** | Taldekideen artean ez da elkarlanik egon eta lanean nabaritzen da | Kohesio falta dago, lana taldekideen artean banatu dute baina oso zaila da tokatu zaien zatiaz hitz egitea. | Lana taldekideen artean banatu dute baina azken entsegua denen artean egin dute. | Koordinazio eta komunikazio handia dago, guztiek tokatu zaien zatia ondo egin dute. |
+|             **Edukiak** | Edukiak txarto hautau dituzte, txarto antolatuta daude eta errepikatuta | Edukiak egokiak dira, baina edukiak hobeto antolatu daitezke | Edukiak ondo aukeratu dituzte, ondo antolatuta daude eta ondo azalduta | Edukiak ondo aukeratu dituzte, ondo antolatuta daude eta ondo azalduta. |
+| **Irudia** | Kolorea txarto aukeratu da, testu gehiegi, ikusteko arazoak. | Aurkezpena ondo ikusten da, baina itxusia da. | Argazkiak  ondo aukeratu dira, testua orekatua da, ondo ikusten da. | Argazkiak ondo aukeratu dira, testua orekatua da, gainera, ikusten dena oso erakargarria da. |
+| **Ahozko aurkezpena** | Isilune handiak, testua falta da. Diapositibak nahasten dira. | Aurkezpena egokia da, baina denboretara egokitzeko arazoak. Ahozkera arazoak. | Aurkezpen egokia, denboretara ondo egokituta, ahozkera ona. | Aurkezpen egokia, denboretara ondo egokituta, ahozkera ona.	Gorpuzkerak, aurpegikerak eta keinuek diskurtsoari indarra ematen diote.|

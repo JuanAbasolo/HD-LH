@@ -57,7 +57,7 @@ Ikasgaiaren lehenengo zatian ia ez dugu erabiliko Moodle-n oinarritutako platafo
 
 **Proiektua**: 
 
-[![Syllabusa](assets/pdficon.png)](syllabusa/Syllabus_HDLH20-V1.pdf)
+[![Syllabusa](assets/pdficon.png)](syllabusa/Syllabus_HDLH20-V1-1.pdf)
 
 # Hizkuntzaren eta Literaturaren Didaktika - 25868 {-}
 
