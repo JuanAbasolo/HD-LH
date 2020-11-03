@@ -1,10 +1,28 @@
- 
-# HIZKUNTZAREN INGURUKO JARDUERA METALINGUISTIKOA
+---
+title: "Gogoeta metalinguistikoa"
+date: 'Hizkuntzaren Didaktika'
+language: eu
+output: 
+  revealjs::revealjs_presentation:
+    slide_level: 2
+    theme: simple #  "default", "simple", "sky", "beige", "serif", "solarized", "blood", "moon", "night", "black", "league", "white"
+    center: true
+    transition: fade
+---
 
-ZER DA?
-PORTAERA LINGUISTIKOA
-KONZIENTEA EZ DEN KONTROLA
-EZAGUTZA INPLIZITUA: Hitz bat beste baten ordez aukeratzea, errepikatzea argiago azaltzeko, esandako zerbait zuzentzea okerraz jabetuta…
+# Hizkuntzaren inguruko jarduera metalinguistikoa
+
+### Zer da?
+
+##
+
+>- Portaera linguistikoa
+
+>- Kontrol ez kontzientea
+>- Ezagutza inplizitua: Hitz bat beste baten ordez aukeratzea, errepikatzea argiago azaltzeko, esandako zerbait zuzentzea okerraz jabetuta…
+
+##
+
 (Rodríguez, 2013)
 Actividad metalingüística y reflexión gramatical
 
@@ -15,19 +33,16 @@ Actividad metalingüística y reflexión gramatical
 
 
 
-
 # Gramatika esplizitua
 
 
+Letrez eta soinuez hitz egiten dugu, izen mota ezberdinez (aditzak, izenak, adjektiboak…)… idatzitakoa berriro irakurtzen dugu, ondo idatzi dugun birpasatzeko.
 
-LETREZ ETA SOINUEZ HITZ EGITEN DUGU, IZEN MOTA EZBERDINEZ (ADITZAK, IZENAK, ADJEKTIBOAK…)… IDATZITAKOA BERRIRO IRAKURTZEN DUGU, ONDO IDATZI DUGUN BIRPASATZEKO.
+Hizkuntzaz dugun ezagutza osatu egiten dugu, hizkuntza bera hobeto erabiltzeko eta ulertzeko, ekintza metalinguistiko honi gramatika esplizitoa deitzen zaio, hizkuntzaz dugun ezagutza adierazteko hizkuntza-baliabideek osatzen dute gramatika esplizitoa.
 
-HIZKUNTZAZ DUGUN EZAGUTZA OSATU EGITEN DUGU, HIZKUNTZA BERA HOBETO ERABILTZEKO ETA ULERTZEKO, EKINTZA METALINGUISTIKO HONI GRAMATIKA ESPLIZITOA DEITZEN ZAIO, HIZKUNTZAZ DUGUN EZAGUTZA ADIERAZTEKO HIZKUNTZA-BALIABIDEEK OSATZEN DUTE GRAMATIKA ESPLIZITOA.
+## Metahizkuntza
 
-METAHIZKUNTZA
-
-HIZKUNTZAREN BIDEZ HIKUNTZA-EZAUGARRIEN BERRI EMATEN DA.
-ADIBIDEAK: GURUTZEGRAMAK, HIZKUNTZALARITZA (HIZKUNTZEN JATORRIA, EGITURA…)
+Hizkuntzaren bidez hikuntza-ezaugarrien berri ematen da. adibideak: gurutzegramak, hizkuntzalaritza (hizkuntzen jatorria, egitura…)
 
 # Garrantzia
 
@@ -40,15 +55,19 @@ Ekintza metalinguistiko kontzientea eskolan lantzen da, batez ere idatziaren ing
 
 (Ruiz-Bikandi, U. 2013) 
 
-# Eboluzioa
+# 
 
-a)garai edo planteamendu klasikoa. 
+### Eboluzioa
+
+##
+
+a) Garai edo planteamendu klasikoa. 
 
 + Gramatika izan du oinarri
 + Gramatika irakatsi
 + Errore gramatikalak zuzendu
 
-b) PLANTEAMENDU KOMUNIKATIBOAREN GARAIA
+b) Planteamendu komunikatiboaren garaia
 
 + Komunikazioa eskatzen duten ataza errealak erabiltzea;
 + Gramatika-zuzentasunari indarra kentzea;
@@ -56,14 +75,14 @@ b) PLANTEAMENDU KOMUNIKATIBOAREN GARAIA
 + Aintzat hartzea materialak, metodoak, ikaslearen helburuak, ikasgelaren soziologia eta beste zenbait faktore.
 
 
-Ondorioz...
+## Ondorioz...
 
 Ezagutzatik **erabilerara**
 Produktutik **prozesura**
 Esalditik testura eta **pragmatikara**
 Zuzentasunetik **egokitasunera**
 
-# Gaitasun linguistikotik komunikatibora
+## Gaitasun linguistikotik komunikatibora
 
 C) Egungo kontestualizazio eta planteamendu berriagoak: testuarena, testu-tipologiarena, diskurtsoarena, hizkuntz aniztasunarena, merkatuko premia berriena...
 
@@ -80,7 +99,11 @@ Erroreak desbideratze sistematikoak dira.
 Hutsegitea, berriz, desbideratze aldakorra da.
 Lapsusak gizakien mugapenek eragindakoak dira, eta arretarik eza, oroimen laburra edo nekea erakusten dute.
 
+#
+
 ### Errore ohikoenak 
+
+##
 
 a) Antzeko itxura duten hitzak (paronimoak): nahiz / naiz
 b) Antzeko esanahia duten hitzak (sasi sinonimoak), baina ezaugarri semantiko berberak ez dituzte: bera / berdin;
@@ -89,6 +112,8 @@ d) Erregistroak eragindakoak: hizkera (jasoa, estandarra, zientifikoa, etxekoa..
 e) Errore morfologikoak/gramatikalak/fonetikoak/lexikoak: sistema linguistikoa
 
 ## Azken finean, idatzizko testuetan ohikoenak hurrengoak dira:
+
+<small>
 
 - Mezu iluna egitea
 - Hautaketa okerra egitea
@@ -106,9 +131,14 @@ e) Errore morfologikoak/gramatikalak/fonetikoak/lexikoak: sistema linguistikoa
 - Akats puntualak
 - Irakaslearen metodologiak eragindako erroreak 
 
-# Ahozko testuan ... zer?
+</small>
 
-Hiru testu mota:
+# 
+
+### Ahozko testuan ... zer?
+
+
+## Hiru testu mota:
 
 * Ahozko bat-bateko testuak: elkarrizketak
 * Testu irakurriak
@@ -124,32 +154,58 @@ Hiru testu mota:
 
 ## Soinuen artikulazioa
 
-### Bokalak
+## Bokalak
 
-[IRUDIA]
+| **Bokalak** | **Diptongoak** |      |      |      |         |       |      |      |
+| ----------- | -------------- | ---- | ---- | ---- | ------- | ----- | ---- | ---- |
+| i           |                |      |      | u*   |         |       |      | ui** |
+|             | e              |      | o    |      | ei / eu |       | oi   |      |
+|             |                | a    |      |      |         | ai/au |      |      |
 
 Euskara Institutua, EHU, "Hots motak, euskal soinuak", Sareko Euskal Gramatika (SEG), www.ehu.eus/seg
 ISBN: 978-84-693-9891-3
 
-### Kontsonanteak
+## Kontsonanteak
 
 Artikulatorioki kontsonanteak dira aire etorrian nolabaiteko traba duten hotsak; traba izan daiteke ahots kordak estutzea, mihiarekin sabaia ukitzea, ezpainek elkar ukitzea, mihiak hobia ukitzea, eta abar. Kontsonanteak definitzeko kontuan hartzen da traba non egiten den, traba nola egiten den eta aire-etorriko zein zatirekin ekoizten den. 
 
-[IRUDIA]
+![](https://www.ehu.eus/seg/_media/fon/1/1/1/euskal_hotsen_taula.jpg)
 
 ## Ezaugarri suprasegmentalak
 
-**Azentua**: Silaba batek daraman prominentzia da.
+>- Azentua
+>- Intonazioa
+>- Abiada
+>- Etenak
+>- Bolumena
 
-**Intonazioa**: Esaldi mailakoa da eta esaldi motak bereizteko erabiltzen da (galderak, harridurazkoak, enuntziatiboak…)
+## Azentua
 
-**Abiada**: Hiztunak daukan abiadura testu egitean; hiztunaren ezaugarri pertsonalek eragina izan dezakete, baita tesua gauzatzen den egoeraren baldintzek ere. 
+Silaba batek daraman prominentzia da.
+
+## Intonazioa
+
+Esaldi mailakoa da eta esaldi motak bereizteko erabiltzen da (galderak, harridurazkoak, enuntziatiboak…)
+
+## Abiada
+
+Hiztunak daukan abiadura testu egitean; hiztunaren ezaugarri pertsonalek eragina izan dezakete, baita tesua gauzatzen den egoeraren baldintzek ere. 
+
 Geldoa: mezuari eman nahi zaion garrantziarekin lotzen da
+
 Testuen irakurketan, abiadura handiegiak, edo lar arin irakurtzeak, lapsus kopurua, artikulazio akatsak, etenen desegokitasuna eta ulermen-zailtasuna eragiten ditu.
 
-**Etenak**: Irakurketan eten grafikoekin bat etortzen dira sarritan. 
+## Etenak
+
+Irakurketan eten grafikoekin bat etortzen dira sarritan. 
+
 Akatsik ohikoena bereizi ezin daitezkeen sintagmak apurtzea izaten da.
+
 Bat-bateko testuetan eten gehiago egiten dira.
+
 Etenak isilunedunak edota soinu luzaketak izan daitezke. 
 
-**Bolumena**
+## Bolumena
+
+
+# Orain, zuen taldeko bat analizatu behar duzue artikulazioaren eta aldagai suprasegmentalen arabera  {data-background=#FF5500 }

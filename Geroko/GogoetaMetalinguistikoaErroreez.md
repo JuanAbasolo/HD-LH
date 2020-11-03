@@ -1,0 +1,62 @@
+# Gogoeta metalinguistikoa
+
+2020/11/05
+
+1. Irakurri: Ikasleen hizkuntza erroreak eta hutsegiteak: zuzentzeko proposamena
+   https://addi.ehu.es/bitstream/handle/10810/6475/Rev.%20Psicod.%2014%281%29%20-%2063-78.pdf?sequence=1&isAllowed=y
+2. Horretan oinarrituta: Idatzizko testuak zuzentzeko eredu bat sortu
+3. Hurrengo testuak zuzendu sortutako ereduaren arabera
+
+## Lehenengo testua
+
+![](Testua-7urte7hile.jpg)
+
+
+
+## Bigarren testua
+
+```
+Eskolara ez gara joaten Covid 19a agertu zelako.
+ Hasieran poz pozik sentitzen nintzen, baina gero ez nintzen hain pozik sentitzen.
+  Egunero ez den mugitzen bizikleta egiten nuen.
+   Egun ia dena jolasten ibiltzen nintzen.
+    Egoera desberdina izan da: Ezin izan gara etxetik irten. 
+    Bideojokoetan asko ibili gara. Ia denbora dena bidojokoetan ibili nintzena Jon eta ni ibiltzen izan gara.
+     Nahiz eta ez irten, dutxatu egin behar izan nintzen ama kaletik etortzen zelako.
+      Matematika eta ingelesa nire tabletetik egin izaten behar nuen Erein eta Naviotik.
+       Momentu batzutan ixilik egon behar izaten nuen aitak lana etxean egin behar izaten zuelako.
+        Ez den mugitzen bizikleta egiten nuenean beti marrazki bizidunak ikusten nituen.
+         Nire anaiaren urrtean etxean egon behar izaten genuen eta erregalo gutxi euki zituen. 
+         Ni posik egon nintzen hiru illabete falta zirelako nire urtebetetzea izateko eta nire urtebetetzean urten ahal  izango zelako. 
+         Beti edo ia beti Minecraften ibiltzen nintzen.
+          Lehenengo Legoekin ibiltzen nintzen baina gero Superzingsakin eta Zomlingsakin.
+           Egun batzutan aspertu egiten nintzen baina oso gutxitan.
+            Egun batean hasi ginen bi orduak bakarrik asteburuetan eta ez egunero moduan bideojokoetan bi ordu eta aste bitatean ordu bat.
+             Irten nintzen egunean lein baino belar askoz gehiago egon zen eta emosionatu egin nintzen. 
+             Ez ditut gauza asko egiten Covid 19a ez artzeko.
+              orain ezin dutena egin da: 1.lagunen edo edozein pertzonarengana urbildu
+              2ezin ditut eskuak aurpegira eraman
+              3ezin naiz joan kaletik nahi dotelako gauzak ikutzen ibiltzea.
+
+```
+
+
+
+## Egitekoak
+
+### Lehenengo eguna
+
+Ebaluazio arrazoitua idatzi gurasoentzat eta erroreak zuzentzeko proposamenak sortu (baliabide konkretua)
+
+Igo buzoirra idatzizko testuak zuzentzeko eredua, gurasoentzako ebaluazio arrazoitua eta erroreak zuzentzeko proposamen konkretua
+
+### Bigarren eguna
+
+Bokalak, kontsonanteak eta ezaugarri suprasegmentalak teorian oinarrituta egin beharrekoa.
+
+Haukeratu taldeko grabazio bat (klasean komentatuko dugu zein)
+
+Grabazioaren azterketa egin Praat erabilita
+
+Idatzi hobetu beharreko alderdien txostena
+

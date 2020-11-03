@@ -1,8 +1,10 @@
- 
-# HIZKUNTZAREN INGURUKO JARDUERA METALINGUISTIKOA
 
-ZER DA?
-PORTAERA LINGUISTIKOA
+# Hizkuntzaren inguruko jarduera metalinguistikoa
+
+Zer da?
+
+Portaera linguistikoa
+
 KONZIENTEA EZ DEN KONTROLA
 EZAGUTZA INPLIZITUA: Hitz bat beste baten ordez aukeratzea, errepikatzea argiago azaltzeko, esandako zerbait zuzentzea okerraz jabetuta…
 (Rodríguez, 2013)
@@ -15,19 +17,16 @@ Actividad metalingüística y reflexión gramatical
 
 
 
-
 # Gramatika esplizitua
 
 
+Letrez eta soinuez hitz egiten dugu, izen mota ezberdinez (aditzak, izenak, adjektiboak…)… idatzitakoa berriro irakurtzen dugu, ondo idatzi dugun birpasatzeko.
 
-LETREZ ETA SOINUEZ HITZ EGITEN DUGU, IZEN MOTA EZBERDINEZ (ADITZAK, IZENAK, ADJEKTIBOAK…)… IDATZITAKOA BERRIRO IRAKURTZEN DUGU, ONDO IDATZI DUGUN BIRPASATZEKO.
+Hizkuntzaz dugun ezagutza osatu egiten dugu, hizkuntza bera hobeto erabiltzeko eta ulertzeko, ekintza metalinguistiko honi gramatika esplizitoa deitzen zaio, hizkuntzaz dugun ezagutza adierazteko hizkuntza-baliabideek osatzen dute gramatika esplizitoa.
 
-HIZKUNTZAZ DUGUN EZAGUTZA OSATU EGITEN DUGU, HIZKUNTZA BERA HOBETO ERABILTZEKO ETA ULERTZEKO, EKINTZA METALINGUISTIKO HONI GRAMATIKA ESPLIZITOA DEITZEN ZAIO, HIZKUNTZAZ DUGUN EZAGUTZA ADIERAZTEKO HIZKUNTZA-BALIABIDEEK OSATZEN DUTE GRAMATIKA ESPLIZITOA.
+Metahizkuntza
 
-METAHIZKUNTZA
-
-HIZKUNTZAREN BIDEZ HIKUNTZA-EZAUGARRIEN BERRI EMATEN DA.
-ADIBIDEAK: GURUTZEGRAMAK, HIZKUNTZALARITZA (HIZKUNTZEN JATORRIA, EGITURA…)
+Hizkuntzaren bidez hikuntza-ezaugarrien berri ematen da. adibideak: gurutzegramak, hizkuntzalaritza (hizkuntzen jatorria, egitura…)
 
 # Garrantzia
 
@@ -126,7 +125,11 @@ Hiru testu mota:
 
 ### Bokalak
 
-[IRUDIA]
+| **Bokalak** | **Diptongoak** |      |      |      |         |       |      |      |
+| ----------- | -------------- | ---- | ---- | ---- | ------- | ----- | ---- | ---- |
+| i           |                |      |      | u*   |         |       |      | ui** |
+|             | e              |      | o    |      | ei / eu |       | oi   |      |
+|             |                | a    |      |      |         | ai/au |      |      |
 
 Euskara Institutua, EHU, "Hots motak, euskal soinuak", Sareko Euskal Gramatika (SEG), www.ehu.eus/seg
 ISBN: 978-84-693-9891-3
@@ -135,7 +138,7 @@ ISBN: 978-84-693-9891-3
 
 Artikulatorioki kontsonanteak dira aire etorrian nolabaiteko traba duten hotsak; traba izan daiteke ahots kordak estutzea, mihiarekin sabaia ukitzea, ezpainek elkar ukitzea, mihiak hobia ukitzea, eta abar. Kontsonanteak definitzeko kontuan hartzen da traba non egiten den, traba nola egiten den eta aire-etorriko zein zatirekin ekoizten den. 
 
-[IRUDIA]
+![](https://www.ehu.eus/seg/_media/fon/1/1/1/euskal_hotsen_taula.jpg)
 
 ## Ezaugarri suprasegmentalak
 

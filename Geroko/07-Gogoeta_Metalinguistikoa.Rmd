@@ -1,35 +1,35 @@
- 
-# HIZKUNTZAREN INGURUKO JARDUERA METALINGUISTIKOA
 
-ZER DA?
-PORTAERA LINGUISTIKOA
-KONZIENTEA EZ DEN KONTROLA
-EZAGUTZA INPLIZITUA: Hitz bat beste baten ordez aukeratzea, errepikatzea argiago azaltzeko, esandako zerbait zuzentzea okerraz jabetuta…
-(Rodríguez, 2013)
+# Hizkuntzaren inguruko jarduera metalinguistikoa
+
+[![GitPitch](assets/badge.png)](../Diapoak/07_GogoMetaDiapo.html)
+
+Zer da?
+
+Portaera linguistikoa
+
+Kontrol ez kontzientea
+
+> Ezagutza inplizitua: Hitz bat beste baten ordez aukeratzea, errepikatzea argiago azaltzeko, esandako zerbait zuzentzea okerraz jabetuta…
+>
+> --Rodríguez, 2013
+
 Actividad metalingüística y reflexión gramatical
-
 
 > La facultad metalingüística es la posibilidad que tenemos los humanos de elevarnos por encima de la lengua y de contemplarla, al tiempo que la utilizamos en la comunicación.
 > 
 > -- BENVENISTE (1966)
 
+**Gramatika esplizitua**
 
+Letrez eta soinuez hitz egiten dugu, izen mota ezberdinez (aditzak, izenak, adjektiboak…)… idatzitakoa berriro irakurtzen dugu, ondo idatzi dugun birpasatzeko.
 
+Hizkuntzaz dugun ezagutza osatu egiten dugu, hizkuntza bera hobeto erabiltzeko eta ulertzeko, ekintza metalinguistiko honi gramatika esplizitoa deitzen zaio, hizkuntzaz dugun ezagutza adierazteko hizkuntza-baliabideek osatzen dute gramatika esplizitoa.
 
-# Gramatika esplizitua
+Metahizkuntza
 
+Hizkuntzaren bidez hikuntza-ezaugarrien berri ematen da. adibideak: gurutzegramak, hizkuntzalaritza (hizkuntzen jatorria, egitura…)
 
-
-LETREZ ETA SOINUEZ HITZ EGITEN DUGU, IZEN MOTA EZBERDINEZ (ADITZAK, IZENAK, ADJEKTIBOAK…)… IDATZITAKOA BERRIRO IRAKURTZEN DUGU, ONDO IDATZI DUGUN BIRPASATZEKO.
-
-HIZKUNTZAZ DUGUN EZAGUTZA OSATU EGITEN DUGU, HIZKUNTZA BERA HOBETO ERABILTZEKO ETA ULERTZEKO, EKINTZA METALINGUISTIKO HONI GRAMATIKA ESPLIZITOA DEITZEN ZAIO, HIZKUNTZAZ DUGUN EZAGUTZA ADIERAZTEKO HIZKUNTZA-BALIABIDEEK OSATZEN DUTE GRAMATIKA ESPLIZITOA.
-
-METAHIZKUNTZA
-
-HIZKUNTZAREN BIDEZ HIKUNTZA-EZAUGARRIEN BERRI EMATEN DA.
-ADIBIDEAK: GURUTZEGRAMAK, HIZKUNTZALARITZA (HIZKUNTZEN JATORRIA, EGITURA…)
-
-# Garrantzia
+**Garrantzia**
 
 Gure buruan dagoen edo ezagutzen dugun hizkuntza aztertzean egiten dugun gogoetak **gogoeta metalinguistikoa** du izena. Lan metakognitiboaz ari gara.
 
@@ -48,13 +48,12 @@ a)garai edo planteamendu klasikoa.
 + Gramatika irakatsi
 + Errore gramatikalak zuzendu
 
-b) PLANTEAMENDU KOMUNIKATIBOAREN GARAIA
+b) Planteamendu komunikatiboaren garaia
 
 + Komunikazioa eskatzen duten ataza errealak erabiltzea;
 + Gramatika-zuzentasunari indarra kentzea;
 + Ikaslearen autonomia handitzea;
 + Aintzat hartzea materialak, metodoak, ikaslearen helburuak, ikasgelaren soziologia eta beste zenbait faktore.
-
 
 Ondorioz...
 
@@ -63,9 +62,7 @@ Produktutik **prozesura**
 Esalditik testura eta **pragmatikara**
 Zuzentasunetik **egokitasunera**
 
-# Gaitasun linguistikotik komunikatibora
-
-C) Egungo kontestualizazio eta planteamendu berriagoak: testuarena, testu-tipologiarena, diskurtsoarena, hizkuntz aniztasunarena, merkatuko premia berriena...
+c) Egungo kontestualizazio eta planteamendu berriagoak: testuarena, testu-tipologiarena, diskurtsoarena, hizkuntz aniztasunarena, merkatuko premia berriena...
 
 Testua berbazko produkzio-unitatea da, berezko hizkuntz bateko unitatez
 osatua dago, eta komunikazio-egoera bati lotua; testu eta diskurtso batek, edozeinek, badu helburua eta beti ere solaskidearengan koherentziazko efektua eragin nahi du (Bronckart, 2004: 47 eta ond.), ahozkoa zein idatzizkoa izan daiteke, eta luzeagoa edo laburragoa. Hitzezko ekintza baten gauzatzea da. Unitate linguistikoz osatua dago, baina, bere horretan, **ez da hizkuntz unitate**, komunikazio-unitate baizik.
@@ -88,7 +85,7 @@ c) Sasi esapideak: ez du esan beharrik/ *ez du zertan esan beharrik...
 d) Erregistroak eragindakoak: hizkera (jasoa, estandarra, zientifikoa, etxekoa...), euskalkia, soziolektoa edota erregistro ezberdinak era nahasian erabiltzea.
 e) Errore morfologikoak/gramatikalak/fonetikoak/lexikoak: sistema linguistikoa
 
-## Azken finean, idatzizko testuetan ohikoenak hurrengoak dira:
+Azken finean, idatzizko testuetan ohikoenak hurrengoak dira:
 
 - Mezu iluna egitea
 - Hautaketa okerra egitea
@@ -106,7 +103,7 @@ e) Errore morfologikoak/gramatikalak/fonetikoak/lexikoak: sistema linguistikoa
 - Akats puntualak
 - Irakaslearen metodologiak eragindako erroreak 
 
-# Ahozko testuan ... zer?
+## Ahozko testuan ... zer?
 
 Hiru testu mota:
 
@@ -114,7 +111,7 @@ Hiru testu mota:
 * Testu irakurriak
 * Ahozko idatzizko testuak: sare sozialetakoak
 
-## Kontuan izan beharrekoak
+Kontuan izan beharrekoak
 
 + Artikulazioa
 + Intonazioa: tonua eta azentua
@@ -122,22 +119,26 @@ Hiru testu mota:
 + Etenak
 + Bolumena
 
-## Soinuen artikulazioa
+### Soinuen artikulazioa
 
-### Bokalak
+**Bokalak**
 
-[IRUDIA]
+| **Bokalak** | **Diptongoak** |      |      |      |         |       |      |      |
+| ----------- | -------------- | ---- | ---- | ---- | ------- | ----- | ---- | ---- |
+| i           |                |      |      | u*   |         |       |      | ui** |
+|             | e              |      | o    |      | ei / eu |       | oi   |      |
+|             |                | a    |      |      |         | ai/au |      |      |
 
 Euskara Institutua, EHU, "Hots motak, euskal soinuak", Sareko Euskal Gramatika (SEG), www.ehu.eus/seg
 ISBN: 978-84-693-9891-3
 
-### Kontsonanteak
+**Kontsonanteak**
 
 Artikulatorioki kontsonanteak dira aire etorrian nolabaiteko traba duten hotsak; traba izan daiteke ahots kordak estutzea, mihiarekin sabaia ukitzea, ezpainek elkar ukitzea, mihiak hobia ukitzea, eta abar. Kontsonanteak definitzeko kontuan hartzen da traba non egiten den, traba nola egiten den eta aire-etorriko zein zatirekin ekoizten den. 
 
-[IRUDIA]
+![](https://www.ehu.eus/seg/_media/fon/1/1/1/euskal_hotsen_taula.jpg)
 
-## Ezaugarri suprasegmentalak
+### Ezaugarri suprasegmentalak
 
 **Azentua**: Silaba batek daraman prominentzia da.
 
