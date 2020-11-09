@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.24)  29 OCT 2020 07:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.24)  9 NOV 2020 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -853,20 +853,8 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip56
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count125
-) (./bookdown-demo.aux
-
-LaTeX Warning: Label `kapituluko-erreferentziak' multiply defined.
-
-
-LaTeX Warning: Label `testuingurua' multiply defined.
-
-
-LaTeX Warning: Label `adibideak' multiply defined.
-
-
-LaTeX Warning: Label `erreferentziak' multiply defined.
-
 )
+No file bookdown-demo.aux.
 \openout1 = `bookdown-demo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
@@ -988,32 +976,31 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] (./bookdown-demo.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 3.
-[3])
+]
 \tf@toc=\write3
 \openout3 = `bookdown-demo.toc'.
 
-[4]
-<assets/azala.png, id=150, 591.37509pt x 480.69875pt>
+[3] [4
+
+]
+<assets/azala.png, id=28, 591.37509pt x 480.69875pt>
 File: assets/azala.png Graphic file (type png)
 <use assets/azala.png>
 Package pdftex.def Info: assets/azala.png  used on input line 96.
 (pdftex.def)             Requested size: 345.01007pt x 280.44113pt.
-[5
-
- <./assets/azala.png>]
+[5 <./assets/azala.png>]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 124.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<assets/pdficon.png, id=163, 36.135pt x 36.135pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 130.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 130.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 130.
+<assets/pdficon.png, id=43, 36.135pt x 36.135pt>
 File: assets/pdficon.png Graphic file (type png)
 <use assets/pdficon.png>
 Package pdftex.def Info: assets/pdficon.png  used on input line 144.
@@ -1064,20 +1051,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--319
  []
 
 [9] [10] [11]
-Overfull \hbox (131.36238pt too wide) in alignment at lines 489--493
- [] [] [] [] [] [] 
- []
-
-
 Overfull \hbox (131.36238pt too wide) in alignment at lines 493--499
  [] [] [] [] [] [] 
  []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2 on input line 499.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3 on input line 526.
 
 [12] [13] [14
 
 ]
 Kapitulua 1.
-<assets/badge.png, id=268, 85.82062pt x 15.05624pt>
+<assets/badge.png, id=153, 85.82062pt x 15.05624pt>
 File: assets/badge.png Graphic file (type png)
 <use assets/badge.png>
 Package pdftex.def Info: assets/badge.png  used on input line 555.
@@ -1087,6 +1077,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 620--620
 []\T1/lmr/m/n/10 (+20) Taula 1.1: Hiz-kun-tzen egoe-ra ad-mi-nis-tra-ti-boa (It
 u-
  []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1.1 on input line 635.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1110,12 +1104,12 @@ U ERE EGIN BEHAR DIRA \T1/lmr/m/n/10 19
  []
 
 [19]
-<assets/01_01-HD.png, id=330, 645.91313pt x 531.48563pt>
+<assets/01_01-HD.png, id=221, 645.91313pt x 531.48563pt>
 File: assets/01_01-HD.png Graphic file (type png)
 <use assets/01_01-HD.png>
 Package pdftex.def Info: assets/01_01-HD.png  used on input line 739.
 (pdftex.def)             Requested size: 344.99341pt x 283.87569pt.
-<assets/01_02-HD.png, id=331, 826.58812pt x 654.94687pt>
+<assets/01_02-HD.png, id=222, 826.58812pt x 654.94687pt>
 File: assets/01_02-HD.png Graphic file (type png)
 <use assets/01_02-HD.png>
 Package pdftex.def Info: assets/01_02-HD.png  used on input line 741.
@@ -1124,7 +1118,7 @@ Package pdftex.def Info: assets/01_02-HD.png  used on input line 741.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [20 <./assets/01_01-HD.png>]
-<assets/01_03-HD.png, id=340, 986.18437pt x 767.11594pt>
+<assets/01_03-HD.png, id=232, 986.18437pt x 767.11594pt>
 File: assets/01_03-HD.png Graphic file (type png)
 <use assets/01_03-HD.png>
 Package pdftex.def Info: assets/01_03-HD.png  used on input line 760.
@@ -1168,7 +1162,7 @@ File: assets/badge.png Graphic file (type png)
 <use assets/badge.png>
 Package pdftex.def Info: assets/badge.png  used on input line 911.
 (pdftex.def)             Requested size: 85.82039pt x 15.0562pt.
-<assets/ornament-3131097_960_720.jpg, id=393, 231.264pt x 153.9351pt>
+<assets/ornament-3131097_960_720.jpg, id=291, 231.264pt x 153.9351pt>
 File: assets/ornament-3131097_960_720.jpg Graphic file (type jpg)
 <use assets/ornament-3131097_960_720.jpg>
 Package pdftex.def Info: assets/ornament-3131097_960_720.jpg  used on input lin
@@ -1212,7 +1206,7 @@ Overfull \hbox (9.27219pt too wide) in paragraph at lines 1093--1094
  []\T1/lmr/bx/n/10 Heziberri
  []
 
-<assets/02_01-HD.png, id=428, 995.21812pt x 631.60968pt>
+<assets/02_01-HD.png, id=327, 995.21812pt x 631.60968pt>
 File: assets/02_01-HD.png Graphic file (type png)
 <use assets/02_01-HD.png>
 Package pdftex.def Info: assets/02_01-HD.png  used on input line 1113.
@@ -1261,7 +1255,7 @@ Overfull \hbox (6.96524pt too wide) in paragraph at lines 1230--1231
  []
 
 [39]
-<bookdown-demo_files/figure-latex/unnamed-chunk-2-1.pdf, id=519, 674.52pt x 194
+<bookdown-demo_files/figure-latex/unnamed-chunk-2-1.pdf, id=423, 674.52pt x 194
 .7275pt>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (type
  pdf)
@@ -1280,13 +1274,13 @@ File: assets/badge.png Graphic file (type png)
 Package pdftex.def Info: assets/badge.png  used on input line 1439.
 (pdftex.def)             Requested size: 85.82039pt x 15.0562pt.
 [45] [46] [47]
-<bookdown-demo_files/figure-latex/Mapi-1.pdf, id=593, 411.5375pt x 289.08pt>
+<bookdown-demo_files/figure-latex/Mapi-1.pdf, id=507, 411.5375pt x 289.08pt>
 File: bookdown-demo_files/figure-latex/Mapi-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/Mapi-1.pdf>
 Package pdftex.def Info: bookdown-demo_files/figure-latex/Mapi-1.pdf  used on i
 nput line 1568.
 (pdftex.def)             Requested size: 344.9984pt x 242.34032pt.
-<bookdown-demo_files/figure-latex/Auza-1.pdf, id=594, 411.5375pt x 289.08pt>
+<bookdown-demo_files/figure-latex/Auza-1.pdf, id=508, 411.5375pt x 289.08pt>
 File: bookdown-demo_files/figure-latex/Auza-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/Auza-1.pdf>
 Package pdftex.def Info: bookdown-demo_files/figure-latex/Auza-1.pdf  used on i
@@ -1296,7 +1290,7 @@ nput line 1574.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [48 <./bookdown-demo_files/figure-latex/Mapi-1.pdf>]
-<bookdown-demo_files/figure-latex/Enara-1.pdf, id=607, 411.5375pt x 289.08pt>
+<bookdown-demo_files/figure-latex/Enara-1.pdf, id=521, 411.5375pt x 289.08pt>
 File: bookdown-demo_files/figure-latex/Enara-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/Enara-1.pdf>
 Package pdftex.def Info: bookdown-demo_files/figure-latex/Enara-1.pdf  used on 
@@ -1304,13 +1298,13 @@ input line 1580.
 (pdftex.def)             Requested size: 344.9984pt x 242.34032pt.
 [49 <./bookdown-demo_files/figure-latex/Auza-1.pdf> <./bookdown-demo_files/figu
 re-latex/Enara-1.pdf>]
-<bookdown-demo_files/figure-latex/Aina-1.pdf, id=625, 407.5225pt x 289.08pt>
+<bookdown-demo_files/figure-latex/Aina-1.pdf, id=539, 407.5225pt x 289.08pt>
 File: bookdown-demo_files/figure-latex/Aina-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/Aina-1.pdf>
 Package pdftex.def Info: bookdown-demo_files/figure-latex/Aina-1.pdf  used on i
 nput line 1586.
 (pdftex.def)             Requested size: 345.01529pt x 244.73991pt.
-<bookdown-demo_files/figure-latex/Xabier-1.pdf, id=626, 289.08pt x 411.5375pt>
+<bookdown-demo_files/figure-latex/Xabier-1.pdf, id=540, 289.08pt x 411.5375pt>
 File: bookdown-demo_files/figure-latex/Xabier-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/Xabier-1.pdf>
 Package pdftex.def Info: bookdown-demo_files/figure-latex/Xabier-1.pdf  used on
@@ -1320,7 +1314,7 @@ Package pdftex.def Info: bookdown-demo_files/figure-latex/Xabier-1.pdf  used on
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [50 <./bookdown-demo_files/figure-latex/Aina-1.pdf>]
-<bookdown-demo_files/figure-latex/Olaia-1.pdf, id=637, 411.5375pt x 289.08pt>
+<bookdown-demo_files/figure-latex/Olaia-1.pdf, id=551, 411.5375pt x 289.08pt>
 File: bookdown-demo_files/figure-latex/Olaia-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/Olaia-1.pdf>
 Package pdftex.def Info: bookdown-demo_files/figure-latex/Olaia-1.pdf  used on 
@@ -1330,7 +1324,7 @@ input line 1598.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [51 <./bookdown-demo_files/figure-latex/Xabier-1.pdf>]
-<bookdown-demo_files/figure-latex/Lander-1.pdf, id=649, 407.5225pt x 289.08pt>
+<bookdown-demo_files/figure-latex/Lander-1.pdf, id=562, 407.5225pt x 289.08pt>
 File: bookdown-demo_files/figure-latex/Lander-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/Lander-1.pdf>
 Package pdftex.def Info: bookdown-demo_files/figure-latex/Lander-1.pdf  used on
@@ -1338,7 +1332,7 @@ Package pdftex.def Info: bookdown-demo_files/figure-latex/Lander-1.pdf  used on
 (pdftex.def)             Requested size: 345.01529pt x 244.73991pt.
 [52 <./bookdown-demo_files/figure-latex/Olaia-1.pdf> <./bookdown-demo_files/fig
 ure-latex/Lander-1.pdf>]
-<bookdown-demo_files/figure-latex/Aner-1.pdf, id=666, 289.08pt x 411.5375pt>
+<bookdown-demo_files/figure-latex/Aner-1.pdf, id=579, 289.08pt x 411.5375pt>
 File: bookdown-demo_files/figure-latex/Aner-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/Aner-1.pdf>
 Package pdftex.def Info: bookdown-demo_files/figure-latex/Aner-1.pdf  used on i
@@ -1361,7 +1355,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1704--1707
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [55]
-<bookdown-demo_files/figure-latex/unnamed-chunk-3-1.pdf, id=703, 469.755pt x 32
+<bookdown-demo_files/figure-latex/unnamed-chunk-3-1.pdf, id=619, 469.755pt x 32
 5.215pt>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type
  pdf)
@@ -1396,7 +1390,7 @@ File: assets/badge.png Graphic file (type png)
 <use assets/badge.png>
 Package pdftex.def Info: assets/badge.png  used on input line 1924.
 (pdftex.def)             Requested size: 85.82039pt x 15.0562pt.
-<bookdown-demo_files/figure-latex/unnamed-chunk-4-1.pdf, id=791, 310.15875pt x 
+<bookdown-demo_files/figure-latex/unnamed-chunk-4-1.pdf, id=717, 310.15875pt x 
 38.1425pt>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type
  pdf)
@@ -1404,7 +1398,7 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type
 Package pdftex.def Info: bookdown-demo_files/figure-latex/unnamed-chunk-4-1.pdf
   used on input line 1943.
 (pdftex.def)             Requested size: 310.15799pt x 38.1424pt.
-<bookdown-demo_files/figure-latex/unnamed-chunk-5-1.pdf, id=792, 510.90875pt x 
+<bookdown-demo_files/figure-latex/unnamed-chunk-5-1.pdf, id=718, 510.90875pt x 
 177.66376pt>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type
  pdf)
@@ -1416,7 +1410,7 @@ Package pdftex.def Info: bookdown-demo_files/figure-latex/unnamed-chunk-5-1.pdf
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [65 <./bookdown-demo_files/figure-latex/unnamed-chunk-4-1.pdf>]
-<bookdown-demo_files/figure-latex/unnamed-chunk-6-1.pdf, id=812, 837.1275pt x 3
+<bookdown-demo_files/figure-latex/unnamed-chunk-6-1.pdf, id=739, 837.1275pt x 3
 84.43625pt>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type
  pdf)
@@ -1438,7 +1432,7 @@ Underfull \hbox (badness 2922) in paragraph at lines 2005--2006
  []
 
 [67] [68] [69]
-<bookdown-demo_files/figure-latex/unnamed-chunk-7-1.pdf, id=882, 332.24126pt x 
+<bookdown-demo_files/figure-latex/unnamed-chunk-7-1.pdf, id=810, 332.24126pt x 
 213.79875pt>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type
  pdf)
@@ -1450,7 +1444,7 @@ Package pdftex.def Info: bookdown-demo_files/figure-latex/unnamed-chunk-7-1.pdf
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [70] [71 <./bookdown-demo_files/figure-latex/unnamed-chunk-7-1.pdf>]
-<bookdown-demo_files/figure-latex/unnamed-chunk-8-1.pdf, id=913, 383.4325pt x 2
+<bookdown-demo_files/figure-latex/unnamed-chunk-8-1.pdf, id=841, 383.4325pt x 2
 83.0575pt>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-8-1.pdf Graphic file (type
  pdf)
@@ -1462,7 +1456,7 @@ Package pdftex.def Info: bookdown-demo_files/figure-latex/unnamed-chunk-8-1.pdf
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [72]
-<bookdown-demo_files/figure-latex/unnamed-chunk-9-1.pdf, id=920, 408.52625pt x 
+<bookdown-demo_files/figure-latex/unnamed-chunk-9-1.pdf, id=849, 408.52625pt x 
 301.125pt>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (type
  pdf)
@@ -1474,7 +1468,7 @@ Package pdftex.def Info: bookdown-demo_files/figure-latex/unnamed-chunk-9-1.pdf
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [73 <./bookdown-demo_files/figure-latex/unnamed-chunk-8-1.pdf>]
-<bookdown-demo_files/figure-latex/unnamed-chunk-10-1.pdf, id=939, 269.005pt x 2
+<bookdown-demo_files/figure-latex/unnamed-chunk-10-1.pdf, id=868, 269.005pt x 2
 14.8025pt>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-10-1.pdf Graphic file (typ
 e pdf)
@@ -1503,7 +1497,7 @@ l.2405 \section{Testuingurua}\label{testuingurua}}
 LaTeX Warning: File `assets/06-01_Irakaskuntza motibagarria.png' not found on i
 nput line 2517.
 
-<assets/06-01_Irakaskuntza motibagarria.png, id=998, 794.97pt x 488.13223pt>
+<assets/06-01_Irakaskuntza motibagarria.png, id=932, 794.97pt x 488.13223pt>
 File: assets/06-01_Irakaskuntza motibagarria.png Graphic file (type png)
 <use assets/06-01_Irakaskuntza motibagarria.png>
 Package pdftex.def Info: assets/06-01_Irakaskuntza motibagarria.png  used on in
@@ -1518,7 +1512,7 @@ Overfull \hbox (75.78471pt too wide) in paragraph at lines 2517--2518
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [81]
-<assets/06-02.png, id=1008, 508.03664pt x 535.94287pt>
+<assets/06-02.png, id=942, 508.03664pt x 535.94287pt>
 File: assets/06-02.png Graphic file (type png)
 <use assets/06-02.png>
 Package pdftex.def Info: assets/06-02.png  used on input line 2524.
@@ -1528,7 +1522,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [82 <./assets/06-01_Irakaskuntza motibagarria.png>] [83 <./assets/06-02.png>] [
 84] [85]
-<assets/06-03.png, id=1040, 413.58475pt x 516.62317pt>
+<assets/06-03.png, id=974, 413.58475pt x 516.62317pt>
 File: assets/06-03.png Graphic file (type png)
 <use assets/06-03.png>
 Package pdftex.def Info: assets/06-03.png  used on input line 2713.
@@ -1540,7 +1534,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2088) has occurred while \output is active []
 
 [87 <./assets/06-03.png>]
-<assets/06-04.png, id=1054, 228.855pt x 271.76532pt>
+<assets/06-04.png, id=989, 228.855pt x 271.76532pt>
 File: assets/06-04.png Graphic file (type png)
 <use assets/06-04.png>
 Package pdftex.def Info: assets/06-04.png  used on input line 2737.
@@ -1568,42 +1562,46 @@ i s D o c t o r a l / P D F a k / I n a k i[] P i k a b e a [] T E S I . p d f$
 []-
  []
 
-[90]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2931.
-[91]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2931.
-(./bookdown-demo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2931.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2931.
+[90] [91] [92
 
-LaTeX Warning: There were multiply-defined labels.
+]
+Kapitulua 7.
+File: assets/badge.png Graphic file (type png)
+<use assets/badge.png>
+Package pdftex.def Info: assets/badge.png  used on input line 2934.
+(pdftex.def)             Requested size: 85.82039pt x 15.0562pt.
+[93]
+Overfull \hbox (53.09721pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 94  \T1/lmr/m/sl/10 KAPITULUA 7.  HIZKUNTZAREN INGURUKO JARDUERA
+ METALINGUISTIKOA
+ []
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2931.
- ) 
+[94] [95]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 7.1 on input line 3145.
+
+
+LaTeX Warning: File `https://www.ehu.eus/seg/_media/fon/1/1/1/euskal_hotsen_tau
+la.jpg' not found on input line 3154.
+
+
+! Package pdftex.def Error: File `https://www.ehu.eus/seg/_media/fon/1/1/1/eusk
+al_hotsen_taula.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3154 ...media/fon/1/1/1/euskal_hotsen_taula.jpg}
+                                                   
 Here is how much of TeX's memory you used:
- 14756 strings out of 494765
- 214680 string characters out of 6176174
- 324514 words of memory out of 5000000
- 17251 multiletter control sequences out of 15000+600000
+ 14654 strings out of 494765
+ 211528 string characters out of 6176174
+ 315966 words of memory out of 5000000
+ 17131 multiletter control sequences out of 15000+600000
  98019 words of font info for 145 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
- 34i,8n,38p,985b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/shar
-e/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-r10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmro10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msam10.pfb>
-Output written on bookdown-demo.pdf (91 pages, 5609341 bytes).
-PDF statistics:
- 1416 PDF objects out of 1440 (max. 8388607)
- 1212 compressed objects within 13 object streams
- 425 named destinations out of 1000 (max. 500000)
- 19050 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 34i,8n,38p,985b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+!  ==> Fatal error occurred, no output PDF file produced!

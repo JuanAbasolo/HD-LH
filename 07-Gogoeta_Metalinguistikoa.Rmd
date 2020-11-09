@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 
 # Hizkuntzaren inguruko jarduera metalinguistikoa
 
@@ -40,7 +45,7 @@ Ekintza metalinguistiko kontzientea eskolan lantzen da, batez ere idatziaren ing
 
 (Ruiz-Bikandi, U. 2013) 
 
-# Eboluzioa
+## Eboluzioa
 
 a)garai edo planteamendu klasikoa. 
 
@@ -69,7 +74,7 @@ osatua dago, eta komunikazio-egoera bati lotua; testu eta diskurtso batek, edoze
 
 (Larringan, 2009)
 
-## Idatzizko testuetarako bereizketa 
+### Idatzizko testuetarako bereizketa 
 
 (Larrea, K, 2009)
 
@@ -77,7 +82,7 @@ Erroreak desbideratze sistematikoak dira.
 Hutsegitea, berriz, desbideratze aldakorra da.
 Lapsusak gizakien mugapenek eragindakoak dira, eta arretarik eza, oroimen laburra edo nekea erakusten dute.
 
-### Errore ohikoenak 
+#### Errore ohikoenak 
 
 a) Antzeko itxura duten hitzak (paronimoak): nahiz / naiz
 b) Antzeko esanahia duten hitzak (sasi sinonimoak), baina ezaugarri semantiko berberak ez dituzte: bera / berdin;
@@ -154,3 +159,9 @@ Bat-bateko testuetan eten gehiago egiten dira.
 Etenak isilunedunak edota soinu luzaketak izan daitezke. 
 
 **Bolumena**
+
+## Azken erreferentziak
+
+González-Trujillo, M. C., Calet, N., Defior, S., & Gutiérrez-Palma, N. (2014). Scale of reading fluency in Spanish: Measuring the components of fluency / Escala de fluidez lectora en español: midiendo los componentes de la fluidez. Estudios de Psicología, 35(1), 104–136. https://doi.org/10/ghjgsh
+
+Larrea, K. (2009). Ikasleen hizkuntza erroreak eta hutsegiteak: Zuzentzeko proposamena. Revista de Psicodidáctica, 14(1), 63–78.
