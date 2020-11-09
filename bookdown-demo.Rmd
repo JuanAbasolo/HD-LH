@@ -1967,7 +1967,7 @@ output:
 
 # Hizkuntzaren inguruko jarduera metalinguistikoa
 
-[![GitPitch](assets/badge.png)](../Diapoak/07_GogoMetaDiapo.html)
+[![GitPitch](assets/badge.png)](../Diapoak/07-GogoMetaDiapo.html)
 
 Zer da?
 
@@ -2089,7 +2089,7 @@ Kontuan izan beharrekoak
 
 **Bokalak**
 
-| **Bokalak** | **Diptongoak** |      |      |      |         |       |      |      |
+| **Bokalak** |                |      |      |      | **Diptongoak**|       |      |      |
 | ----------- | -------------- | ---- | ---- | ---- | ------- | ----- | ---- | ---- |
 | i           |                |      |      | u*   |         |       |      | ui** |
 |             | e              |      | o    |      | ei / eu |       | oi   |      |
