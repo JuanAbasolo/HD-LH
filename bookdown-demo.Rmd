@@ -2123,9 +2123,9 @@ Etenak isilunedunak edota soinu luzaketak izan daitezke.
 
 ## Azken erreferentziak
 
-González-Trujillo, M. C., Calet, N., Defior, S., & Gutiérrez-Palma, N. (2014). Scale of reading fluency in Spanish: Measuring the components of fluency / Escala de fluidez lectora en español: midiendo los componentes de la fluidez. Estudios de Psicología, 35(1), 104–136. https://doi.org/10/ghjgsh
+González-Trujillo, M. C., Calet, N., Defior, S., & Gutiérrez-Palma, N. (2014). Scale of reading fluency in Spanish: Measuring the components of fluency / Escala de fluidez lectora en español: midiendo los componentes de la fluidez. *Estudios de Psicología*, 35(1), 104–136. https://doi.org/10/ghjgsh
 
-Larrea, K. (2009). Ikasleen hizkuntza erroreak eta hutsegiteak: Zuzentzeko proposamena. Revista de Psicodidáctica, 14(1), 63–78.
+Larrea, K. (2009). Ikasleen hizkuntza erroreak eta hutsegiteak: Zuzentzeko proposamena. *Revista de Psicodidáctica*, 14(1), 63–78.
 
 <!--chapter:end:07-Gogoeta_Metalinguistikoa.Rmd-->
 
