@@ -1,14 +1,13 @@
 --- 
-title: "Hizkuntzaren Didaktika (Lehen Hezkuntza) V-2020/09"
+title: "Hizkuntzaren Didaktika (Lehen Hezkuntza) V-`r Sys.Date()`"
 author: 
   name: "Irakaslea: Juan Abasolo"
   affiliation: UPV/EHU
   # email: juan.abasolo@ehu.eus
-date: "2020/2021"
+date: "2021/2022"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-# bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "Hizkuntzaren Didaktika ikasgaiko apunteak dira hauek. Ikasgaian aurrera egin ahala egokitzen joango dira"
@@ -29,10 +28,10 @@ favicon: "assets/azala.png"
 
 ## Jakingarriak {-}
 
-Hemen duzun dokumentuak ikasgairako beharko dituzun elementu gehienak editu berton edo estekatuta:
+Hemen duzun dokumentuak ikasgairako beharko dituzun elementu gehienak ditu berton edo estekatuta:
 
-1. Ikagaiaren gida eta nirekin harremanetan paratzeko argigarriak
-2. [Gida ofiziala](https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaAsignatura&p_anyo_acad=20200&p_ciclo=X&p_curso=3&p_cod_asignatura=25868&p_cod_plan=GPRIMA30&p_cod_centro=354) (kapitulu honetan)
+1. Ikasgaiaren gida eta nirekin harremanetan paratzeko argigarriak
+2. [Gida ofiziala](https://www.ehu.eus/eu/lehen-hezkuntzako-gradua-bizkaia/kreditu-eta-irakasgaiak?p_redirect=consultaAsignatura&p_cod_proceso=egr&p_anyo_acad=20210&p_ciclo=X&p_curso=3&p_cod_asignatura=25868) (kapitulu honetan)
 3. Kapitulurik kapitulu, apunteak, diapositibetarako estekak eta bakoitzaren amaieran bibliografia eta ariketak aurkituko dituzu.
 
 Goiko "download" botoian PDF(?) edo EPUB formatuan ere jaits dezakezue gida.
@@ -57,7 +56,7 @@ Ikasgaiaren lehenengo zatian ia ez dugu erabiliko Moodle-n oinarritutako platafo
 
 **Proiektua**: 
 
-[![Syllabusa](assets/pdficon.png)](syllabusa/Syllabus_HDLH20-V1-1.pdf)
+[![Syllabusa](assets/pdficon.png)](syllabusa/Syllabus_HDLH21-V0.pdf)
 
 # Hizkuntzaren eta Literaturaren Didaktika - 25868 {-}
 
@@ -170,116 +169,112 @@ F) Ikasleari  gaitasuna ematea, didaktikako irizpideen arabera eta ahozko zein  
 
 #### Oinarrizko bibliografia {-}
 
-Abascal, D., Beneito, J.M. y Valero, F. (1997) Hablar y escuchar. Barcelona, Octaedro
+Abascal, M. D., Beneito, J. M., & Valero, F. (1993). *Hablar y escuchar: Una propuesta para la expresión oral en la enseñanza secundaria.* Octaedro.
 
-Camps, A y Zayas, F. (Coords) (2006) Secuencias didácticas para aprender gramática. 
-Barcelona, Graó
+Barreña, A., Uranga, B., Izagirre, E., Amorrortu, E., & Ortega, A. (2006). Transmisión y uso de las lenguas: Nuevos datos para un diagnóstico de la diversidad lingüística. *actes*, del 18 al 21 d’abril de 2006, 27-. http://dialnet.unirioja.es/servlet/articulo?codigo=2218197
 
-Camps, A (coord) (2003) Secuencias didácticas para aprender a escribir. Barcelona, Graó.
+Camps, A., Zayas, F., & Carrasco, P. (2006). *Secuencias didácticas para aprender gramática.* Graó.
 
-Cassany, D. Enseñar lengua (1994) Barcelona, Graó.
+Carreras, Montserrat., Palou, Juli., & Bosch, Carmina. (2005). *La lengua oral en la escuela: 10 experiencias didácticas* (J. Palou & C. Bosch Grau, Arg.; 1. arg.). Graó.
 
-COLOMER, T. (2009). Introducción a la literatura infantil y juvenil. Madril: Síntesis. 
+Cassany, D., Luna, M., & Sanz, G. (2000). *Enseñar lengua* (6. arg.). Graó.
 
-COLOMER, T.; Manresa, Mireia; Ramada Prieto, Lucas & Lara Reyes López (eds.) (2018). Narrativas literarias en educación infantil y primaria. Madril: Síntesis. 
+Colomer, T., Manresa Potrony, M., Ramada Prieto, L., & Reyes López, L. (2018). *Narrativas literarias en educación infantil y primaria.* Editorial Síntesis, S.A.
 
-CULLER, J. (2009). Breve introducción a la teoría de la literatura. Bartzelona: Crítica. 
+Colomer, Teresa. (1999). *Introducción a la literatura infantil y juvenil.* Síntesis Educación.
 
-DURAN, T. (2009). Álbumes y otras lecturas. Análisis de los libros infantiles. Bartzelona: Octaedro. 
+Culler, J., & García, G. (2000).* Breve introducción a la teoría literaria.* Crítica.
 
-ETXANIZ ERLE, X. eta J.M. López Gaseni (2011). XXI. mende hasierako haur eta gazte literatura. Arabako Foru Aldundia 
+Duran, T. (2009). *Álbumes y otras lecturas: Análisis de los libros infantiles* (M. Leon, Itzul.). Octaedro.
 
-ETXANIZ & LOPEZ GASENI (2011): Egungo haur eta gazte literaturaren historia. Bilbo: UPV-EHU Argitalpen zerbitzua.
+Etxaniz, X., & López Gaseni, M. (Arg.). (2011). *Egungo euskal haur eta gazte literaturaren historia.* Universidad del País Vasco, Servicio Editorial = Euskal Herriko Unibertsitatea, Argitalpen Zerbitzua.
 
-Fons Esteve, M. (2004) Leer y escribir para vivir. Barcelona, Graó.
+Etxaniz, X., & López, M. (2011). *XXI. mende hasierako haur eta gazte literatura.* Arabako Foru Aldundia.
 
-IGERABIDE, J. K. (1993). Bularretik mintzora. Donostia: Erein. 
+Fons Esteve, M. (2004). L*eer y escribir para vivir: Alfabetizacion inicial y uso real de la lengua escrita en el aula.* Graó.
 
-JIMÉNEZ-PÉREZ, E. eta S. Fabregat Barrios (koords.) (2019). La literatura infantil y  juvenil: investigaciones. Bartzelona: Octaedro. 
+Igerabide, J. Kruz. (1993). *Bularretik mintzora: (Haurra, ahozkotasuna eta literatura)*. Erein.
 
-LLUCH, G. eta F. Zayas (2015). Leer en el centro escolar. El plan de lectura. Bartzelona: Octaedro. 
+Jiménez-Pérez, E. del P., & Fabregat, S. (Arg.). (2019). *La literatura infantil y juvenil: Investigaciones.* Octaedro.
 
-RETOLAZA, Iratxe (2017): Egungo euskal komikiaren historia. Bilbo: UPV-EHU Argitalpen Zerbitzua.
+Lluch, G., & Zayas, F. (2015). *Leer en el centro escolar: El plan de lectura.* Octaedro.
 
-RODARI, G. (1979). Gramática de la fantasía. Madril: Avance.
+Osinaga, M. S. (1996). Irakurketa eta idazketa: LHko bigarren eta hirugarren zikloan. *Hik Hasi: euskal heziketarako aldizkaria*, *10*, 44–52.
 
-Ruiz Bikandi, U., (2000) Didáctica de la segunda lengua en educación infantil y primaria. Madrid, Síntesis. 
+Retolaza, I. (Arg.). (2017). *Egungo euskal komikiaren historia.* UPV/EHU
 
-Palou, J Y Bosch, C. (Coords) (2005) La lengua oral en la escuela. Barcelona, Graó.
+Rodari, Gianni. (1996). *Gramatica de la fantasia: Introduccion al arte de inventar historias.* (2.). Bronce.
 
-Sainz, M., (1996) ¿Irakurketa eta idazketa LHko bigarren eta hirugarren zikloetan¿, in HIK HASI, 10. zb.
+Ruiz Bikandi, U. (Arg.). (2009). *Bigarren hizkuntzaren didaktika Haur eta Lehen Hezkuntzan.*UPV/EHU
 
-Solé, I. Estrategias de lectura. Barcelona, Graó.
-
-Wells, G., (1988) Aprender a leer y escribir.  Barcelona, Laia
+Wells, Gordon. (1988).* Aprender a leer y escribir.* Laia.
 
 #### Gehiago sakontzeko bibliografia {-}
 
-Alcoba, S. (coord) (1999) La oralización. Barcelona, Ariel.
+Alcoba, Santiago. (Arg.). (1999). *La oralización*. Ariel.
 
-Bronckart, J. P. (1996), Activité Langagière, textes et discours. Lausanne.Delachaux et Niestlé.
+Bronckart, J. Paul. (1996). *Activité langagière textes et discours: Pour un interactionisme socio-discursif*. Delachaux & Niestlé.
 
-Cassany, D. La cocina de la escritura. Barcelona Anagrama
+Cassany, Daniel. (1995). *La cocina de la escritura*. Anagrama.
 
-Colomer, T. y Camps, A. (1996), Enseñar a leer, enseñar a comprender
+Colomer, T., & Camps, A. (1996). *Enseñar a leer, enseñar a comprender*. Celeste.
 
-González Fernández, A. (2004) Estrategias de comprensión lectora. Madrid, Síntesis.
+González Fernández, A. (2004). *Estrategias de comprensión lectora*. Síntesis.
 
-Mendoza.A. (Coord) (2003) Didáctica de la lengua y la literatura. Madrid, Pearson Educación.
+Mendoza Fillola, A. (2012). *Didáctica de la lengua y la literatura para primaria*. Prentice Hall.
 
-Pérez Rodríguez, M. A. (2004) Los nuevos lenguajes de la comunicación. Enseñar y aprender con los medios. Barcelona, Paidós.
+Pérez Rodríguez, M. Amor. (2004). *Los nuevos lenguajes de la comunicación: Enseñar y aprender con los medios*. Paidós.
 
-Sanz Moreno, A.(2003) Cómo diseñar actividades de comprensión lectora. Departamento de Educación. Gobierno de Navarra
+Sanz Moreno, Á. (2005). *Irakurmena lantzeko jarduerak nola prestatu: Lehen Hezkuntzako 3. zikloa eta DBHko 1. zikloa*. Hezkuntza Departamentua.
 
-Schneuwly, B., (1992) ¿La concepción vygotskiana del lenguaje escrito¿ en Comunicación, Lenguaje y Educación, 16, pp. 49-59, 
+Schneuwly, B. (1992). La concepción vygotskiana del lenguaje escrito. *Comunicación, Lenguaje y Educación*, *4*(16), 49–59. https://doi.org/10.1080/02147033.1992.10821049
 
-Teberosky, A. (1992), Aprendiendo a escribir. Barcelona, Horsori.
+Teberosky, A. (2001). *Aprendiendo a escribir*. Editorial Horsori.
 
-Tolchinsky, L. (1993); Aprendizaje del lenguaje escrito. Barcelona, Anthropos.
+Tolchinsky, L. (1993). *Aprendizaje del lenguaje escrito: Procesos evolutivos e implicaciones didácticas* (1. arg). Universidad Pedagógica Nacional.
 
 #### Aldizkariak {-}
 
-TEXTOS de Didáctica de la lengua y la literatura.
-ARTICLES de Did.actica de la lengua y la literatura
-Lenguaje y textos
+Textos
+Didáctica de la lengua y la literatura
+https://dialnet.unirioja.es/servlet/revista?codigo=1416
 
-## Taldeak {-}
+Articles
+Revista de didàctica de la llengua i de la literatura
+https://dialnet.unirioja.es/servlet/revista?codigo=2659
 
-...
+#### Aldizkari digitalak {-}
 
-#### Ikasgela(k) {-}
+Hik hasi aldizkaria 
+http://www.hikhasi.eus/
 
-- 1S03G - IRAKASLEEN ESKOLAKO ERAIKIN HORIZONTALA - LEIOA
+Histodáctica
+Enseñanza de la Historia / Didáctica de las Ciencias Sociales
+http://www.ub.es/histodidactica/ 
 
-### 32 Teoriakoa (Euskara - Goizez)Erakutsi/izkutatu azpiorriak
+Ikastorratza. 
+Didaktikarako e-aldizkaria
+http://www.ehu.eus/ikastorratza/
 
-| Asteak | Astelehena | Asteartea                           | Asteazkena | Osteguna                | Ostirala |
-| ------ | ---------- | ----------------------------------- | ---------- | ----------------------- | -------- |
-| 1-1    |            |                                     |            | 14:00-16:30 17:00-19:30 |          |
-| 5-5    |            |                                     |            | 14:00-16:30 17:00-19:30 |          |
-| 16-16  |            | 14:00-16:00 16:30-18:30 19:00-20:00 |            |                         |          |
-| 19-19  |            | 14:00-16:00 16:30-18:00             |            |                         |          |
+Jakingarriak
+https://www.mondragon.edu/en/magazines-and-publications/jakingarriak
 
-#### Irakasleak {-}
+REIDICS
+Revista de Investigación den Didáctica de las Ciencias Sociales
+http://www.didactica-ciencias-sociales.org 
 
-- [ABASOLO ISASA, JUAN SEBASTIAN](https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias&p_anyo_acad=20200&p_idp=351472)
-- [ROJO COBOS, FRANCISCO JAVIER](https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias&p_anyo_acad=20200&p_idp=4636)
+Tantak
+https://ojs.ehu.eus/index.php/Tantak/index
 
-### 32 Gelako p.-1 (Euskara - Goizez)Erakutsi/izkutatu azpiorriak
-
-| Asteak | Astelehena  | Asteartea | Asteazkena  | Osteguna    | Ostirala    |
-| ------ | ----------- | --------- | ----------- | ----------- | ----------- |
-| 2-4    | 18:30-20:00 |           |             | 16:30-20:00 |             |
-| 6-10   | 18:30-20:00 |           |             | 16:30-20:00 |             |
-| 17-18  |             |           | 14:00-15:30 |             | 16:00-17:30 |
-| 20-30  |             |           | 14:00-15:30 |             | 16:00-17:30 |
-
-#### Irakasleak {-}
+## Irakasleak  eta ikasgela {-}
 
 - [ABASOLO, JUAN](https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias&p_anyo_acad=20200&p_idp=351472)
+
+- [ESPARZA MARTIN, IRATXE](https://www.ehu.eus/eu/lehen-hezkuntzako-gradua-bizkaia/kreditu-eta-irakasgaiak?p_redirect=consultaTutorias&p_anyo_acad=20210&p_idp=393662)
+
 - [KORTAZAR URIARTE, JON BATTI](https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias&p_anyo_acad=20200&p_idp=2768)
-- [ROJO COBOS, FRANCISCO JAVIER](https://www.ehu.eus/eu/web/hld-dll/ikasgaiak?p_redirect=consultaTutorias&p_anyo_acad=20200&p_idp=4636)
 
-#### Ikasgela {-}
 
-- 2S08M - IRAKASLEEN ESKOLAKO ERAIKIN HORIZONTALA - LEIOA
+
+Ikasgela : 
+  2S08M
