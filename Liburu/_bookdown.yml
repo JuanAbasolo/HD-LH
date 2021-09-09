@@ -8,5 +8,5 @@ language:
     lem: 'Lema '
   ui:
     chapter_name: ""
-output_dir: apunteak
+output_dir: ../apunteak
 delete_merged_file: true
