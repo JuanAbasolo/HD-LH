@@ -5,7 +5,7 @@ language: eu
 output: 
   revealjs::revealjs_presentation:
     slide_level: 2
-    theme: sky
+    theme: default # sky
     center: true
     transition: fade
 ---
@@ -27,10 +27,9 @@ hizkuntza asko estatu bat baino gehiagoko lurretan hitz egiten dira (euskara adi
 
 <small>
 
-> El concepto de lengua no es preciso, ni las fronteras lingüísticas coinciden con las geográficas. 
-En España se reconocen cuatro lenguas, pero hay otras más, desde el leonés, el bable o la fabla aragonesa, 
-hasta las lenguas de los emigrantes o el caló. Así y todo, España es uno de los países lingüísticamente más homogéneos, 
-pues tiene una lengua oficial y común, el español, que hablan y entienden la mayoría de sus ciudadanos.”</small>
+> _Hizkuntza_ kontzeptua ez da zehatza; eta hizkuntza-mugak ez datoz bat geografia-mugekin. Espainian lau hizkuntza onartzen dira, baina badira beste batzuk ere, lenoesa, bablea eta aragoiko *fabla*tik caló eta inmigranteen hizkuntzetaraino. Hala eta guztiz ere, Espainia herririk homogenoetakoa da linguistikoki, denentzako komuna den hizkuntza baitu, gaztelania, bertako hiritar gehien-gehienek ulertu eta egiten dutena. 
+
+</small>
 
  _**Santiago Trancón**_  [https://www.lanuevacronica.com/lengua-nacion-estado](https://www.lanuevacronica.com/lengua-nacion-estado)
 
