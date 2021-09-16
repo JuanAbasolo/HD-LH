@@ -1,6 +1,6 @@
 # Hizkuntza eta ageriko curriculuma
 
-[![GitPitch](assets/badge.png)](https://gitpitch.com/JuanAbasolo/HD/02-gaia?grs=github&t=moon)
+[![GitPitch](assets/badge.png)](../Diapoak/02_diapoak-Curriculumaz.html)
 
 Hizkuntza eskolan tratatzeko erez ari garenean, kontuan izan behar dugu horren inguruan ereikitako lege ikuspegi osoa. Besteak beste, horren arabera sortu beharko duzuelako dena delako elementua oposizioak-eta egiteko.
 
