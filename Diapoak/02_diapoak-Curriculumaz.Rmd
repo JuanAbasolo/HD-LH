@@ -4,10 +4,10 @@ date: 'Hizkuntzaren Didaktika'
 language: eu
 output:
   revealjs::revealjs_presentation:
-  slide_level: 2
-theme: black # sky
-center: true
-transition: fade
+    slide_level: 2
+    theme: moon # sky
+    center: true
+    transition: fade
 ---
 
 
@@ -57,7 +57,7 @@ transition: fade
 
 ##
 
-  * Curriculuma
+* Curriculuma
 * Helburuak
 * Konpetentziak  <small>(gaitasunak) </small>
   * Edukiak
@@ -68,9 +68,22 @@ transition: fade
 
 <small>Ikasgaien antolaketa ere zehazten da.</small>
 
+# Ariketa *didaktikoa* {data-background=#AA1100 }
+
+Zuetariko bakoitzak definitu behar du, aurreko puntuak oinarri hartuta, ikasteko molde **ez akademiko bat**.
+
+## Badaezpada, berriro: {data-background=#AA1100 }
+
+* Helburuak
+* Konpetentziak  <small>(gaitasunak) </small>
+  * Edukiak
+* Ikaskuntza estandarrak <small>(ebaluatzen direnak) </small>
+  * Ebaluazio irizpideak
+* Metodologia didaktikoa
+
 ---
 
-  ECD/65/2015 Agindua[*](https://www.boe.es/buscar/doc.php?id=BOE-A-2015-738)
+ECD/65/2015 Agindua[*](https://www.boe.es/buscar/doc.php?id=BOE-A-2015-738)
 
 <small>Orden ECD/65/2015, de 21 de enero, por la  que se describen las relaciones entre las competencias, los contenidos y los criterios de evaluación de la educación primaria, la educación secundaria obligatoria y el bachillerato</small>
 
@@ -122,7 +135,7 @@ Lehen Hezkuntzari dagozkion adierazpenezko, prozedurazko eta jarrerazko edukiak 
 
 ### Eduki multzoak
 
-  1.  Arlo guztietan komunak diren oinarrizko zehar-konpetentziekin lotutako edukiak.
+1.  Arlo guztietan komunak diren oinarrizko zehar-konpetentziekin lotutako edukiak.
 2. Ahozko komunikazioa: hitz egitea, entzutea eta elkarrekin solasean jardutea.
 3. Idatzizko komunikazioa: irakurtzea eta idaztea.
 4. Literatura-hezkuntza.
